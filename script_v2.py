@@ -35,7 +35,7 @@ if __name__ == "__main__":
             print(line)
             ipInfo(line.rstrip('\n'))
    
-    print(dataList)
+    #print(dataList)
 
     res = {}
     notFound = []
@@ -62,8 +62,8 @@ if __name__ == "__main__":
         y.append(res[key]["count"])
 
 
-    #print(x)
-    #print(y)
+    print(x)
+    print(y)
 
 
     colors = ["b", "g", "r", "c", "m", "y", "k", '#bcbcbc']
@@ -82,7 +82,7 @@ if __name__ == "__main__":
     notFound = []
     hostname = []
     for x in dataList:
-        print(x, x.keys())
+        #print(x, x.keys())
 
         if 'hostname' not in x.keys():
             notFound.append(x)
@@ -101,12 +101,12 @@ if __name__ == "__main__":
             name = "akamaitechnologies"
 
         if name in res:
-            print("hostname: ", hostname)
+           # print("hostname: ", hostname)
             res[name]["data"].append(x)
             res[name]["count"] += 1
             hostname.append(x["hostname"])
         else:
-            print("hostname: ", hostname, "len: ", len(x["hostname"]))
+            #print("hostname: ", hostname, "len: ", len(x["hostname"]))
             res[name] = {"data": [], "count": 0}
             res[name]["data"].append(x)
             res[name]["count"] += 1
@@ -122,6 +122,7 @@ if __name__ == "__main__":
     print(x)
     print(y)
 
+    plt.clf()
     colors = ["b", "g", "r", "c", "m", "y", "k", '#bcbcbc']
 
     plt.bar(x, y, color=colors)
@@ -136,6 +137,6 @@ if __name__ == "__main__":
 
     plt.savefig('bar_graph_host.png')
 
-    print(hostname)
+    #print(hostname)
 
 
