@@ -1,0 +1,33 @@
+GET /v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_version=12.2.0&sdk=android&platform=android HTTP/1.1
+User-Agent: FBAndroidSDK.12.2.0
+Accept-Language: en_US
+Content-Type: application/x-www-form-urlencoded
+Host: graph.facebook.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+content-length: 0
+
+
+
+HTTP/1.1 200 OK
+ETag: "97e2f8e9a4d65b779a02e1fe32869ca1c1bdef7a"
+Content-Type: text/javascript; charset=UTF-8
+Vary: Origin
+Vary: Accept-Encoding
+x-fb-rlafr: 0
+Access-Control-Allow-Origin: *
+facebook-api-version: v12.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: AvmpdfaF9P7b5IulG4RGRo-
+x-fb-trace-id: BMu54xdaRL0
+x-fb-rev: 1006657313
+X-FB-Debug: IDgpBHNEao60fBcS95jzsvYjtHAR+DdbqxvhlWbVgQyKLoxH7xFzWXq7DbfPml3hkUSUL/9VpDBwR8Wv5XdTeQ==
+Date: Wed, 30 Nov 2022 21:12:43 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 2230
+
+{"data":[{"gatekeepers":[{"key":"FBSDKFeatureInstrument","value":true},{"key":"FBSDKFeatureCrashReport","value":true},{"key":"FBSDKFeatureAnrReport","value":false},{"key":"FBSDKFeatureRestrictiveDataFiltering","value":true},{"key":"FBSDKFeatureCodelessEvents","value":true},{"key":"FBSDKFeatureErrorReport","value":false},{"key":"FBSDKFeatureAAMR1","value":true},{"key":"FBSDKFeatureAAMR2","value":true},{"key":"FBSDKFeatureAAM","value":true},{"key":"FBSDKFeatureSuggestedEvents","value":false},{"key":"FBSDKFeatureCrashShield","value":true},{"key":"FBSDKFeatureThreadCheck","value":false},{"key":"FBSDKFeaturePrivacyProtection","value":true},{"key":"FBSDKFeaturePIIFiltering","value":true},{"key":"FBSDKFeatureAddressDetectionSample","value":false},{"key":"FBSDKFeatureMTML","value":true},{"key":"FBSDKFeatureModelRequest","value":true},{"key":"FBSDKFeatureEventDeactivation","value":true},{"key":"FBSDKFeatureChromeCustomTabsUpdate","value":true},{"key":"FBSDKFeatureChromeCustomTabsPrefetching","value":false},{"key":"FBSDKFeatureIntelligentIntegrity","value":false},{"key":"FBSDKFeatureIntegritySample","value":false},{"key":"FBSDKFeatureMonitoring","value":false},{"key":"FBSDKFeatureATELogging","value":true},{"key":"FBSDKFeatureOnDeviceEventProcessing","value":false},{"key":"FBSDKFeatureOnDevicePostInstallEventProcessing","value":false},{"key":"FBSDKFeatureSKAdNetwork","value":false},{"key":"FBSDKFeatureSKAdNetworkConversionValue","value":true},{"key":"FBSDKFeatureIAPLogging","value":true},{"key":"FBSDKFeatureIAPLoggingLib2","value":true},{"key":"FBSDKFeatureUshbaLogin","value":true},{"key":"FBSDKFeatureBypassAppSwitch","value":false},{"key":"FBSDKFeatureWebViewSchemeFiltering","value":true},{"key":"FBSDKFeatureAEM","value":false},{"key":"FBSDKFeatureAppEventsCloudbridge","value":false},{"key":"FBSDKFeatureServiceUpdateCompliance","value":false},{"key":"FBSDKFeatureAEMConversionFiltering","value":true},{"key":"FBSDKFeatureAEMCatalogMatching","value":false},{"key":"FBSDKFeatureAEMAdvertiserRuleMatchInServer","value":false},{"key":"FBSDKFeatureMegatron","value":true},{"key":"FBSDKFeatureElora","value":true},{"key":"app_events_if_auto_log_subs","value":true},{"key":"app_events_killswitch","value":false}]}]}

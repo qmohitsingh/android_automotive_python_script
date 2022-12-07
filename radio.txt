@@ -1,0 +1,34 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[01:40:55.981] HTTP(S) proxy listening at *:8080.
+[01:41:27.924][127.0.0.1:63097] client connect
+[01:41:28.056][127.0.0.1:63097] server connect 95.179.139.106:443
+127.0.0.1:63097: GET https://95.179.139.106/json/stations/lastchange/200
+              << 200 OK 38.4k
+[01:41:29.765][127.0.0.1:63099] client connect
+[01:41:29.885][127.0.0.1:63099] server connect 91.121.179.64:8000
+127.0.0.1:63099: GET http://91.121.179.64:8000/radiocraponne HTTP/1.1
+     << HTTP/1.0 404 File Not Found 119b
+[01:41:30.038][127.0.0.1:63099] server disconnect 91.121.179.64:8000
+[01:41:30.039][127.0.0.1:63099] client disconnect
+[01:41:30.047][127.0.0.1:63101] client connect
+[01:41:30.167][127.0.0.1:63101] server connect 91.121.179.64:8000
+127.0.0.1:63101: GET http://91.121.179.64:8000/radiocraponne HTTP/1.1
+     << HTTP/1.0 404 File Not Found 119b
+[01:41:30.300][127.0.0.1:63101] server disconnect 91.121.179.64:8000
+[01:41:30.301][127.0.0.1:63101] client disconnect
+[01:41:31.308][127.0.0.1:63107] client connect
+[01:41:31.435][127.0.0.1:63107] server connect 91.121.179.64:8000
+127.0.0.1:63107: GET http://91.121.179.64:8000/radiocraponne HTTP/1.1
+     << HTTP/1.0 404 File Not Found 119b
+[01:41:31.579][127.0.0.1:63107] server disconnect 91.121.179.64:8000
+[01:41:31.580][127.0.0.1:63107] client disconnect
+[01:41:33.591][127.0.0.1:63111] client connect
+[01:41:33.719][127.0.0.1:63111] server connect 91.121.179.64:8000
+127.0.0.1:63111: GET http://91.121.179.64:8000/radiocraponne HTTP/1.1
+     << HTTP/1.0 404 File Not Found 119b
+[01:41:33.856][127.0.0.1:63111] server disconnect 91.121.179.64:8000
+[01:41:33.858][127.0.0.1:63111] client disconnect
+[01:41:34.340][127.0.0.1:63097] server disconnect 95.179.139.106:443

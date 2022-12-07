@@ -1,0 +1,131 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[01:48:21.906] HTTP(S) proxy listening at *:8080.
+[01:48:30.549][127.0.0.1:63243] client connect
+[01:48:30.853][127.0.0.1:63243] server connect a.radiogenre.net:80 (15.188.35.18:80)
+127.0.0.1:63243: POST http://a.radiogenre.net/rfm/api/rfm_rec_new_automotive.php?
+              << 200 OK 9.1k
+[01:48:31.307][127.0.0.1:63247] client connect
+[01:48:31.347][127.0.0.1:63247] server connect 99.86.83.218:443
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_3891137994.png
+              << 200 OK 14.7k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1464247589.jpeg
+              << 200 OK 45.7k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1464797625.png
+              << 200 OK 46.5k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1466070125.jpg
+              << 200 OK 63.6k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1464794477.png
+              << 200 OK 62.7k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1465813988.png
+              << 200 OK 24.5k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1503609209.jpg
+              << 200 OK 49.8k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1501701118.png
+              << 200 OK 164k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1465882113.png
+              << 200 OK 66.9k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1465922053.jpg
+              << 200 OK 81.3k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1483102412.png
+              << 200 OK 13.0k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1478515808.jpg
+              << 200 OK 39.6k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124617.png
+              << 200 OK 17.7k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1594618981.png
+              << 200 OK 42.5k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1485501957.png
+              << 200 OK 43.3k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1581329576.jpg
+              << 200 OK 41.9k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1466173200.jpg
+              << 200 OK 75.3k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124620.png
+              << 200 OK 2.2k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580448329.jpg
+              << 200 OK 47.9k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_2995020071.png
+              << 200 OK 19.6k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124603.png
+              << 200 OK 11.1k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/blogo/300/300_1551907079.jpg
+              << 200 OK 40.8k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124601.png
+              << 200 OK 12.5k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1514916409.png
+              << 200 OK 29.3k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1499387038.jpg
+              << 200 OK 22.7k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580448030.jpg
+              << 200 OK 14.3k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124611.png
+              << 200 OK 17.2k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124610.png
+              << 200 OK 6.8k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580450230.jpg
+              << 200 OK 69.3k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124605.png
+              << 200 OK 4.8k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_3645284536.png
+              << 200 OK 9.7k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124614.png
+              << 200 OK 12.0k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580448390.jpg
+              << 200 OK 55.6k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124604.png
+              << 200 OK 18.1k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_3603318897.png
+              << 200 OK 14.1k
+127.0.0.1:63247: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580447972.jpg
+ << Client disconnected.
+[01:48:46.425][127.0.0.1:63247] client disconnect
+[01:48:46.426][127.0.0.1:63247] server disconnect 99.86.83.218:443
+[01:48:46.429][127.0.0.1:63243] client disconnect
+[01:48:46.430][127.0.0.1:63243] server disconnect a.radiogenre.net:80 (15.188.35.18:80)
+[01:48:47.845][127.0.0.1:63252] client connect
+[01:48:47.975][127.0.0.1:63252] server connect a.radiogenre.net:80 (15.188.35.18:80)
+127.0.0.1:63252: POST http://a.radiogenre.net/rfm/api/rfm_rec_new_automotive.php?
+              << 200 OK 9.1k
+[01:48:48.531][127.0.0.1:63256] client connect
+[01:48:48.658][127.0.0.1:63256] server connect 99.86.83.218:443
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580447972.jpg
+              << 200 OK 32.7k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124607.png
+              << 200 OK 6.2k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580450152.jpg
+              << 200 OK 41.4k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580449612.png
+              << 200 OK 60.8k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1515611829.jpg
+              << 200 OK 19.7k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_3089938386.png
+              << 200 OK 8.9k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1594537467.jpg
+              << 200 OK 89.2k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894856124608.png
+              << 200 OK 28.1k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1581329691.jpg
+              << 200 OK 36.9k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_3815758701.png
+              << 200 OK 10.7k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580448107.jpg
+              << 200 OK 51.9k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580448622.png
+              << 200 OK 23.3k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1582191816.png
+              << 200 OK 74.4k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_3992716268.png
+              << 200 OK 17.7k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1470894857124625.png
+              << 200 OK 5.7k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1582191590.png
+              << 200 OK 97.7k
+127.0.0.1:63256: GET https://99.86.83.218/rfm/uploads/rlogo/300/300_1580448224.png
+              << 200 OK 27.2k
+[01:48:58.402][127.0.0.1:63256] client disconnect
+[01:48:58.404][127.0.0.1:63256] server disconnect 99.86.83.218:443
+[01:48:58.409][127.0.0.1:63252] client disconnect
+[01:48:58.411][127.0.0.1:63252] server disconnect a.radiogenre.net:80 (15.188.35.18:80)

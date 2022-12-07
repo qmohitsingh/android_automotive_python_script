@@ -1,0 +1,106 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[01:08:11.680] HTTP(S) proxy listening at *:8080.
+[01:08:36.808][127.0.0.1:63376] client connect
+[01:08:36.965][127.0.0.1:63376] server connect frankkie.nl:80 (185.158.165.22:80)
+127.0.0.1:63376: GET http://frankkie.nl/pony/internet-radio-basic.json
+              << 200 OK 650b
+[01:08:37.450][127.0.0.1:63380] client connect
+[01:08:37.477][127.0.0.1:63380] server connect 172.67.223.138:443
+127.0.0.1:63380: GET https://172.67.223.138/images/music/default.png
+              << 200 OK 359k
+[01:08:39.464][127.0.0.1:63383] client connect
+[01:08:39.615][127.0.0.1:63383] server connect 83.252.102.60:443
+127.0.0.1:63383: GET https://83.252.102.60/img/icons/parasprite-radio-logo-hex-256.png
+              << 200 OK 45.6k
+[01:08:48.028][127.0.0.1:63376] server disconnect frankkie.nl:80 (185.158.165.22:80)
+[01:09:01.360][127.0.0.1:63391] client connect
+[01:09:09.367][127.0.0.1:62203] client connect
+[01:09:18.375][127.0.0.1:62207] client connect
+[01:09:22.405][127.0.0.1:63391] error establishing server connection: [WinError 121] The semaphore timeout period has expired
+127.0.0.1:63391: CONNECT 192.99.207.220:8002
+              << 502 Bad Gateway 230b
+[01:09:22.409][127.0.0.1:63391] client disconnect
+[01:09:28.388][127.0.0.1:62211] client connect
+[01:09:30.400][127.0.0.1:62203] error establishing server connection: [WinError 121] The semaphore timeout period has expired
+127.0.0.1:62203: CONNECT 192.99.207.220:8002
+              << 502 Bad Gateway 230b
+[01:09:30.408][127.0.0.1:62203] client disconnect
+[01:09:36.948][127.0.0.1:62215] client connect
+[01:09:37.076][127.0.0.1:62215] server connect 137.74.252.242:8000
+127.0.0.1:63383: GET https://83.252.102.60/icecast/radio_opus
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:09:38.386][127.0.0.1:63383] server disconnect 83.252.102.60:443
+[01:09:38.388][127.0.0.1:63383] client disconnect
+[01:09:39.422][127.0.0.1:62207] error establishing server connection: [WinError 121] The semaphore timeout period has expired
+127.0.0.1:62207: CONNECT 192.99.207.220:8002
+              << 502 Bad Gateway 230b
+[01:09:39.426][127.0.0.1:62207] client disconnect
+127.0.0.1:62215: GET http://137.74.252.242:8000/stream HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:62215: GET http://137.74.252.242:8000/stream HTTP/1.1
+     << HTTP/1.0 200 OK 195k
+ << Client disconnected.
+[01:09:45.093][127.0.0.1:62215] client disconnect
+[01:09:45.096][127.0.0.1:62215] server disconnect 137.74.252.242:8000
+[01:09:45.099][127.0.0.1:62222] client connect
+[01:09:45.236][127.0.0.1:62222] server connect 137.74.252.242:8000
+[01:09:49.423][127.0.0.1:62211] error establishing server connection: [WinError 121] The semaphore timeout period has expired
+127.0.0.1:62211: CONNECT 192.99.207.220:8002
+              << 502 Bad Gateway 230b
+[01:09:49.428][127.0.0.1:62211] client disconnect
+127.0.0.1:62222: GET http://137.74.252.242:8000/stream HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:62222: GET http://137.74.252.242:8000/stream HTTP/1.1
+     << HTTP/1.0 200 OK 200k
+ << Client disconnected.
+[01:09:53.281][127.0.0.1:62222] client disconnect
+[01:09:53.282][127.0.0.1:62222] server disconnect 137.74.252.242:8000
+[01:09:54.289][127.0.0.1:62227] client connect
+[01:09:54.420][127.0.0.1:62227] server connect 137.74.252.242:8000
+127.0.0.1:62227: GET http://137.74.252.242:8000/stream HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:62227: GET http://137.74.252.242:8000/stream HTTP/1.1
+     << HTTP/1.0 200 OK 198k
+ << Client disconnected.
+[01:10:02.437][127.0.0.1:62227] client disconnect
+[01:10:02.437][127.0.0.1:62227] server disconnect 137.74.252.242:8000
+[01:10:04.435][127.0.0.1:62233] client connect
+[01:10:04.555][127.0.0.1:62233] server connect 137.74.252.242:8000
+[01:10:09.097][127.0.0.1:62237] client connect
+[01:10:09.270][127.0.0.1:62237] server connect 83.252.102.60:443
+127.0.0.1:62233: GET http://137.74.252.242:8000/stream HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:62233: GET http://137.74.252.242:8000/stream HTTP/1.1
+     << HTTP/1.0 200 OK 215k
+ << Client disconnected.
+[01:10:12.577][127.0.0.1:62233] client disconnect
+[01:10:12.578][127.0.0.1:62233] server disconnect 137.74.252.242:8000
+127.0.0.1:62237: GET https://83.252.102.60/icecast/radio_opus
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:10:17.485][127.0.0.1:62237] server disconnect 83.252.102.60:443
+[01:10:17.487][127.0.0.1:62237] client disconnect
+[01:10:17.490][127.0.0.1:62241] client connect
+[01:10:17.637][127.0.0.1:62241] server connect 83.252.102.60:443
+127.0.0.1:62241: GET https://83.252.102.60/icecast/radio_opus
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:10:25.855][127.0.0.1:62241] server disconnect 83.252.102.60:443
+[01:10:25.856][127.0.0.1:62241] client disconnect
+[01:10:26.875][127.0.0.1:62247] client connect
+[01:10:27.025][127.0.0.1:62247] server connect 83.252.102.60:443
+127.0.0.1:62247: GET https://83.252.102.60/icecast/radio_opus
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:10:35.212][127.0.0.1:62247] server disconnect 83.252.102.60:443
+[01:10:35.213][127.0.0.1:62247] client disconnect
+[01:10:37.239][127.0.0.1:62252] client connect
+[01:10:37.387][127.0.0.1:62252] server connect 83.252.102.60:443

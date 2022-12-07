@@ -1,0 +1,594 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[01:26:32.967] HTTP(S) proxy listening at *:8080.
+[01:26:36.059][127.0.0.1:62628] client connect
+[01:26:36.095][127.0.0.1:62628] server connect 208.92.55.132:443
+127.0.0.1:62628: GET https://208.92.55.132/WBLSFMAAC_SC?deviceid=2b881941-9082-346c-9651-a36d9b46d007&clientType=And… HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:62628: GET https://208.92.55.132/WBLSFMAAC_SC?deviceid=2b881941-9082-346c-9651-a36d9b46d007&clientType=And… HTTP/1.1
+     << HTTP/1.0 200 OK 263k
+ << Client disconnected.
+[01:27:36.842][127.0.0.1:62628] client disconnect
+[01:27:36.843][127.0.0.1:62628] server disconnect 208.92.55.132:443
+[01:27:41.870][127.0.0.1:62652] client connect
+[01:27:41.919][127.0.0.1:62652] server connect 208.92.55.132:443
+127.0.0.1:62652: GET https://208.92.55.132/WBLSFMAAC_SC?deviceid=2b881941-9082-346c-9651-a36d9b46d007&clientType=And… HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:62652: GET https://208.92.55.132/WBLSFMAAC_SC?deviceid=2b881941-9082-346c-9651-a36d9b46d007&clientType=And… HTTP/1.1
+     << HTTP/1.0 200 OK 263k
+ << Client disconnected.
+[01:28:42.049][127.0.0.1:62652] server disconnect 208.92.55.132:443
+[01:28:42.051][127.0.0.1:62652] client disconnect
+[01:28:42.173][127.0.0.1:62679] client connect
+[01:28:42.210][127.0.0.1:62679] server connect 63.140.38.15:443
+127.0.0.1:62679: POST https://63.140.38.15/b/ss/cccorporate55/10/ANDN010206010800/s69749634
+              << 200 OK 97b
+[01:28:43.608][127.0.0.1:62681] client connect
+[01:28:43.633][127.0.0.1:62683] client connect
+[01:28:43.635][127.0.0.1:62681] server connect 74.125.136.94:443
+[01:28:43.657][127.0.0.1:62683] server connect 142.250.189.106:443
+127.0.0.1:62683: POST https://142.250.189.106/v1/projects/nrk-radio-181908/installations
+              << 200 OK 493b
+127.0.0.1:62681: GET https://74.125.136.94/spi/v2/platforms/android/gmp/1:805807569895:android:1a7e69e7a8bfed1e/sett…
+              << 200 OK 364b
+[01:28:44.607][127.0.0.1:62685] client connect
+[01:28:44.655][127.0.0.1:62685] server connect 99.86.74.99:443
+127.0.0.1:62685: GET https://99.86.74.99/conf/P54476D35-4310-40DD-ACB2-2646139308E1.json?devtypid=unknown-Car-on-x86…
+              << 200 OK 4.8k
+[01:28:45.378][127.0.0.1:62687] client connect
+[01:28:45.404][127.0.0.1:62687] server connect 172.217.10.202:443
+127.0.0.1:62687: POST https://172.217.10.202/v1/projects/805807569895/namespaces/firebase:fetch
+              << 200 OK 642b
+[01:28:47.894][127.0.0.1:62692] client connect
+[01:28:47.934][127.0.0.1:62692] server connect 40.70.161.102:443
+127.0.0.1:62692: POST https://40.70.161.102/logs?api-version=1.0.0
+              << 200 OK 138b
+[01:28:48.437][127.0.0.1:62694] client connect
+[01:28:48.460][127.0.0.1:62694] server connect 23.47.204.59:443
+127.0.0.1:62694: GET https://23.47.204.59/radio/pages/discover HTTP/2.0
+     << HTTP/2.0 200 OK 47.1k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/julestemning HTTP/2.0
+     << HTTP/2.0 200 OK 15.9k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/brenner_deler_dikt HTTP/2.0
+     << HTTP/2.0 200 OK 15.0k
+[01:28:50.714][127.0.0.1:62696] client connect
+[01:28:50.719][127.0.0.1:62697] client connect
+[01:28:50.744][127.0.0.1:62696] server connect 23.47.204.81:443
+[01:28:50.751][127.0.0.1:62697] server connect 23.47.204.81:443
+127.0.0.1:62697: GET https://23.47.204.81/r3WrsnfKyOZAfbNtiGT60QRKOxAifC6eoJuZunO3N1CA
+              << 200 OK 34.0k
+[01:28:51.096][127.0.0.1:62700] client connect
+127.0.0.1:62696: GET https://23.47.204.81/Mk6NPZ_tWzN3kye40g8QQA8A3a7smIs6jNsxj2ZsELTQ
+              << 200 OK 35.8k
+[01:28:51.120][127.0.0.1:62702] client connect
+[01:28:51.126][127.0.0.1:62703] client connect
+[01:28:51.127][127.0.0.1:62700] server connect 23.47.204.81:443
+[01:28:51.147][127.0.0.1:62702] server connect 64.233.177.97:443
+[01:28:51.153][127.0.0.1:62703] server connect 23.47.204.81:443
+127.0.0.1:62702: POST https://64.233.177.97/batch
+              << 200 OK 35b
+[01:28:51.255][127.0.0.1:62683] client disconnect
+[01:28:51.257][127.0.0.1:62683] server disconnect 142.250.189.106:443
+127.0.0.1:62700: GET https://23.47.204.81/r3WrsnfKyOZAfbNtiGT60QRKOxAifC6eoJuZunO3N1CA
+              << 200 OK 34.0k
+[01:28:51.299][127.0.0.1:62681] client disconnect
+[01:28:51.301][127.0.0.1:62681] server disconnect 74.125.136.94:443
+127.0.0.1:62703: GET https://23.47.204.81/Mk6NPZ_tWzN3kye40g8QQA8A3a7smIs6jNsxj2ZsELTQ
+              << 200 OK 35.8k
+[01:28:51.332][127.0.0.1:62685] client disconnect
+[01:28:51.335][127.0.0.1:62685] server disconnect 99.86.74.99:443
+127.0.0.1:62700: GET https://23.47.204.81/ZKTz357qdSJC4OUa1SWTugXEoeLuEtt73Ln21uzQ3lEw
+              << 200 OK 146k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/berrum_beyer_snakker_om_greier HTTP/2.0
+     << HTTP/2.0 200 OK 11.9k
+[01:28:51.794][127.0.0.1:62706] client connect
+[01:28:52.342][127.0.0.1:62706] server connect 23.47.204.81:443
+127.0.0.1:62703: GET https://23.47.204.81/ZKTz357qdSJC4OUa1SWTugXEoeLuEtt73Ln21uzQ3lEw
+              << 200 OK 146k
+127.0.0.1:62706: GET https://23.47.204.81/btE_-fPMpME3lqX5ad3mDw1hYtDIZAqfnhfyg3CH1v7Q
+              << 200 OK 43.7k
+127.0.0.1:62703: GET https://23.47.204.81/btE_-fPMpME3lqX5ad3mDw1hYtDIZAqfnhfyg3CH1v7Q
+              << 200 OK 43.7k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/millionaerhjerne HTTP/2.0
+     << HTTP/2.0 200 OK 7.5k
+127.0.0.1:62703: GET https://23.47.204.81/PPFQXW-IGn-1oXetHQsrTglo17ovVhjR1FNaZaFi6QGg
+              << 200 OK 94.3k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/karakter HTTP/2.0
+     << HTTP/2.0 200 OK 8.9k
+[01:28:52.879][127.0.0.1:62709] client connect
+[01:28:52.884][127.0.0.1:62710] client connect
+[01:28:52.900][127.0.0.1:62709] server connect 23.47.204.81:443
+[01:28:52.908][127.0.0.1:62710] server connect 23.47.204.81:443
+127.0.0.1:62709: GET https://23.47.204.81/PPFQXW-IGn-1oXetHQsrTglo17ovVhjR1FNaZaFi6QGg
+              << 200 OK 94.3k
+127.0.0.1:62710: GET https://23.47.204.81/PNxNcmty8-IdPPlRMLDA9wrDUcBDuEEtU49hgy3UDyeA
+              << 200 OK 76.9k
+[01:28:53.172][127.0.0.1:62713] client connect
+[01:28:53.178][127.0.0.1:62696] client disconnect
+[01:28:53.179][127.0.0.1:62697] client disconnect
+[01:28:53.184][127.0.0.1:62696] server disconnect 23.47.204.81:443
+[01:28:53.185][127.0.0.1:62697] server disconnect 23.47.204.81:443
+[01:28:53.187][127.0.0.1:62700] client disconnect
+[01:28:53.188][127.0.0.1:62706] client disconnect
+[01:28:53.191][127.0.0.1:62700] server disconnect 23.47.204.81:443
+[01:28:53.192][127.0.0.1:62706] server disconnect 23.47.204.81:443
+[01:28:53.197][127.0.0.1:62713] server connect 23.47.204.81:443
+127.0.0.1:62713: GET https://23.47.204.81/PNxNcmty8-IdPPlRMLDA9wrDUcBDuEEtU49hgy3UDyeA
+              << 200 OK 76.9k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/julestemning HTTP/2.0
+     << HTTP/2.0 200 OK 15.9k
+127.0.0.1:62709: GET https://23.47.204.81/Mk6NPZ_tWzN3kye40g8QQA8A3a7smIs6jNsxj2ZsELTQ
+              << 200 OK 35.8k
+127.0.0.1:62713: GET https://23.47.204.81/Mk6NPZ_tWzN3kye40g8QQA8A3a7smIs6jNsxj2ZsELTQ
+              << 200 OK 35.8k
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/l_1664abe4-29a3-4d82-a4ab-e429a34d8266?preferredbandwidt… HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/l_1664abe4-29a3-4d82-a4ab-e429a34d8266 HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/podcast/l_1664abe4-29a3-4d82-a4ab-e429a34d8266?preferred… HTTP/2.0
+     << HTTP/2.0 200 OK 866b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/podcast/l_1664abe4-29a3-4d82-a4ab-e429a34d8266 HTTP/2.0
+     << HTTP/2.0 200 OK 1.3k
+127.0.0.1:62694: GET https://23.47.204.59/playback/statistics/nielsen/podcast/l_1664abe4-29a3-4d82-a4ab-e429a34d8266 HTTP/2.0
+     << HTTP/2.0 200 OK 262b
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/julestemning HTTP/2.0
+     << HTTP/2.0 200 OK 15.9k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/julestemning/episodes/l_1664abe4-29a3-4d82-a4ab-e429… HTTP/2.0
+     << HTTP/2.0 200 OK 1.4k
+[01:29:12.888][127.0.0.1:62724] client connect
+[01:29:12.927][127.0.0.1:62724] server connect 23.199.11.99:443
+[01:29:13.005][127.0.0.1:62726] client connect
+[01:29:13.029][127.0.0.1:62726] server connect 23.47.204.75:443
+127.0.0.1:62724: GET https://23.199.11.99/config/beacon-9486.xml
+              << 200 OK 11.8k
+[01:29:13.189][127.0.0.1:62728] client connect
+[01:29:13.216][127.0.0.1:62728] server connect 23.199.11.99:443
+127.0.0.1:62728: GET https://23.199.11.99/config/beacon-9486.xml
+              << 200 OK 11.8k
+[01:29:13.357][127.0.0.1:62703] client disconnect
+[01:29:13.362][127.0.0.1:62703] server disconnect 23.47.204.81:443
+[01:29:13.363][127.0.0.1:62709] client disconnect
+[01:29:13.367][127.0.0.1:62709] server disconnect 23.47.204.81:443
+[01:29:13.387][127.0.0.1:62710] client disconnect
+[01:29:13.390][127.0.0.1:62710] server disconnect 23.47.204.81:443
+127.0.0.1:62728: GET https://23.199.11.99/9.gif?a=I~b=920ea7fa92c759486~c=72c6301e751058bf44197d8df68aa4d~d=4c905411…
+              << 200 OK 0b
+[01:29:18.354][127.0.0.1:62679] server disconnect 63.140.38.15:443
+127.0.0.1:62726: GET https://23.47.204.75/fil/julestemning/20f9339f-94f1-4300-a291-3fd885ed0bdd_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:29:20.882][127.0.0.1:62687] client disconnect
+[01:29:20.885][127.0.0.1:62687] server disconnect 172.217.10.202:443
+[01:29:21.464][127.0.0.1:62731] client connect
+[01:29:21.623][127.0.0.1:62731] server connect 62.127.217.254:443
+127.0.0.1:62731: GET https://62.127.217.254/podkast/podcastpublisher_prod/julestemning/20f9339f-94f1-4300-a291-3fd88…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:29:29.955][127.0.0.1:62731] server disconnect 62.127.217.254:443
+[01:29:29.956][127.0.0.1:62731] client disconnect
+127.0.0.1:62728: GET https://23.199.11.99/9.gif?a=E~b=920ea7fa92c759486~c=72c6301e751058bf44197d8df68aa4d~d=4c905411…
+              << 200 OK 0b
+127.0.0.1:62726: GET https://23.47.204.75/fil/julestemning/20f9339f-94f1-4300-a291-3fd885ed0bdd_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:29:30.915][127.0.0.1:62735] client connect
+[01:29:31.057][127.0.0.1:62735] server connect 62.127.217.254:443
+127.0.0.1:62735: GET https://62.127.217.254/podkast/podcastpublisher_prod/julestemning/20f9339f-94f1-4300-a291-3fd88…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:29:39.375][127.0.0.1:62735] server disconnect 62.127.217.254:443
+[01:29:39.376][127.0.0.1:62735] client disconnect
+127.0.0.1:62726: GET https://23.47.204.75/fil/julestemning/20f9339f-94f1-4300-a291-3fd885ed0bdd_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:29:40.443][127.0.0.1:62739] client connect
+[01:29:40.586][127.0.0.1:62739] server connect 62.127.217.254:443
+127.0.0.1:62739: GET https://62.127.217.254/podkast/podcastpublisher_prod/julestemning/20f9339f-94f1-4300-a291-3fd88…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:29:48.919][127.0.0.1:62739] server disconnect 62.127.217.254:443
+[01:29:48.920][127.0.0.1:62739] client disconnect
+127.0.0.1:62726: GET https://23.47.204.75/fil/julestemning/20f9339f-94f1-4300-a291-3fd885ed0bdd_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:29:50.966][127.0.0.1:62748] client connect
+[01:29:51.113][127.0.0.1:62748] server connect 62.127.217.254:443
+127.0.0.1:62748: GET https://62.127.217.254/podkast/podcastpublisher_prod/julestemning/20f9339f-94f1-4300-a291-3fd88…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:29:59.432][127.0.0.1:62748] server disconnect 62.127.217.254:443
+[01:29:59.434][127.0.0.1:62748] client disconnect
+127.0.0.1:62692: POST https://40.70.161.102/logs?api-version=1.0.0
+              << 200 OK 129b
+[01:30:15.134][127.0.0.1:62759] client connect
+[01:30:15.270][127.0.0.1:62759] server connect 54.171.171.101:443
+127.0.0.1:62759: GET https://54.171.171.101/cgi-bin/gn?prd=session&c9=devid,23bd92820fff41a35432219ef39570aa3d098caf…
+              << 200 OK 44b
+[01:30:15.674][127.0.0.1:62702] client disconnect
+[01:30:15.675][127.0.0.1:62702] server disconnect 64.233.177.97:443
+127.0.0.1:62694: GET https://23.47.204.59/radio/pages/discover HTTP/2.0
+     << HTTP/2.0 200 OK 47.1k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/brenner_deler_dikt HTTP/2.0
+     << HTTP/2.0 200 OK 15.0k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/brenner_deler_dikt/seasons/1 HTTP/2.0
+     << HTTP/2.0 200 OK 14.7k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/brenner_deler_dikt/seasons/1/episodes?page=2&pageSiz… HTTP/2.0
+     << HTTP/2.0 200 OK 13.6k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/brenner_deler_dikt/seasons/1/episodes?page=3&pageSiz… HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/l_8e74bc94-5cc3-4888-b4bc-945cc328886a?preferredbandwidt… HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/l_8e74bc94-5cc3-4888-b4bc-945cc328886a HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/podcast/l_8e74bc94-5cc3-4888-b4bc-945cc328886a HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/podcast/l_8e74bc94-5cc3-4888-b4bc-945cc328886a?preferred… HTTP/2.0
+     << HTTP/2.0 200 OK 888b
+127.0.0.1:62694: GET https://23.47.204.59/playback/statistics/nielsen/podcast/l_8e74bc94-5cc3-4888-b4bc-945cc328886a HTTP/2.0
+     << HTTP/2.0 200 OK 282b
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/brenner_deler_dikt HTTP/2.0
+     << HTTP/2.0 200 OK 15.0k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/brenner_deler_dikt/episodes/l_8e74bc94-5cc3-4888-b4b… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:62713: GET https://23.47.204.81/r3WrsnfKyOZAfbNtiGT60QRKOxAifC6eoJuZunO3N1CA
+              << 200 OK 34.0k
+127.0.0.1:62728: GET https://23.199.11.99/config/beacon-9486.xml
+              << 200 OK 11.8k
+[01:31:03.215][127.0.0.1:62780] client connect
+[01:31:03.221][127.0.0.1:62781] client connect
+[01:31:03.264][127.0.0.1:62780] server connect 23.47.204.81:443
+[01:31:03.270][127.0.0.1:62781] server connect 23.47.204.81:443
+[01:31:03.310][127.0.0.1:62784] client connect
+[01:31:03.348][127.0.0.1:62784] server connect 23.199.11.99:443
+127.0.0.1:62784: GET https://23.199.11.99/9.gif?a=I~b=920ea7fa92c759486~c=e6b32e1753c49e1626a2e97659b22c8~d=4c905411…
+              << 200 OK 0b
+127.0.0.1:62726: GET https://23.47.204.75/fil/brenner_deler_dikt/a81284df-325c-470d-ad60-cf69755bc5dd_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:31:03.500][127.0.0.1:62724] client disconnect
+[01:31:03.503][127.0.0.1:62724] server disconnect 23.199.11.99:443
+[01:31:03.714][127.0.0.1:62786] client connect
+127.0.0.1:62781: GET https://23.47.204.81/r3WrsnfKyOZAfbNtiGT60QRKOxAifC6eoJuZunO3N1CA
+              << 200 OK 34.0k
+127.0.0.1:62780: GET https://23.47.204.81/r3WrsnfKyOZAfbNtiGT60QRKOxAifC6eoJuZunO3N1CA
+              << 200 OK 34.0k
+[01:31:03.869][127.0.0.1:62786] server connect 62.127.217.253:443
+127.0.0.1:62781: GET https://23.47.204.81/r3WrsnfKyOZAfbNtiGT60QRKOxAifC6eoJuZunO3N1CA
+              << 200 OK 34.0k
+127.0.0.1:62786: GET https://62.127.217.253/podkast/podcastpublisher_prod/brenner_deler_dikt/a81284df-325c-470d-ad60…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:31:12.244][127.0.0.1:62786] server disconnect 62.127.217.253:443
+[01:31:12.245][127.0.0.1:62786] client disconnect
+127.0.0.1:62726: GET https://23.47.204.75/fil/brenner_deler_dikt/a81284df-325c-470d-ad60-cf69755bc5dd_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+127.0.0.1:62784: GET https://23.199.11.99/9.gif?a=E~b=920ea7fa92c759486~c=e6b32e1753c49e1626a2e97659b22c8~d=4c905411…
+              << 200 OK 0b
+[01:31:13.861][127.0.0.1:62794] client connect
+[01:31:14.015][127.0.0.1:62794] server connect 62.127.217.253:443
+[01:31:16.580][127.0.0.1:62759] server disconnect 54.171.171.101:443
+[01:31:17.845][127.0.0.1:62692] server disconnect 40.70.161.102:443
+127.0.0.1:62794: GET https://62.127.217.253/podkast/podcastpublisher_prod/brenner_deler_dikt/a81284df-325c-470d-ad60…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:31:22.377][127.0.0.1:62794] server disconnect 62.127.217.253:443
+[01:31:22.378][127.0.0.1:62794] client disconnect
+127.0.0.1:62726: GET https://23.47.204.75/fil/brenner_deler_dikt/a81284df-325c-470d-ad60-cf69755bc5dd_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:31:23.403][127.0.0.1:62798] client connect
+[01:31:23.550][127.0.0.1:62798] server connect 62.127.217.253:443
+127.0.0.1:62798: GET https://62.127.217.253/podkast/podcastpublisher_prod/brenner_deler_dikt/a81284df-325c-470d-ad60…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:31:32.009][127.0.0.1:62798] server disconnect 62.127.217.253:443
+[01:31:32.010][127.0.0.1:62798] client disconnect
+127.0.0.1:62726: GET https://23.47.204.75/fil/brenner_deler_dikt/a81284df-325c-470d-ad60-cf69755bc5dd_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:31:34.281][127.0.0.1:62802] client connect
+[01:31:34.438][127.0.0.1:62802] server connect 62.127.217.254:443
+127.0.0.1:62802: GET https://62.127.217.254/podkast/podcastpublisher_prod/brenner_deler_dikt/a81284df-325c-470d-ad60…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:31:43.180][127.0.0.1:62802] server disconnect 62.127.217.254:443
+[01:31:43.181][127.0.0.1:62802] client disconnect
+[01:31:46.296][127.0.0.1:62692] server connect 40.70.161.102:443
+127.0.0.1:62692: POST https://40.70.161.102/logs?api-version=1.0.0
+              << 200 OK 129b
+127.0.0.1:62694: GET https://23.47.204.59/radio/pages/discover HTTP/2.0
+     << HTTP/2.0 200 OK 47.1k
+127.0.0.1:62694: GET https://23.47.204.59/radio/channels/livebuffer/now HTTP/2.0
+     << HTTP/2.0 200 OK 5.1k
+127.0.0.1:62694: GET https://23.47.204.59/radio/channels/livebuffer/now HTTP/2.0
+     << HTTP/2.0 200 OK 5.1k
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/p1_buskerud HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/p1_buskerud?preferredbandwidth=auto HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/channel/p1_buskerud HTTP/2.0
+     << HTTP/2.0 200 OK 651b
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/channel/p1_buskerud?preferredbandwidth=auto HTTP/2.0
+     << HTTP/2.0 200 OK 1006b
+127.0.0.1:62694: GET https://23.47.204.59/channels/p1_buskerud/epglivebuffer HTTP/2.0
+     << HTTP/2.0 200 OK 2.8k
+127.0.0.1:62694: GET https://23.47.204.59/playback/statistics/nielsen/channel/p1_buskerud?plannedStart=2022-12-03T01… HTTP/2.0
+     << HTTP/2.0 200 OK 348b
+127.0.0.1:62694: GET https://23.47.204.59/channels/p1_buskerud/liveelements HTTP/2.0
+     << HTTP/2.0 200 OK 2.8k
+127.0.0.1:62781: GET https://23.47.204.81/nZNw4ycgELwXG6PAlZpM3wyTPwPEO-KRbHZCVD-YNlTA
+              << 200 OK 14.9k
+127.0.0.1:62784: GET https://23.199.11.99/config/beacon-9487.xml
+              << 200 OK 11.8k
+[01:32:06.237][127.0.0.1:62819] client connect
+[01:32:06.269][127.0.0.1:62819] server connect 23.47.204.81:443
+[01:32:06.303][127.0.0.1:62821] client connect
+[01:32:06.321][127.0.0.1:62823] client connect
+[01:32:06.331][127.0.0.1:62821] server connect 23.47.204.81:443
+[01:32:06.366][127.0.0.1:62825] client connect
+[01:32:06.373][127.0.0.1:62823] server connect 23.56.5.97:443
+[01:32:06.409][127.0.0.1:62825] server connect 23.199.11.99:443
+127.0.0.1:62819: GET https://23.47.204.81/nZNw4ycgELwXG6PAlZpM3wyTPwPEO-KRbHZCVD-YNlTA
+              << 200 OK 14.9k
+127.0.0.1:62821: GET https://23.47.204.81/nZNw4ycgELwXG6PAlZpM3wyTPwPEO-KRbHZCVD-YNlTA
+              << 200 OK 14.9k
+127.0.0.1:62825: GET https://23.199.11.99/config/beacon-9487.xml
+              << 200 OK 11.8k
+[01:32:06.548][127.0.0.1:62713] client disconnect
+[01:32:06.552][127.0.0.1:62713] server disconnect 23.47.204.81:443
+[01:32:06.557][127.0.0.1:62728] client disconnect
+[01:32:06.559][127.0.0.1:62780] client disconnect
+[01:32:06.571][127.0.0.1:62728] server disconnect 23.199.11.99:443
+[01:32:06.575][127.0.0.1:62780] server disconnect 23.47.204.81:443
+[01:32:06.665][127.0.0.1:62827] client connect
+[01:32:06.688][127.0.0.1:62827] server connect 23.47.204.81:443
+127.0.0.1:62825: GET https://23.199.11.99/9.gif?a=I~b=822b96892fa559487~c=c4b41f823532d149ba8e7b87d18591d6~d=4c90541…
+              << 200 OK 0b
+127.0.0.1:62827: GET https://23.47.204.81/nZNw4ycgELwXG6PAlZpM3wyTPwPEO-KRbHZCVD-YNlTA
+              << 200 OK 14.9k
+127.0.0.1:62694: GET https://23.47.204.59/playback/statistics/nielsen/channel/p1_buskerud?plannedStart=2022-12-03T04… HTTP/2.0
+     << HTTP/2.0 200 OK 347b
+[01:32:06.895][127.0.0.1:62759] client disconnect
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/playlist.m3u8?bw_low=16&bw_high=130
+              << 200 OK 170b
+[01:32:07.046][127.0.0.1:62726] client disconnect
+[01:32:07.047][127.0.0.1:62726] server disconnect 23.47.204.75:443
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1474703433-1474703433-prog_index.m3u8
+              << 200 OK 4.7k
+[01:32:07.811][127.0.0.1:62781] client disconnect
+[01:32:07.814][127.0.0.1:62781] server disconnect 23.47.204.81:443
+[01:32:07.819][127.0.0.1:62784] client disconnect
+[01:32:07.820][127.0.0.1:62819] client disconnect
+[01:32:07.824][127.0.0.1:62784] server disconnect 23.199.11.99:443
+[01:32:07.828][127.0.0.1:62819] server disconnect 23.47.204.81:443
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-prog_index.m3u8
+              << 200 OK 4.7k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498081347159.ts?version_has…
+              << 200 OK 159k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498082211159.ts?version_has…
+              << 200 OK 159k
+127.0.0.1:62825: GET https://23.199.11.99/9.gif?a=S~b=822b96892fa559487~c=c4b41f823532d149ba8e7b87d18591d6~d=4c90541…
+              << 200 OK 0b
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498083075159.ts?version_has…
+              << 200 OK 159k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498083939159.ts?version_has…
+              << 200 OK 159k
+127.0.0.1:62825: GET https://23.199.11.99/9.gif?a=P~b=822b96892fa559487~c=c4b41f823532d149ba8e7b87d18591d6~d=4c90541…
+              << 200 OK 0b
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1474703433-1474703433-prog_index.m3u8
+              << 200 OK 4.7k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-prog_index.m3u8
+              << 200 OK 4.7k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498084803159.ts?version_has…
+              << 200 OK 191k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-prog_index.m3u8
+              << 200 OK 4.7k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498085839959.ts?version_has…
+              << 200 OK 159k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498086703959.ts?version_has…
+              << 200 OK 159k
+127.0.0.1:62694: GET https://23.47.204.59/radio/channels/livebuffer/now HTTP/2.0
+     << HTTP/2.0 200 OK 5.1k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-prog_index.m3u8
+              << 200 OK 4.7k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498087567959.ts?version_has…
+              << 200 OK 159k
+127.0.0.1:62694: GET https://23.47.204.59/radio/pages HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:62694: GET https://23.47.204.59/radio/pages/barn HTTP/2.0
+     << HTTP/2.0 200 OK 113k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/brannbamsen_bjoernis HTTP/2.0
+     << HTTP/2.0 200 OK 3.7k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/snoefall HTTP/2.0
+     << HTTP/2.0 200 OK 13.3k
+127.0.0.1:62827: GET https://23.47.204.81/n3D7kBdE2OnDtSnxwxQUmAKFNQqpQiFOurBl2M2Hk2LA
+              << 200 OK 43.3k
+127.0.0.1:62821: GET https://23.47.204.81/B2Pqw24tCGO-RBTKR6G1PgfbuE5wLmrvFCUpz_3lixyw
+              << 200 OK 46.1k
+[01:32:53.352][127.0.0.1:62842] client connect
+[01:32:53.369][127.0.0.1:62844] client connect
+[01:32:53.398][127.0.0.1:62842] server connect 23.222.28.107:443
+[01:32:53.406][127.0.0.1:62844] server connect 23.222.28.107:443
+127.0.0.1:62842: GET https://23.222.28.107/n3D7kBdE2OnDtSnxwxQUmAKFNQqpQiFOurBl2M2Hk2LA
+              << 200 OK 43.3k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/series/marie-og-julesnapperen HTTP/2.0
+     << HTTP/2.0 200 OK 4.2k
+127.0.0.1:62842: GET https://23.222.28.107/Onk-VCc52bbjgGIhk4LcHwlJONv6B46TX-_VVKD8UjjA
+              << 200 OK 79.2k
+[01:32:54.636][127.0.0.1:62847] client connect
+127.0.0.1:62844: GET https://23.222.28.107/B2Pqw24tCGO-RBTKR6G1PgfbuE5wLmrvFCUpz_3lixyw
+              << 200 OK 46.1k
+[01:32:54.816][127.0.0.1:62847] server connect 23.222.28.107:443
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/series/henrik-og-nissen HTTP/2.0
+     << HTTP/2.0 200 OK 3.0k
+127.0.0.1:62844: GET https://23.222.28.107/m0e4WS8WaaLH8DMOvOfxOQjaSYL9xATlFglr6a9iTdbg
+              << 200 OK 125k
+[01:32:55.345][127.0.0.1:62849] client connect
+[01:32:55.439][127.0.0.1:62849] server connect 23.222.28.107:443
+127.0.0.1:62847: GET https://23.222.28.107/Onk-VCc52bbjgGIhk4LcHwlJONv6B46TX-_VVKD8UjjA
+              << 200 OK 79.2k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/series/karsten-og-petra-radio HTTP/2.0
+     << HTTP/2.0 200 OK 4.6k
+127.0.0.1:62849: GET https://23.222.28.107/m0e4WS8WaaLH8DMOvOfxOQjaSYL9xATlFglr6a9iTdbg
+              << 200 OK 125k
+127.0.0.1:62847: GET https://23.222.28.107/pKydFjWElgm6wt1jPrLD_gYvJe6bjbt8MUaf4D7uBytw
+              << 200 OK 128k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/series/uhu_radio HTTP/2.0
+     << HTTP/2.0 200 OK 2.6k
+[01:32:56.059][127.0.0.1:62851] client connect
+127.0.0.1:62849: GET https://23.222.28.107/pKydFjWElgm6wt1jPrLD_gYvJe6bjbt8MUaf4D7uBytw
+              << 200 OK 128k
+[01:32:56.102][127.0.0.1:62851] server connect 23.222.28.107:443
+127.0.0.1:62851: GET https://23.222.28.107/-Rplzj4X7l_-KV83reAJ1wJYn5yuhRQvQXUKhiKvmChA
+              << 200 OK 64.4k
+127.0.0.1:62849: GET https://23.222.28.107/-Rplzj4X7l_-KV83reAJ1wJYn5yuhRQvQXUKhiKvmChA
+              << 200 OK 64.4k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/snoefall HTTP/2.0
+     << HTTP/2.0 200 OK 13.3k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/snoefall/seasons/2020 HTTP/2.0
+     << HTTP/2.0 200 OK 13.0k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/snoefall/seasons/2020/episodes?page=2&pageSize=20&so… HTTP/2.0
+     << HTTP/2.0 200 OK 3.8k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-prog_index.m3u8
+              << 200 OK 4.7k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1403133980-1403133980-22498088431959.ts?version_has…
+              << 200 OK 191k
+[01:32:59.141][127.0.0.1:62821] client disconnect
+[01:32:59.143][127.0.0.1:62821] server disconnect 23.47.204.81:443
+[01:32:59.146][127.0.0.1:62827] client disconnect
+[01:32:59.151][127.0.0.1:62827] server disconnect 23.47.204.81:443
+[01:32:59.155][127.0.0.1:62844] client disconnect
+[01:32:59.157][127.0.0.1:62842] client disconnect
+[01:32:59.158][127.0.0.1:62844] server disconnect 23.222.28.107:443
+[01:32:59.159][127.0.0.1:62847] client disconnect
+[01:32:59.162][127.0.0.1:62851] client disconnect
+[01:32:59.164][127.0.0.1:62842] server disconnect 23.222.28.107:443
+[01:32:59.169][127.0.0.1:62847] server disconnect 23.222.28.107:443
+[01:32:59.171][127.0.0.1:62851] server disconnect 23.222.28.107:443
+[01:32:59.699][127.0.0.1:62854] client connect
+[01:32:59.756][127.0.0.1:62856] client connect
+[01:32:59.824][127.0.0.1:62854] server connect 52.214.180.64:443
+[01:32:59.890][127.0.0.1:62856] server connect 34.254.111.35:443
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/p1_buskerud?preferredbandwidth=auto HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/l_91686fd4-6a8d-4abe-a86f-d46a8d3abe9f HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/p1_buskerud?preferredbandwidth=auto HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/l_91686fd4-6a8d-4abe-a86f-d46a8d3abe9f?preferredbandwidt… HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/p1_buskerud HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/channel/p1_buskerud?preferredbandwidth=auto HTTP/2.0
+     << HTTP/2.0 200 OK 1006b
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/channel/p1_buskerud?preferredbandwidth=auto HTTP/2.0
+     << HTTP/2.0 200 OK 1006b
+127.0.0.1:62854: GET https://52.214.180.64/cgi-bin/gn?prd=dcr&ci=no-910466&ch=no-910466_c01_P&asn=defChnAsset&fp_id=…
+              << 200 OK 44b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/channel/p1_buskerud HTTP/2.0
+     << HTTP/2.0 200 OK 651b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/podcast/l_91686fd4-6a8d-4abe-a86f-d46a8d3abe9f HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:62856: GET https://34.254.111.35/cgi-bin/gn?prd=session&c9=devid,23bd92820fff41a35432219ef39570aa3d098caf2…
+              << 200 OK 44b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/p1_buskerud HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 0b
+127.0.0.1:62854: GET https://52.214.180.64/cgi-bin/gn?prd=dcr&ci=no-910466&ch=no-910466_c01_P&asn=defChnAsset&fp_id=…
+              << 200 OK 44b
+[01:33:00.411][127.0.0.1:62692] client disconnect
+[01:33:00.414][127.0.0.1:62692] server disconnect 40.70.161.102:443
+127.0.0.1:62694: GET https://23.47.204.59/playback/statistics/nielsen/channel/p1_buskerud?plannedStart=2022-12-03T01… HTTP/2.0
+     << HTTP/2.0 200 OK 348b
+127.0.0.1:62694: GET https://23.47.204.59/playback/manifest/podcast/l_91686fd4-6a8d-4abe-a86f-d46a8d3abe9f?preferred… HTTP/2.0
+     << HTTP/2.0 200 OK 872b
+127.0.0.1:62694: GET https://23.47.204.59/playback/metadata/channel/p1_buskerud HTTP/2.0
+     << HTTP/2.0 200 OK 651b
+127.0.0.1:62825: GET https://23.199.11.99/config/beacon-9487.xml
+              << 200 OK 11.8k
+127.0.0.1:62694: GET https://23.47.204.59/playback/statistics/nielsen/channel/p1_buskerud?plannedStart=2022-12-03T01… HTTP/2.0
+     << HTTP/2.0 200 OK 348b
+127.0.0.1:62694: GET https://23.47.204.59/playback/statistics/nielsen/podcast/l_91686fd4-6a8d-4abe-a86f-d46a8d3abe9f HTTP/2.0
+     << HTTP/2.0 200 OK 263b
+[01:33:00.672][127.0.0.1:62858] client connect
+[01:33:00.693][127.0.0.1:62860] client connect
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/snoefall HTTP/2.0
+     << HTTP/2.0 200 OK 13.3k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/playlist.m3u8?bw_low=16&bw_high=130
+              << 200 OK 170b
+[01:33:00.722][127.0.0.1:62858] server connect 23.204.149.252:443
+[01:33:00.746][127.0.0.1:62860] server connect 23.204.149.252:443
+127.0.0.1:62858: GET https://23.204.149.252/9.gif?a=C~b=822b96892fa559487~c=c4b41f823532d149ba8e7b87d18591d6~d=4c905…
+              << 200 OK 0b
+[01:33:00.885][127.0.0.1:62862] client connect
+[01:33:00.928][127.0.0.1:62862] server connect 23.56.5.72:443
+127.0.0.1:62860: GET https://23.204.149.252/config/beacon-9487.xml
+              << 200 OK 11.8k
+127.0.0.1:62694: GET https://23.47.204.59/radio/catalog/podcast/snoefall/episodes/l_91686fd4-6a8d-4abe-a86f-d46a8d3a… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:62823: GET https://23.56.5.97/32/0/hls/nrk_p1_buskerud/1474703433-1474703433-prog_index.m3u8
+              << 200 OK 4.7k
+[01:33:01.040][127.0.0.1:62823] client disconnect
+[01:33:01.043][127.0.0.1:62823] server disconnect 23.56.5.97:443
+127.0.0.1:62858: GET https://23.204.149.252/config/beacon-9487.xml
+              << 200 OK 11.8k
+127.0.0.1:62862: GET https://23.56.5.72/32/0/hls/nrk_p1_buskerud/playlist.m3u8?bw_low=16&bw_high=130
+              << 200 OK 170b
+127.0.0.1:62860: GET https://23.204.149.252/9.gif?a=I~b=822b96892fa559487~c=369a85146ae779ce34a424f3ee2c37b~d=4c9054…
+              << 200 OK 0b
+[01:33:01.291][127.0.0.1:62864] client connect
+[01:33:01.333][127.0.0.1:62864] server connect 23.204.149.252:443
+[01:33:01.346][127.0.0.1:62866] client connect
+127.0.0.1:62860: GET https://23.204.149.252/config/beacon-9487.xml
+              << 200 OK 11.8k
+[01:33:01.389][127.0.0.1:62866] server connect 23.204.149.252:443
+127.0.0.1:62864: GET https://23.204.149.252/9.gif?a=E~b=822b96892fa559487~c=369a85146ae779ce34a424f3ee2c37b~d=4c9054…
+              << 200 OK 0b
+[01:33:01.524][127.0.0.1:62868] client connect
+127.0.0.1:62849: GET https://23.222.28.107/n3D7kBdE2OnDtSnxwxQUmAKFNQqpQiFOurBl2M2Hk2LA
+              << 200 OK 43.3k
+127.0.0.1:62866: GET https://23.204.149.252/config/beacon-9486.xml
+              << 200 OK 11.8k
+[01:33:01.580][127.0.0.1:62868] server connect 23.222.28.107:443
+[01:33:01.584][127.0.0.1:62870] client connect
+[01:33:01.626][127.0.0.1:62870] server connect 23.222.28.120:443
+[01:33:01.691][127.0.0.1:62872] client connect
+127.0.0.1:62864: GET https://23.204.149.252/9.gif?a=I~b=920ea7fa92c759486~c=2d9e5b1068689f455ccbc35fb87ec6b2~d=4c905…
+              << 200 OK 0b
+127.0.0.1:62860: GET https://23.204.149.252/9.gif?a=I~b=822b96892fa559487~c=441ab08d59fdafb032fb3f7ce1d2ff64~d=4c905…
+              << 200 OK 0b
+[01:33:01.742][127.0.0.1:62872] server connect 23.222.28.107:443
+127.0.0.1:62868: GET https://23.222.28.107/n3D7kBdE2OnDtSnxwxQUmAKFNQqpQiFOurBl2M2Hk2LA
+              << 200 OK 43.3k
+[01:33:01.941][127.0.0.1:62874] client connect
+[01:33:01.987][127.0.0.1:62874] server connect 23.222.28.107:443
+127.0.0.1:62872: GET https://23.222.28.107/n3D7kBdE2OnDtSnxwxQUmAKFNQqpQiFOurBl2M2Hk2LA
+              << 200 OK 43.3k
+[01:33:02.098][127.0.0.1:62856] client disconnect
+[01:33:02.102][127.0.0.1:62856] server disconnect 34.254.111.35:443
+127.0.0.1:62874: GET https://23.222.28.107/n3D7kBdE2OnDtSnxwxQUmAKFNQqpQiFOurBl2M2Hk2LA
+              << 200 OK 43.3k
+[01:33:02.532][127.0.0.1:62854] client disconnect
+[01:33:02.535][127.0.0.1:62854] server disconnect 52.214.180.64:443
+127.0.0.1:62870: GET https://23.222.28.120/fil/snoefall/8b2cb3e6-8f57-4f0b-ab6e-a0880f110cc4_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:33:03.207][127.0.0.1:62862] client disconnect
+[01:33:03.210][127.0.0.1:62862] server disconnect 23.56.5.72:443
+[01:33:03.894][127.0.0.1:62877] client connect
+[01:33:04.035][127.0.0.1:62877] server connect 62.127.217.254:443
+127.0.0.1:62877: GET https://62.127.217.254/podkast/podcastpublisher_prod/snoefall/8b2cb3e6-8f57-4f0b-ab6e-a0880f110…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:33:12.381][127.0.0.1:62877] server disconnect 62.127.217.254:443
+[01:33:12.382][127.0.0.1:62877] client disconnect
+127.0.0.1:62870: GET https://23.222.28.120/fil/snoefall/8b2cb3e6-8f57-4f0b-ab6e-a0880f110cc4_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+127.0.0.1:62860: GET https://23.204.149.252/9.gif?a=E~b=822b96892fa559487~c=2d9e5b1068689f455ccbc35fb87ec6b2~d=4c905…
+              << 200 OK 0b
+[01:33:13.020][127.0.0.1:62884] client connect
+[01:33:13.165][127.0.0.1:62884] server connect 62.127.217.254:443
+127.0.0.1:62884: GET https://62.127.217.254/podkast/podcastpublisher_prod/snoefall/8b2cb3e6-8f57-4f0b-ab6e-a0880f110…
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:33:21.495][127.0.0.1:62884] server disconnect 62.127.217.254:443
+[01:33:21.496][127.0.0.1:62884] client disconnect
+127.0.0.1:62870: GET https://23.222.28.120/fil/snoefall/8b2cb3e6-8f57-4f0b-ab6e-a0880f110cc4_0_ID192MP3.mp3
+              << 302 Moved Temporarily 0b
+[01:33:22.910][127.0.0.1:62889] client connect
+[01:33:23.053][127.0.0.1:62889] server connect 62.127.217.254:443

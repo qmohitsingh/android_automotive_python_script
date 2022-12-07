@@ -1,0 +1,89 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[01:37:03.098] HTTP(S) proxy listening at *:8080.
+[01:37:37.387][127.0.0.1:62967] client connect
+[01:37:37.412][127.0.0.1:62967] server connect 172.217.10.99:443
+127.0.0.1:62967: GET https://172.217.10.99/spi/v2/platforms/android/gmp/1:573968705407:android:3e174a5859ac2195371c4… HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+[01:37:40.598][127.0.0.1:62970] client connect
+[01:37:40.611][127.0.0.1:62972] client connect
+[01:37:40.632][127.0.0.1:62974] client connect
+[01:37:40.743][127.0.0.1:62970] server connect 91.132.145.114:443
+[01:37:40.755][127.0.0.1:62972] server connect 89.58.16.19:443
+[01:37:40.766][127.0.0.1:62974] server connect 91.132.145.114:443
+127.0.0.1:62972: GET https://89.58.16.19/json/stations/lastchange/200
+              << 200 OK 36.1k
+127.0.0.1:62970: GET https://91.132.145.114/json/stations/lastchange/200
+              << 200 OK 41.9k
+127.0.0.1:62974: GET https://91.132.145.114/json/stations/lastchange/200
+              << 200 OK 41.9k
+[01:37:42.047][127.0.0.1:62976] client connect
+[01:37:42.056][127.0.0.1:62977] client connect
+[01:37:42.065][127.0.0.1:62980] client connect
+[01:37:42.094][127.0.0.1:62976] server connect 146.75.104.193:443
+[01:37:42.115][127.0.0.1:62977] server connect 146.75.104.193:443
+[01:37:42.156][127.0.0.1:62980] server connect 146.75.104.193:443
+[01:37:42.643][127.0.0.1:62982] client connect
+[01:37:42.647][127.0.0.1:62983] client connect
+[01:37:42.651][127.0.0.1:62984] client connect
+[01:37:42.947][127.0.0.1:62983] server connect 46.45.115.59:443
+[01:37:42.959][127.0.0.1:62982] server connect 46.45.115.59:443
+[01:37:42.961][127.0.0.1:62984] server connect 46.45.115.59:443
+[01:37:44.178][127.0.0.1:62988] client connect
+127.0.0.1:62977: GET https://146.75.104.193/rWFIrc1.png
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:37:44.302][127.0.0.1:62977] server disconnect 146.75.104.193:443
+[01:37:44.303][127.0.0.1:62977] client disconnect
+127.0.0.1:62976: GET https://146.75.104.193/rWFIrc1.png
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:37:44.317][127.0.0.1:62976] server disconnect 146.75.104.193:443
+[01:37:44.319][127.0.0.1:62976] client disconnect
+127.0.0.1:62980: GET https://146.75.104.193/rWFIrc1.png
+              << 200 OK (content missing)
+ << Client disconnected.
+[01:37:44.440][127.0.0.1:62980] server disconnect 146.75.104.193:443
+[01:37:44.441][127.0.0.1:62980] client disconnect
+[01:37:44.733][127.0.0.1:62988] server connect 91.121.179.64:8000
+127.0.0.1:62988: GET http://91.121.179.64:8000/radiocraponne HTTP/1.1
+     << HTTP/1.0 404 File Not Found 119b
+[01:37:44.885][127.0.0.1:62988] server disconnect 91.121.179.64:8000
+[01:37:44.890][127.0.0.1:62988] client disconnect
+[01:37:44.907][127.0.0.1:62990] client connect
+[01:37:44.959][127.0.0.1:62992] client connect
+[01:37:45.034][127.0.0.1:62990] server connect 91.121.179.64:8000
+[01:37:45.075][127.0.0.1:62992] server connect 63.140.36.101:443
+127.0.0.1:62990: GET http://91.121.179.64:8000/radiocraponne HTTP/1.1
+     << HTTP/1.0 404 File Not Found 119b
+[01:37:45.183][127.0.0.1:62990] server disconnect 91.121.179.64:8000
+[01:37:45.186][127.0.0.1:62990] client disconnect
+127.0.0.1:62983: GET https://46.45.115.59/loga/NRNlogokwadrat.png
+              << 200 OK 120k
+127.0.0.1:62982: GET https://46.45.115.59/loga/NRNlogokwadrat.png
+              << 200 OK 120k
+127.0.0.1:62992: POST https://63.140.36.101/b/ss/cccorporate55/10/ANDN010206010800/s28225643
+              << 200 OK 97b
+127.0.0.1:62984: GET https://46.45.115.59/loga/NRNlogokwadrat.png
+              << 200 OK 120k
+[01:37:45.501][127.0.0.1:62972] client disconnect
+[01:37:45.505][127.0.0.1:62972] server disconnect 89.58.16.19:443
+[01:37:46.104][127.0.0.1:62970] server disconnect 91.132.145.114:443
+[01:37:46.106][127.0.0.1:62974] server disconnect 91.132.145.114:443
+[01:37:46.197][127.0.0.1:62995] client connect
+[01:37:46.322][127.0.0.1:62995] server connect 91.121.179.64:8000
+127.0.0.1:62995: GET http://91.121.179.64:8000/radiocraponne HTTP/1.1
+     << HTTP/1.0 404 File Not Found 119b
+[01:37:46.459][127.0.0.1:62995] server disconnect 91.121.179.64:8000
+[01:37:46.460][127.0.0.1:62995] client disconnect
+[01:37:48.480][127.0.0.1:62997] client connect
+[01:37:48.652][127.0.0.1:62997] server connect 91.121.179.64:8000
+127.0.0.1:62997: GET http://91.121.179.64:8000/radiocraponne HTTP/1.1
+     << HTTP/1.0 404 File Not Found 119b
+[01:37:48.788][127.0.0.1:62997] server disconnect 91.121.179.64:8000
+[01:37:48.790][127.0.0.1:62997] client disconnect
+[01:38:00.187][127.0.0.1:62983] server disconnect 46.45.115.59:443
+[01:38:00.220][127.0.0.1:62982] server disconnect 46.45.115.59:443
+[01:38:00.227][127.0.0.1:62984] server disconnect 46.45.115.59:443

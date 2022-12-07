@@ -1,0 +1,699 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[01:12:22.506] HTTP(S) proxy listening at *:8080.
+[01:13:44.138][127.0.0.1:62318] client connect
+[01:13:44.185][127.0.0.1:62318] server connect 63.140.38.137:443
+127.0.0.1:62318: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s32987022
+              << 200 OK 97b
+[01:13:54.906][127.0.0.1:62329] client connect
+[01:13:54.931][127.0.0.1:62329] server connect 172.217.164.46:443
+127.0.0.1:62329: POST https://172.217.164.46/a
+              << 204 No Content 0b
+[01:13:56.988][127.0.0.1:62332] client connect
+[01:13:57.019][127.0.0.1:62332] server connect 151.101.205.13:443
+127.0.0.1:62318: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s26492677
+              << 200 OK 97b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getCode?deviceType=aae-aosp.auto.us&externalUuid=2b1a2bbd…
+              << 200 OK 61b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62318: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s69553699
+              << 200 OK 97b
+127.0.0.1:62318: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s88423402
+              << 200 OK 97b
+127.0.0.1:62318: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s97412998
+              << 200 OK 97b
+127.0.0.1:62318: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s33155793
+              << 200 OK 97b
+127.0.0.1:62318: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s67085670
+              << 200 OK 97b
+[01:14:55.763][127.0.0.1:62318] server disconnect 63.140.38.137:443
+[01:14:55.766][127.0.0.1:62318] client disconnect
+[01:15:05.575][127.0.0.1:62354] client connect
+[01:15:05.616][127.0.0.1:62354] server connect 63.140.38.137:443
+127.0.0.1:62354: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s94355140
+              << 200 OK 97b
+127.0.0.1:62354: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s72684258
+              << 200 OK 97b
+127.0.0.1:62354: POST https://63.140.38.137/b/ss/cccorporate55/10/ANDN010206010800/s37927617
+              << 200 OK 97b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+[01:15:53.659][127.0.0.1:62354] server disconnect 63.140.38.137:443
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+[01:17:55.037][127.0.0.1:62329] server disconnect 172.217.164.46:443
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+[01:18:55.030][127.0.0.1:62329] client disconnect
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+[01:20:17.667][127.0.0.1:62354] client disconnect
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 75b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getStatus?code=65938&externalUuid=2b1a2bbd-1a4a-449c-a2d3…
+              << 200 OK 74b
+127.0.0.1:62332: POST https://151.101.205.13/api/v1/account/login3rdParty
+              << 200 OK 283b
+[01:20:48.512][127.0.0.1:62460] client connect
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/playlists/1742622971?offset=0&limit=25&campaignId=playlist_collec…
+              << 200 OK 55b
+[01:20:48.542][127.0.0.1:62460] server connect 151.101.205.13:443
+[01:20:48.581][127.0.0.1:62462] client connect
+[01:20:48.609][127.0.0.1:62462] server connect 199.232.33.13:443
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/playlists/1742622971?offset=0&limit=25&campaignId=playlist_collec…
+              << 200 OK 55b
+127.0.0.1:62462: GET https://199.232.33.13/api/v3/podcast/follows?limit=100&withNewEpisodeCounts=false
+              << 200 OK 32b
+127.0.0.1:62460: GET https://151.101.205.13/api/v3/locationConfig?hostname=aae-gas.auto&version=10.6.0&email=vamsipa…
+              << 200 OK 5.3k
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/profile/1742622971/favorites?campaignId=foryou_favorites&offset=0…
+              << 200 OK 49b
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/locationConfig?hostname=aae-gas.auto&version=10.6.0&email=vamsipa…
+              << 200 OK 5.3k
+[01:20:49.174][127.0.0.1:62465] client connect
+[01:20:49.206][127.0.0.1:62465] server connect 74.125.136.94:443
+127.0.0.1:62462: GET https://199.232.33.13/api/v3/podcast/follows?limit=100&withNewEpisodeCounts=false
+              << 200 OK 32b
+[01:20:49.396][127.0.0.1:62467] client connect
+127.0.0.1:62332: POST https://151.101.205.13/api/v3/abtest/users/groups/query
+              << 200 OK 370b
+[01:20:49.423][127.0.0.1:62467] server connect 108.177.122.95:443
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/profile/1742622971/getProfile?profileId=1742622971&sessionId=NzVp…
+              << 200 OK 917b
+127.0.0.1:62467: POST https://108.177.122.95/v1/projects/spotify-automotive/installations/ddA1ycEVTfa66OT9G4NWSa/auth…
+              << 200 OK 323b
+127.0.0.1:62465: GET https://74.125.136.94/spi/v2/platforms/android/gmp/1:644391282285:android:857f04f4a3f4002024016…
+              << 200 OK 361b
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/taste/1742622971
+              << 200 OK 14b
+[01:20:49.935][127.0.0.1:62469] client connect
+[01:20:49.977][127.0.0.1:62469] server connect 63.140.38.226:443
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s50761764
+              << 200 OK 97b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s45401940
+              << 200 OK 97b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s63483063
+              << 200 OK 97b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s88406106
+              << 200 OK 97b
+127.0.0.1:62462: GET https://199.232.33.13/api/v3/podcast/categories/82
+              << 200 OK 7.0k
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/content/liveStations?allMarkets=false&limit=10&offset=0
+              << 200 OK 3.2k
+[01:21:13.703][127.0.0.1:62475] client connect
+[01:21:13.729][127.0.0.1:62475] server connect 199.232.33.13:443
+127.0.0.1:62462: GET https://199.232.33.13/api/v3/trends/playlists/popular?limit=10
+              << 200 OK 10.6k
+127.0.0.1:62475: GET https://199.232.33.13/api/v3/recs/artist/genre
+              << 200 OK 89.1k
+[01:21:14.473][127.0.0.1:62478] client connect
+[01:21:14.497][127.0.0.1:62478] server connect 199.232.34.84:443
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s99466036
+              << 200 OK 97b
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/assets.playlists/62850ba302e9e120ad98b1d4?ops=fit(200%2C200)
+              << 200 OK 10.5k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/show/26940277?ops=fit(200%2C200)
+              << 302 Found 824b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvZTczYzk5OGUtN…
+              << 200 OK 8.2k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/artist/369639?ops=fit(200%2C200)%2Crun(%22circle%22)
+              << 302 Found 552b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaW1hZ2VzL292ZXJyaWRlLzM2OTYzOV8xZ…
+              << 200 OK 68.5k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/artist/33221?ops=fit(200%2C200)%2Crun(%22circle%22)
+              << 302 Found 546b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaW1hZ2VzL292ZXJyaWRlLzMzMjIxXzg5Y…
+              << 200 OK 76.5k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/show/29213961?ops=fit(200%2C200)
+              << 302 Found 824b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvcGxheWxpc3QvZTczYzk5OGUtN…
+              << 200 OK 9.2k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/assets.playlists/62850ba302e9e120ad98b1e4?ops=fit(200%2C200)
+              << 200 OK 13.9k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/assets/~52e852a823d90a7e7f281dfa/images/6046.png?ops=fit(200%2C200)
+              << 200 OK 41.1k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/artist/31552663?ops=fit(200%2C200)%2Crun(%22circle%22)
+              << 302 Found 570b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaW1hZ2VzL292ZXJyaWRlLzMxNTUyNjYzX…
+              << 200 OK 46.2k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/live/6734?ops=fit(200%2C200)%2Crun(%22liveplaylist%22)
+              << 302 Found 470b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cHM6Ly9pLmloZWFydC5jb20vdjMvcmUvbmV3X2Fzc2V0cy82MzI0YWJiODliM…
+              << 200 OK 179k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/live/4426?ops=fit(200%2C200)%2Crun(%22liveplaylist%22)
+              << 302 Found 436b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cHM6Ly9pLmloZWFydC5jb20vdjMvcmUvYXNzZXRzL2ltYWdlcy80NDI2LnBuZ…
+              << 200 OK 127k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/assets.playlists/62850ca242ab273b1fe2c140?ops=fit(200%2C200)
+              << 200 OK 11.2k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/artist/30317449?ops=fit(200%2C200)%2Crun(%22circle%22)
+              << 302 Found 570b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaW1hZ2VzL292ZXJyaWRlLzMwMzE3NDQ5X…
+              << 200 OK 79.9k
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s93003919
+              << 200 OK 97b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/account/getCode?deviceType=aae-aosp.auto.us&externalUuid=2b1a2bbd…
+              << 400 Bad Request 224b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s63489948
+              << 200 OK 97b
+127.0.0.1:62332: POST https://151.101.205.13/api/v1/account/login3rdParty
+              << 200 OK 283b
+127.0.0.1:62460: GET https://151.101.205.13/api/v3/locationConfig?hostname=aae-gas.auto&version=10.6.0&email=vamsipa…
+              << 200 OK 5.3k
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/locationConfig?hostname=aae-gas.auto&version=10.6.0&email=vamsipa…
+              << 200 OK 5.3k
+127.0.0.1:62332: POST https://151.101.205.13/api/v3/abtest/users/groups/query
+              << 200 OK 370b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/profile/1742622971/getProfile?profileId=1742622971&sessionId=NzVp…
+              << 200 OK 917b
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/taste/1742622971
+              << 200 OK 14b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s18419292
+              << 200 OK 97b
+[01:21:26.800][127.0.0.1:62484] client connect
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/podcast/categories/82
+              << 200 OK 7.0k
+127.0.0.1:62462: GET https://199.232.33.13/api/v2/content/liveStations?allMarkets=false&limit=10&offset=0
+              << 200 OK 3.2k
+[01:21:26.848][127.0.0.1:62484] server connect 199.232.33.13:443
+127.0.0.1:62475: GET https://199.232.33.13/api/v3/recs/artist/genre
+              << 200 OK 89.1k
+127.0.0.1:62484: GET https://199.232.33.13/api/v3/trends/playlists/popular?limit=10
+              << 200 OK 10.6k
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/recs/live-station?marketId=159
+              << 200 OK 11.1k
+127.0.0.1:62462: GET https://199.232.33.13/api/v3/catalog/genres?genreType=liveStation
+              << 200 OK 809b
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/6376afe35290ca04a65835b6?ops=fit(200%2C200)
+              << 200 OK 25.2k
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s22749210
+              << 200 OK 97b
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/assets/images/8eb2b83b-8490-47eb-bea1-f0309b1b9978.png?ops=fit(200%…
+              << 200 OK 37.1k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/assets/images/6493.png?ops=fit(200%2C200)
+              << 200 OK 27.7k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5f9c5e28ad5d83a8a3a2e1cc?ops=fit(200%2C200)
+              << 200 OK 9.2k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637654596bb809520ff75b59?ops=fit(200%2C200)
+              << 200 OK 5.3k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637654bc618926a9008a9413?ops=fit(200%2C200)
+              << 200 OK 5.6k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/6376550c618926a9008a941b?ops=fit(200%2C200)
+              << 200 OK 5.9k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/6376558a618926a9008a9421?ops=fit(200%2C200)
+              << 200 OK 6.9k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637655ca618926a9008a9429?ops=fit(200%2C200)
+              << 200 OK 4.9k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765601618926a9008a942f?ops=fit(200%2C200)
+              << 200 OK 5.4k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/6376569e618926a9008a9439?ops=fit(200%2C200)
+              << 200 OK 6.8k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637656e7618926a9008a943f?ops=fit(200%2C200)
+              << 200 OK 5.3k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765741618926a9008a9445?ops=fit(200%2C200)
+              << 200 OK 5.8k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/6376693a9220cf8c2ef10324?ops=fit(200%2C200)
+              << 200 OK 26.4k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637657cc618926a9008a9451?ops=fit(200%2C200)
+              << 200 OK 5.2k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637657e1618926a9008a9453?ops=fit(200%2C200)
+              << 200 OK 5.4k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765815618926a9008a9459?ops=fit(200%2C200)
+              << 200 OK 5.6k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765875618926a9008a945f?ops=fit(200%2C200)
+              << 200 OK 5.6k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5ea30ff946ceabdd6f10c3ad?ops=fit(200%2C200)
+              << 200 OK 8.6k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637658bf618926a9008a9463?ops=fit(200%2C200)
+              << 200 OK 6.3k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5ea30fac46ceabdd6f10c39d?ops=fit(200%2C200)
+              << 200 OK 8.6k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5ea30c715fb4ff5186c1a6eb?ops=fit(200%2C200)
+              << 200 OK 9.8k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5ea30ede46ceabdd6f10c37f?ops=fit(200%2C200)
+              << 200 OK 7.5k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765932618926a9008a946f?ops=fit(200%2C200)
+              << 200 OK 6.8k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637658ee618926a9008a9469?ops=fit(200%2C200)
+              << 200 OK 5.1k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5ea31b49d4e976161df64199?ops=fit(200%2C200)
+              << 200 OK 9.0k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5ea3102446ceabdd6f10c3af?ops=fit(200%2C200)
+              << 200 OK 10.3k
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/content/liveStations/1477?allMarkets=false
+              << 200 OK 893b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/recs/getLiveRadioStations?liveRadioStationId=1477
+              << 200 OK 156b
+127.0.0.1:62462: POST https://199.232.33.13/api/v2/playlists/1742622971/LIVE/1477
+              << 200 OK 210b
+127.0.0.1:62332: POST https://151.101.205.13/api/v3/session/setActiveStreamer
+              << 200 OK 0b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s2796253
+              << 200 OK 97b
+127.0.0.1:62332: POST https://151.101.205.13/api/v1/liveRadio/1742622971/1477/registerListen
+              << 200 OK 146b
+127.0.0.1:62462: GET https://199.232.33.13/api/v2/content/liveStations/4414,6830,5014,5060,4242,6545,6834,4409,4846,…
+              << 200 OK 2.4k
+[01:21:54.343][127.0.0.1:62494] client connect
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/6376afe35290ca04a65835b6?ops=fit(800%2C800)
+              << 200 OK 126k
+[01:21:54.402][127.0.0.1:62494] server connect 3.143.112.54:443
+127.0.0.1:62494: GET https://3.143.112.54/zc1477/hls.m3u8?deviceid=2b881941-9082-346c-9651-a36d9b46d007&clientType=A… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:21:54.630][127.0.0.1:62494] server disconnect 3.143.112.54:443
+[01:21:54.634][127.0.0.1:62494] client disconnect
+[01:21:54.867][127.0.0.1:62496] client connect
+[01:21:54.923][127.0.0.1:62496] server connect 18.221.214.186:443
+127.0.0.1:62496: GET https://18.221.214.186/zc1477/hls.m3u8?country=US&store-url=https%253A%252F%252Fplay.google.com…
+              << 200 OK 852b
+[01:21:55.153][127.0.0.1:62460] client disconnect
+[01:21:55.161][127.0.0.1:62460] server disconnect 151.101.205.13:443
+[01:21:55.331][127.0.0.1:62498] client connect
+[01:21:55.387][127.0.0.1:62498] server connect 3.139.67.108:443
+127.0.0.1:62498: GET https://3.139.67.108/zc1477/9_w5frqf1c2xkw02/playlist.m3u8?country=US&store-url=https%253A%252F… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:21:55.594][127.0.0.1:62498] server disconnect 3.139.67.108:443
+[01:21:55.596][127.0.0.1:62498] client disconnect
+127.0.0.1:62496: GET https://18.221.214.186/zc1477/9_w5frqf1c2xkw02/playlist.m3u8?country=US&store-url=https%253A%25…
+              << 200 OK 1.2k
+127.0.0.1:62496: GET https://18.221.214.186/zc1477/9_w5frqf1c2xkw02/main/167262759.aac
+              << 200 OK 59.4k
+127.0.0.1:62496: GET https://18.221.214.186/zc1477/9_w5frqf1c2xkw02/main/167262760.aac
+              << 200 OK 59.0k
+127.0.0.1:62496: GET https://18.221.214.186/zc1477/9_w5frqf1c2xkw02/main/167262761.aac
+              << 200 OK 59.1k
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s76266182
+              << 200 OK 97b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s515129
+              << 200 OK 97b
+127.0.0.1:62332: POST https://151.101.205.13/api/v2/playlists/1742622971/LIVE/4242
+              << 200 OK 208b
+[01:22:04.256][127.0.0.1:62501] client connect
+[01:22:04.320][127.0.0.1:62501] server connect 3.143.112.54:443
+127.0.0.1:62332: POST https://151.101.205.13/api/v1/liveRadio/1742622971/4242/registerListen
+              << 200 OK 146b
+127.0.0.1:62501: GET https://3.143.112.54/zc4242/hls.m3u8?deviceid=2b881941-9082-346c-9651-a36d9b46d007&clientType=A… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:22:04.562][127.0.0.1:62501] server disconnect 3.143.112.54:443
+[01:22:04.564][127.0.0.1:62501] client disconnect
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/62a8bc0f9ba37c3dc7f68986?ops=fit(800%2C800)
+              << 200 OK 185k
+[01:22:04.704][127.0.0.1:62504] client connect
+[01:22:04.760][127.0.0.1:62504] server connect 18.191.156.2:443
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s54801480
+              << 200 OK 97b
+127.0.0.1:62504: GET https://18.191.156.2/zc4242/hls.m3u8?country=US&store-url=https%253A%252F%252Fplay.google.com%2…
+              << 200 OK 837b
+[01:22:05.028][127.0.0.1:62475] client disconnect
+[01:22:05.031][127.0.0.1:62475] server disconnect 199.232.33.13:443
+[01:22:05.055][127.0.0.1:62506] client connect
+[01:22:05.114][127.0.0.1:62506] server connect 3.139.67.108:443
+127.0.0.1:62506: GET https://3.139.67.108/zc4242/12_k3wkh161rpy202/playlist.m3u8?country=US&store-url=https%253A%252… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:22:05.322][127.0.0.1:62506] server disconnect 3.139.67.108:443
+[01:22:05.327][127.0.0.1:62506] client disconnect
+127.0.0.1:62504: GET https://18.191.156.2/zc4242/12_k3wkh161rpy202/playlist.m3u8?country=US&store-url=https%253A%252…
+              << 200 OK 1.6k
+127.0.0.1:62504: GET https://18.191.156.2/zc4242/12_k3wkh161rpy202/main/167272486.aac
+              << 200 OK 59.3k
+127.0.0.1:62504: GET https://18.191.156.2/zc4242/12_k3wkh161rpy202/main/167272487.aac
+              << 200 OK 59.4k
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/catalog/tracks/31696308
+              << 200 OK 387b
+127.0.0.1:62504: GET https://18.191.156.2/zc4242/12_k3wkh161rpy202/main/167272488.aac
+              << 200 OK 59.3k
+127.0.0.1:62332: POST https://151.101.205.13/api/v1/liveRadio/reportStreamStarted
+              << 200 OK 87b
+127.0.0.1:62462: POST https://199.232.33.13/api/v3/playback/liveStation/reporting
+              << 204 No Content 0b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s35166567
+              << 200 OK 97b
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/track/31696308?ops=fit(800%2C800)
+              << 302 Found 800b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cDovL2ltYWdlLmloZWFydC5jb20vY29udGVudC9tdXNpYy9wcm9kL1NCTUc3L…
+              << 200 OK 173k
+[01:22:15.559][127.0.0.1:62512] client connect
+[01:22:15.615][127.0.0.1:62512] server connect 3.139.67.108:443
+127.0.0.1:62512: GET https://3.139.67.108/zc4242/12_k3wkh161rpy202/playlist.m3u8?country=US&store-url=https%253A%252… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:22:15.796][127.0.0.1:62512] server disconnect 3.139.67.108:443
+[01:22:15.799][127.0.0.1:62512] client disconnect
+127.0.0.1:62504: GET https://18.191.156.2/zc4242/12_k3wkh161rpy202/playlist.m3u8?country=US&store-url=https%253A%252…
+              << 200 OK 1.6k
+127.0.0.1:62504: GET https://18.191.156.2/zc4242/12_k3wkh161rpy202/main/167272489.aac
+              << 200 OK 59.4k
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s48945769
+              << 200 OK 97b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s83976683
+              << 200 OK 97b
+127.0.0.1:62332: POST https://151.101.205.13/api/v2/playlists/1742622971/LIVE/4409
+              << 200 OK 208b
+[01:22:21.612][127.0.0.1:62517] client connect
+127.0.0.1:62462: POST https://199.232.33.13/api/v1/liveRadio/1742622971/4409/registerListen
+              << 200 OK 146b
+[01:22:21.674][127.0.0.1:62517] server connect 3.143.112.54:443
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/assets/images/4409.png?ops=fit(800%2C800)
+              << 200 OK 195k
+127.0.0.1:62517: GET https://3.143.112.54/zc4409/hls.m3u8?deviceid=2b881941-9082-346c-9651-a36d9b46d007&clientType=A… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:22:21.945][127.0.0.1:62517] server disconnect 3.143.112.54:443
+[01:22:21.947][127.0.0.1:62517] client disconnect
+[01:22:22.173][127.0.0.1:62519] client connect
+[01:22:22.228][127.0.0.1:62519] server connect 18.217.170.28:443
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/hls.m3u8?country=US&store-url=https%253A%252F%252Fplay.google.com%…
+              << 200 OK 836b
+[01:22:22.460][127.0.0.1:62484] client disconnect
+[01:22:22.463][127.0.0.1:62484] server disconnect 199.232.33.13:443
+[01:22:22.483][127.0.0.1:62521] client connect
+[01:22:22.548][127.0.0.1:62521] server connect 3.139.67.108:443
+127.0.0.1:62521: GET https://3.139.67.108/zc4409/5_5hk8cplfy3m102/playlist.m3u8?country=US&store-url=https%253A%252F… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:22:22.757][127.0.0.1:62521] server disconnect 3.139.67.108:443
+[01:22:22.760][127.0.0.1:62521] client disconnect
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/playlist.m3u8?country=US&store-url=https%253A%252…
+              << 200 OK 1.6k
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/main/167272487.aac
+              << 200 OK 59.4k
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/catalog/tracks/120345828
+              << 200 OK 309b
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/main/167272488.aac
+              << 200 OK 59.3k
+127.0.0.1:62332: POST https://151.101.205.13/api/v1/liveRadio/reportStreamStarted
+              << 200 OK 87b
+127.0.0.1:62462: POST https://199.232.33.13/api/v3/playback/liveStation/reporting
+              << 204 No Content 0b
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/track/120345828?ops=fit(800%2C800)
+              << 302 Found 694b
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/main/167272489.aac
+              << 200 OK 59.4k
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s17535249
+              << 200 OK 97b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaWhyLWluZ2VzdGlvbi1waXBlbGluZS1wc…
+              << 200 OK 75.2k
+[01:22:32.887][127.0.0.1:62526] client connect
+[01:22:32.942][127.0.0.1:62526] server connect 3.139.67.108:443
+127.0.0.1:62526: GET https://3.139.67.108/zc4409/5_5hk8cplfy3m102/playlist.m3u8?country=US&store-url=https%253A%252F… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:22:33.129][127.0.0.1:62526] server disconnect 3.139.67.108:443
+[01:22:33.133][127.0.0.1:62526] client disconnect
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/playlist.m3u8?country=US&store-url=https%253A%252…
+              << 200 OK 1.5k
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/main/167272490.aac
+              << 200 OK 59.3k
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/main/167272491.aac
+              << 200 OK 59.3k
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/recs/podcastRecs
+              << 200 OK 390b
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/recs/playlistRecs?includePersonalized=false
+              << 200 OK 10.0k
+[01:22:40.843][127.0.0.1:62530] client connect
+[01:22:40.855][127.0.0.1:62532] client connect
+[01:22:40.919][127.0.0.1:62530] server connect 146.75.106.84:443
+[01:22:40.921][127.0.0.1:62532] server connect 146.75.106.84:443
+127.0.0.1:62530: GET https://146.75.106.84/api/cards?collection=collections%2Fplaylist-directory&country=US HTTP/2.0
+     << HTTP/2.0 200 OK 4.5k
+[01:22:41.134][127.0.0.1:62496] client disconnect
+[01:22:41.137][127.0.0.1:62496] server disconnect 18.221.214.186:443
+[01:22:41.398][127.0.0.1:62532] client disconnect
+[01:22:41.400][127.0.0.1:62532] server disconnect 146.75.106.84:443
+127.0.0.1:62530: GET https://146.75.106.84/api/cards?collection=collections%2Fplaylist-directory&country=US HTTP/2.0
+     << HTTP/2.0 200 OK 4.5k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/playlists_images/genre/5b1ddb02b1145a1da757887d-1564087822338.jpg?o…
+              << 200 OK 11.9k
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/live/5060?ops=fit(200%2C200)%2Crun(%22liveplaylist%22)
+              << 302 Found 504b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s49056970
+              << 200 OK 97b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cHM6Ly9pLmloZWFydC5jb20vdjMvcmUvbmV3X2Fzc2V0cy8wYTAxYjQwZC02M…
+              << 200 OK 138k
+127.0.0.1:62478: GET https://199.232.34.84/v3/user/312064750/collection/LkJJShav9jnkEbvjt1wpLi?ops=fit(200%2C200)
+              << 200 OK 17.2k
+127.0.0.1:62478: GET https://199.232.34.84/v3/user/312064750/collection/4VC5Snk5foBitv9QQ33a3e?ops=fit(200%2C200)
+              << 200 OK 10.0k
+127.0.0.1:62478: GET https://199.232.34.84/v3/user/312064750/collection/95zA3EVsjDHgfg4LcyGFEC?ops=fit(200%2C200)
+              << 200 OK 10.7k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5dbb1f16f53126e9310042ee?ops=fit(200%2C200)
+              << 200 OK 9.2k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637654526bb809520ff75b55?ops=fit(200%2C200)
+              << 200 OK 5.3k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637654db618926a9008a9419?ops=fit(200%2C200)
+              << 200 OK 5.6k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637655e5618926a9008a942d?ops=fit(200%2C200)
+              << 200 OK 4.9k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765663618926a9008a9437?ops=fit(200%2C200)
+              << 200 OK 5.4k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/6376687f93e7f8320ff694b1?ops=fit(200%2C200)
+              << 200 OK 26.4k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765827618926a9008a945b?ops=fit(200%2C200)
+              << 200 OK 5.6k
+[01:22:43.212][127.0.0.1:62534] client connect
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765c38475d6773d89aaa0a?ops=fit(200%2C200)
+              << 200 OK 4.8k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765c71475d6773d89aaa0e?ops=fit(200%2C200)
+              << 200 OK 6.4k
+[01:22:43.266][127.0.0.1:62534] server connect 3.139.67.108:443
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5d35f98354848b24f08e8cf2?ops=fit(200%2C200)
+              << 200 OK 8.4k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/637825bd45d336e549a3c4c4?ops=fit(200%2C200)
+              << 200 OK 5.4k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/6378255645d336e549a3c4bd?ops=fit(200%2C200)
+              << 200 OK 5.7k
+127.0.0.1:62534: GET https://3.139.67.108/zc4409/5_5hk8cplfy3m102/playlist.m3u8?country=US&store-url=https%253A%252F… HTTP/1.1
+     << HTTP/1.0 302 Found 0b
+[01:22:43.456][127.0.0.1:62534] server disconnect 3.139.67.108:443
+[01:22:43.458][127.0.0.1:62534] client disconnect
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/63765c9c475d6773d89aaa10?ops=fit(200%2C200)
+              << 200 OK 6.8k
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/playlist.m3u8?country=US&store-url=https%253A%252…
+              << 200 OK 1.5k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/new_assets/5d36006e54848b24f08e8d24?ops=fit(200%2C200)
+              << 200 OK 8.4k
+127.0.0.1:62519: GET https://18.217.170.28/zc4409/5_5hk8cplfy3m102/main/167272492.aac
+              << 200 OK 59.4k
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s82019176
+              << 200 OK 97b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s76090406
+              << 200 OK 97b
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/playlists/1742622971?offset=0&limit=2147483647&campaignId=playlis…
+              << 200 OK 55b
+127.0.0.1:62462: GET https://199.232.33.13/api/v3/collection/user/1742622971/collection?includePersonalized=false
+              << 200 OK 678b
+127.0.0.1:62332: POST https://151.101.205.13/api/v2/playback/streams
+              << 200 OK 2.9k
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/playlists_images/genre/5b1ddb02b1145a1da757887d-1564087822338.jpg?o…
+              << 200 OK 96.4k
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s13625662
+              << 200 OK 97b
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/track/41268316?ops=fit(800%2C800)
+              << 302 Found 638b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaWhyLWluZ2VzdGlvbi1waXBlbGluZS1wc…
+              << 200 OK 109k
+[01:22:51.540][127.0.0.1:62540] client connect
+[01:22:51.581][127.0.0.1:62540] server connect 35.227.249.185:443
+127.0.0.1:62540: GET https://35.227.249.185/1.0/sdk/error?type=anr&platform=android&package_name=tunein.player&applo…
+              << 200 OK 15b
+127.0.0.1:62530: GET https://146.75.106.84/ihr-ingestion-pipeline-production-umg/00888072002302_20220106200017127/ed… HTTP/2.0
+     << HTTP/2.0 200 OK 8.5m
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s19224867
+              << 200 OK 97b
+127.0.0.1:62332: POST https://151.101.205.13/api/v3/playback/reporting
+              << 200 OK 98b
+[01:23:07.594][127.0.0.1:62545] client connect
+[01:23:07.643][127.0.0.1:62545] server connect 52.60.247.131:443
+127.0.0.1:62545: GET https://52.60.247.131/lt?sid=20731&cb=1670048586346&vid=1742622971&dev=android&gender=M&yob=200… HTTP/2.0
+     << HTTP/2.0 200 OK 71b
+[01:23:08.807][127.0.0.1:62504] client disconnect
+[01:23:08.809][127.0.0.1:62504] server disconnect 18.191.156.2:443
+[01:23:08.864][127.0.0.1:62547] client connect
+[01:23:08.884][127.0.0.1:62547] server connect 199.232.34.84:443
+127.0.0.1:62547: GET https://199.232.34.84/ihr-ingestion-pipeline-production-umg/encodes/Jul18/070218/00050087365134… HTTP/2.0
+     << HTTP/2.0 200 OK 2.6m
+[01:23:13.428][127.0.0.1:62519] client disconnect
+[01:23:13.430][127.0.0.1:62519] server disconnect 18.217.170.28:443
+127.0.0.1:62547: GET https://199.232.34.84/ihr-ingestion-pipeline-production-umg/encodes/Nov18/110118/bypass/redeliv… HTTP/2.0
+     << HTTP/2.0 200 OK 2.2m
+127.0.0.1:62332: POST https://151.101.205.13/api/v3/playback/reporting
+              << 200 OK 98b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s35402404
+              << 200 OK 97b
+127.0.0.1:62478: GET https://199.232.34.84/v3/catalog/track/45775285?ops=fit(800%2C800)
+              << 302 Found 638b
+127.0.0.1:62462: POST https://199.232.33.13/api/v3/playback/reporting
+              << 200 OK 98b
+127.0.0.1:62332: POST https://151.101.205.13/api/v2/playback/streams
+              << 200 OK 2.9k
+127.0.0.1:62332: POST https://151.101.205.13/api/v3/playback/reporting
+              << 200 OK 98b
+127.0.0.1:62478: GET https://199.232.34.84/v3/surl/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaWhyLWluZ2VzdGlvbi1waXBlbGluZS1wc…
+              << 200 OK 128k
+127.0.0.1:62547: GET https://199.232.34.84/bell-ingestion-pipeline-production-umg/full/00843930033140_20181214002714… HTTP/2.0
+     << HTTP/2.0 200 OK 9.7m
+127.0.0.1:62332: POST https://151.101.205.13/api/v3/playback/reporting
+              << 200 OK 98b
+127.0.0.1:62462: GET https://199.232.33.13/api/v3/recs/live-station?marketId=159
+              << 200 OK 11.1k
+127.0.0.1:62332: GET https://151.101.205.13/api/v3/catalog/genres?genreType=liveStation
+              << 200 OK 809b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s88796133
+              << 200 OK 97b
+127.0.0.1:62332: GET https://151.101.205.13/api/v2/content/liveStations/6493?allMarkets=false
+              << 200 OK 687b
+127.0.0.1:62545: GET https://52.60.247.131/lt?guid=TFRNL1NJRDoyMDczMTpjNzMwYTRmMC02N2E3LTQ5YWUtYTNmOC0xMDJlNWU1N2E2Z… HTTP/2.0
+     << HTTP/2.0 200 OK 71b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s35567384
+              << 200 OK 97b
+127.0.0.1:62332: GET https://151.101.205.13/api/v1/recs/getLiveRadioStations?liveRadioStationId=6493
+              << 200 OK 155b
+127.0.0.1:62469: POST https://63.140.38.226/b/ss/cccorporate55/10/ANDN010206010800/s17443349
+              << 200 OK 97b
+127.0.0.1:62332: POST https://151.101.205.13/api/v1/liveRadio/1742622971/6493/registerListen
+              << 200 OK 137b
+127.0.0.1:62462: POST https://199.232.33.13/api/v2/playlists/1742622971/LIVE/6493
+              << 200 OK 207b
+[01:23:49.721][127.0.0.1:62563] client connect
+127.0.0.1:62478: GET https://199.232.34.84/v3/re/assets/images/6493.png?ops=fit(800%2C800)
+              << 200 OK 154k
+127.0.0.1:62462: GET https://199.232.33.13/api/v2/content/liveStations/4429,6732,5164,4886,6529,5158,4940,1481,181,6…
+              << 200 OK 2.5k
+127.0.0.1:62332: POST https://151.101.205.13/api/v3/playback/reporting
+              << 200 OK 98b
+[01:23:49.843][127.0.0.1:62563] server connect 192.173.31.109:443
+127.0.0.1:62563: GET https://192.173.31.109/pls/WBLSFMAAC.pls
+              << 200 OK 1.6k
+[01:23:50.326][127.0.0.1:62530] client disconnect
+[01:23:50.330][127.0.0.1:62530] server disconnect 146.75.106.84:443
+[01:23:50.555][127.0.0.1:62566] client connect
+[01:23:50.598][127.0.0.1:62566] server connect 208.92.55.132:443
+[01:24:05.312][127.0.0.1:62563] server disconnect 192.173.31.109:443
+[01:24:25.600][127.0.0.1:62469] server disconnect 63.140.38.226:443

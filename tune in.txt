@@ -1,0 +1,272 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[00:54:27.489] HTTP(S) proxy listening at *:8080.
+[00:55:49.852][127.0.0.1:63046] client connect
+[00:55:49.854][127.0.0.1:63046] client disconnect
+[00:57:50.434][127.0.0.1:49756] client connect
+[00:57:51.929][127.0.0.1:49759] client connect
+[00:57:51.988][127.0.0.1:49759] server connect connectivitycheck.gstatic.com:80 (108.177.122.94:80)
+127.0.0.1:49759: GET http://connectivitycheck.gstatic.com/generate_204
+              << 204 No Content 0b
+[00:57:52.013][127.0.0.1:49759] server disconnect connectivitycheck.gstatic.com:80 (108.177.122.94:80)
+[00:57:52.014][127.0.0.1:49759] client disconnect
+[00:57:52.089][127.0.0.1:49763] client connect
+[00:57:52.130][127.0.0.1:49763] server connect 74.125.138.104:443
+[00:57:53.055][127.0.0.1:49756] error establishing server connection: [WinError 1225] The remote computer refused the network connection
+127.0.0.1:49756: CONNECT 192.168.0.1:853
+              << 502 Bad Gateway 237b
+[00:57:53.117][127.0.0.1:49756] client disconnect
+[00:57:53.143][127.0.0.1:49766] client connect
+[00:57:53.147][127.0.0.1:49767] client connect
+[00:57:53.189][127.0.0.1:49766] server connect 23.213.224.236:443
+[00:57:53.203][127.0.0.1:49767] server connect 23.213.224.236:443
+[00:57:53.265][127.0.0.1:49770] client connect
+[00:57:53.304][127.0.0.1:49770] server connect 18.205.118.184:443
+127.0.0.1:49763: GET https://74.125.138.104/generate_204
+              << 204 No Content 0b
+[00:57:53.375][127.0.0.1:49763] server disconnect 74.125.138.104:443
+[00:57:53.376][127.0.0.1:49763] client disconnect
+[00:57:53.478][127.0.0.1:49772] client connect
+[00:57:53.673][127.0.0.1:49774] client connect
+[00:57:53.716][127.0.0.1:49774] server connect 63.140.38.117:443
+127.0.0.1:49767: GET https://23.213.224.236/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5944061d64746…
+              << 304 Not Modified 0b
+127.0.0.1:49770: GET https://18.205.118.184/id?d_mid=06372619473764175168472431754283582470&d_blob=j8Odv6LonN4r3an7L…
+              << 200 OK 1.2k
+127.0.0.1:49774: POST https://63.140.38.117/b/ss/cccorporate55/10/ANDN010206010800/s96115638
+              << 200 OK 97b
+127.0.0.1:49766: GET https://23.213.224.236/dba7b4ad2c8b/2cbb34aa8615/launch-5b0e459fe23f.json
+              << 304 Not Modified 0b
+127.0.0.1:49774: POST https://63.140.38.117/b/ss/cccorporate55/10/ANDN010206010800/s33686020
+              << 200 OK 97b
+[00:57:55.150][127.0.0.1:49778] client connect
+[00:57:55.161][127.0.0.1:49780] client connect
+[00:57:55.188][127.0.0.1:49778] server connect 23.213.224.236:443
+[00:57:55.205][127.0.0.1:49780] server connect 23.213.224.236:443
+127.0.0.1:49778: GET https://23.213.224.236/dba7b4ad2c8b/2cbb34aa8615/launch-5b0e459fe23f-rules.zip
+              << 304 Not Modified 0b
+[00:57:55.358][127.0.0.1:49782] client connect
+127.0.0.1:49780: GET https://23.213.224.236/dba7b4ad2c8b/2cbb34aa8615/launch-5b0e459fe23f.json
+              << 304 Not Modified 0b
+[00:57:55.379][127.0.0.1:49782] server connect 64.233.185.94:443
+[00:57:55.541][127.0.0.1:49772] error establishing server connection: [WinError 1225] The remote computer refused the network connection
+127.0.0.1:49772: CONNECT 192.168.0.1:853
+              << 502 Bad Gateway 237b
+[00:57:55.545][127.0.0.1:49772] client disconnect
+127.0.0.1:49782: POST https://64.233.185.94/v1/firelog/legacy/batchlog
+              << 200 OK 140b
+[00:57:58.666][127.0.0.1:49788] client connect
+[00:57:58.688][127.0.0.1:49788] server connect 142.251.15.95:443
+[00:57:58.762][127.0.0.1:49791] client connect
+[00:57:58.794][127.0.0.1:49791] server connect 31.13.65.1:443
+[00:57:58.800][127.0.0.1:49793] client connect
+[00:57:58.839][127.0.0.1:49793] server connect 74.125.136.94:443
+127.0.0.1:49788: POST https://142.251.15.95/v1/projects/963286039532/namespaces/fireperf:fetch
+              << 200 OK 511b
+127.0.0.1:49791: GET https://31.13.65.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+127.0.0.1:49793: GET https://74.125.136.94/spi/v2/platforms/android/gmp/1:963286039532:android:66216d6e01f5a3ab/sett…
+              << 200 OK 359b
+[00:58:01.649][127.0.0.1:49793] client disconnect
+[00:58:01.652][127.0.0.1:49791] client disconnect
+[00:58:01.656][127.0.0.1:49788] client disconnect
+[00:58:01.659][127.0.0.1:49793] server disconnect 74.125.136.94:443
+[00:58:01.662][127.0.0.1:49791] server disconnect 31.13.65.1:443
+[00:58:01.663][127.0.0.1:49788] server disconnect 142.251.15.95:443
+[00:58:01.999][127.0.0.1:49797] client connect
+[00:58:02.027][127.0.0.1:49797] server connect 64.233.185.100:443
+127.0.0.1:49797: GET https://64.233.185.100/config/app/1%3A884160514548%3Aandroid%3A7f9122abf3fd15ad?app_instance_id…
+              << 200 OK 2.8k
+127.0.0.1:49797: POST https://64.233.185.100/a
+              << 204 No Content 0b
+[00:58:03.199][127.0.0.1:49800] client connect
+[00:58:03.200][127.0.0.1:49801] client connect
+[00:58:03.205][127.0.0.1:49802] client connect
+[00:58:03.279][127.0.0.1:49800] server connect 31.13.65.1:443
+[00:58:03.282][127.0.0.1:49801] server connect 31.13.65.1:443
+[00:58:03.285][127.0.0.1:49802] server connect 31.13.65.1:443
+127.0.0.1:49800: GET https://31.13.65.1/v12.0/157627720928660?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_conte…
+              << 200 OK 614b
+127.0.0.1:49802: GET https://31.13.65.1/v12.0/157627720928660?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_conte…
+              << 200 OK 614b
+127.0.0.1:49801: GET https://31.13.65.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+127.0.0.1:49800: GET https://31.13.65.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+[00:58:05.024][127.0.0.1:49807] client connect
+[00:58:05.050][127.0.0.1:49807] server connect 74.125.136.94:443
+127.0.0.1:49807: GET https://74.125.136.94/spi/v2/platforms/android/gmp/1:963286039532:android:66216d6e01f5a3ab/sett…
+              << 200 OK 359b
+[00:58:06.095][127.0.0.1:49809] client connect
+[00:58:06.103][127.0.0.1:49810] client connect
+[00:58:06.105][127.0.0.1:49811] client connect
+[00:58:06.125][127.0.0.1:49809] server connect 31.13.65.1:443
+[00:58:06.135][127.0.0.1:49811] server connect 31.13.65.1:443
+127.0.0.1:49811: GET https://31.13.65.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+127.0.0.1:49809: GET https://31.13.65.1/v12.0/157627720928660?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_conte…
+              << 200 OK 614b
+[00:58:07.904][127.0.0.1:49815] client connect
+[00:58:07.985][127.0.0.1:49815] server connect 142.251.15.95:443
+127.0.0.1:49815: POST https://142.251.15.95/v1/projects/963286039532/namespaces/fireperf:fetch
+              << 200 OK 511b
+[00:58:27.160][127.0.0.1:49810] error establishing server connection: [WinError 121] The semaphore timeout period has expired
+127.0.0.1:49810: CONNECT 31.13.65.1:443
+              << 502 Bad Gateway 225b
+[00:58:27.164][127.0.0.1:49810] client disconnect
+127.0.0.1:49811: GET https://31.13.65.1/v12.0/157627720928660?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_conte…
+              << 200 OK 614b
+127.0.0.1:49811: GET https://31.13.65.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+[00:58:31.110][127.0.0.1:49774] server disconnect 63.140.38.117:443
+[00:58:38.075][127.0.0.1:49774] server connect 63.140.38.117:443
+127.0.0.1:49774: POST https://63.140.38.117/b/ss/cccorporate55/10/ANDN010206010800/s20846393
+              << 200 OK 97b
+[00:58:38.878][127.0.0.1:49826] client connect
+[00:58:38.949][127.0.0.1:49826] server connect 104.17.106.184:443
+127.0.0.1:49826: POST https://104.17.106.184/Report.ashx?c=eventlist&id=&orientation=LANDSCAPE&audioport=phone_speake… HTTP/2.0
+     << HTTP/2.0 200 OK 104b
+[00:58:48.292][127.0.0.1:49832] client connect
+[00:58:48.318][127.0.0.1:49832] server connect 35.190.88.7:443
+[00:58:48.450][127.0.0.1:49834] client connect
+127.0.0.1:49826: POST https://104.17.106.184/Report.ashx?c=eventlist&id=&orientation=LANDSCAPE&audioport=phone_speake… HTTP/2.0
+     << HTTP/2.0 200 OK 104b
+[00:58:48.496][127.0.0.1:49834] server connect 13.249.59.5:443
+127.0.0.1:49832: POST https://35.190.88.7/
+              << 202 Accepted 21b
+127.0.0.1:49826: GET https://104.17.106.184/Config.ashx?isFirstLaunch=true&c=autoupdate%2Cads%2Cunlock%2Cterms&adId=… HTTP/2.0
+     << HTTP/2.0 200 OK 2.6k
+[00:58:48.592][127.0.0.1:49802] client disconnect
+[00:58:48.595][127.0.0.1:49802] server disconnect 31.13.65.1:443
+127.0.0.1:49834: POST https://13.249.59.5/v1/open
+              << 200 OK 352b
+[00:58:49.262][127.0.0.1:49801] client disconnect
+[00:58:49.263][127.0.0.1:49801] server disconnect 31.13.65.1:443
+127.0.0.1:49826: POST https://104.17.106.184/Report.ashx?c=eventlist&id=&orientation=LANDSCAPE&audioport=phone_speake… HTTP/2.0
+     << HTTP/2.0 200 OK 104b
+127.0.0.1:49826: POST https://104.17.106.184/Report.ashx?c=eventlist&id=&orientation=LANDSCAPE&audioport=phone_speake… HTTP/2.0
+     << HTTP/2.0 200 OK 104b
+[00:58:49.385][127.0.0.1:49836] client connect
+[00:58:49.466][127.0.0.1:49836] server connect bcp.crwdcntrl.net:80 (52.204.47.102:80)
+[00:58:49.500][127.0.0.1:49840] client connect
+127.0.0.1:49836: GET http://bcp.crwdcntrl.net/5/c%3D/e%3Dapp/mid%3D/dt%3DGAID/us_privacy%3D1NNY
+              << 400 Bad Request 504b
+127.0.0.1:49826: POST https://104.17.106.184/Report.ashx?c=eventlist&id=&orientation=LANDSCAPE&audioport=phone_speake… HTTP/2.0
+     << HTTP/2.0 200 OK 104b
+[00:58:49.573][127.0.0.1:49840] server connect ad.crwdcntrl.net:80 (52.54.126.85:80)
+127.0.0.1:49840: GET http://ad.crwdcntrl.net/5/c%3D/e%3Dapp/mid%3D/pe%3Dy/us_privacy%3D1NNY
+              << 403 Forbidden 79b
+127.0.0.1:49840: GET http://ad.crwdcntrl.net/5/c%3D/e%3Dapp/mid%3D/pe%3Dy/us_privacy%3D1NNY
+              << 403 Forbidden 79b
+127.0.0.1:49826: GET https://104.17.106.184/Account.ashx?c=beginDeviceGrantSession&generateAuth=true&sku=auto_9999_9… HTTP/2.0
+     << HTTP/2.0 200 OK 676b
+[00:58:49.749][127.0.0.1:49844] client connect
+[00:58:49.776][127.0.0.1:49844] server connect 104.18.40.188:443
+[00:58:49.845][127.0.0.1:49846] client connect
+[00:58:49.857][127.0.0.1:49848] client connect
+[00:58:49.864][127.0.0.1:49849] client connect
+[00:58:49.889][127.0.0.1:49846] server connect 35.227.249.185:443
+[00:58:49.897][127.0.0.1:49849] server connect 35.227.249.185:443
+[00:58:49.912][127.0.0.1:49848] server connect 99.86.102.25:443
+127.0.0.1:49826: GET https://104.17.106.184/partners/xUJpFHN0?orientation=LANDSCAPE&audioport=phone_speaker&con=Andr… HTTP/2.0
+     << HTTP/2.0 200 OK 98b
+[00:58:50.055][127.0.0.1:49852] client connect
+[00:58:50.077][127.0.0.1:49854] client connect
+[00:58:50.104][127.0.0.1:49852] server connect 35.227.249.185:443
+[00:58:50.124][127.0.0.1:49854] server connect 35.227.249.185:443
+127.0.0.1:49846: POST https://35.227.249.185/5.0/i?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrrg6zt…
+              << 200 OK 6.8k
+127.0.0.1:49844: GET https://104.18.40.188/api/v1/products/auto_9999_90days_yearly?orientation=LANDSCAPE&audioport=p… HTTP/2.0
+     << HTTP/2.0 200 OK 335b
+127.0.0.1:49849: POST https://35.227.249.185/5.0/i?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrrg6zt…
+              << 200 OK 6.8k
+127.0.0.1:49848: GET https://99.86.102.25/sdk/uriskiplist_v2.json
+              << 200 OK 2b
+127.0.0.1:49854: POST https://35.227.249.185/5.0/i?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrrg6zt…
+              << 200 OK 5.8k
+[00:58:50.379][127.0.0.1:49800] client disconnect
+[00:58:50.383][127.0.0.1:49800] server disconnect 31.13.65.1:443
+[00:58:50.591][127.0.0.1:49807] client disconnect
+[00:58:50.594][127.0.0.1:49807] server disconnect 74.125.136.94:443
+[00:58:50.654][127.0.0.1:49815] client disconnect
+[00:58:50.656][127.0.0.1:49815] server disconnect 142.251.15.95:443
+[00:58:50.662][127.0.0.1:49832] client disconnect
+[00:58:50.663][127.0.0.1:49832] server disconnect 35.190.88.7:443
+127.0.0.1:49852: POST https://35.227.249.185/5.0/i?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrrg6zt…
+              << 200 OK 6.8k
+[00:58:50.719][127.0.0.1:49834] client disconnect
+[00:58:50.723][127.0.0.1:49834] server disconnect 13.249.59.5:443
+127.0.0.1:49826: GET https://104.17.106.184/Account.ashx?c=acceptDeviceGrant&generateAuth=true&deviceCode=C5A6590FF5… HTTP/2.0
+     << HTTP/2.0 200 OK 161b
+127.0.0.1:49826: POST https://104.17.106.184/Report.ashx?c=eventlist&id=&orientation=LANDSCAPE&audioport=phone_speake… HTTP/2.0
+     << HTTP/2.0 200 OK 104b
+[00:58:51.350][127.0.0.1:49857] client connect
+[00:58:51.375][127.0.0.1:49857] server connect 34.149.159.73:443
+[00:58:51.457][127.0.0.1:49859] client connect
+[00:58:51.469][127.0.0.1:49861] client connect
+[00:58:51.521][127.0.0.1:49859] server connect 34.149.159.73:443
+127.0.0.1:49857: POST https://34.149.159.73/4.0/pix?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrrg6z…
+              << 200 OK 213b
+[00:58:51.790][127.0.0.1:49861] server connect 34.149.159.73:443
+[00:58:51.824][127.0.0.1:49854] client disconnect
+[00:58:51.826][127.0.0.1:49854] server disconnect 35.227.249.185:443
+[00:58:51.874][127.0.0.1:49863] client connect
+[00:58:51.919][127.0.0.1:49863] server connect 34.110.179.88:443
+127.0.0.1:49861: POST https://34.149.159.73/4.0/pix?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrrg6z…
+              << 200 OK 216b
+127.0.0.1:49859: POST https://34.149.159.73/4.0/pix?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrrg6z…
+              << 200 OK 215b
+[00:58:51.981][127.0.0.1:49846] client disconnect
+[00:58:51.984][127.0.0.1:49846] server disconnect 35.227.249.185:443
+[00:58:52.044][127.0.0.1:49865] client connect
+[00:58:52.087][127.0.0.1:49867] client connect
+127.0.0.1:49863: POST https://34.110.179.88/2.0/device?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrr…
+              << 200 OK 663b
+[00:58:52.123][127.0.0.1:49849] client disconnect
+[00:58:52.125][127.0.0.1:49849] server disconnect 35.227.249.185:443
+[00:58:52.141][127.0.0.1:49865] server connect 34.110.179.88:443
+127.0.0.1:49857: POST https://34.149.159.73/4.0/pix?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrrg6z…
+              << 200 OK 214b
+[00:58:52.149][127.0.0.1:49867] server connect 34.110.179.88:443
+127.0.0.1:49865: POST https://34.110.179.88/2.0/device?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrr…
+              << 200 OK 664b
+127.0.0.1:49863: POST https://34.110.179.88/2.0/device?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrr…
+              << 200 OK 665b
+[00:58:52.333][127.0.0.1:49848] client disconnect
+[00:58:52.338][127.0.0.1:49848] server disconnect 99.86.102.25:443
+[00:58:52.343][127.0.0.1:49852] client disconnect
+[00:58:52.345][127.0.0.1:49852] server disconnect 35.227.249.185:443
+127.0.0.1:49867: POST https://34.110.179.88/2.0/device?p=1%3A96943fdea087a1d759e08734fce0068af23ef96e%3AiRzAf9B6Pagrr…
+              << 200 OK 663b
+[00:58:52.463][127.0.0.1:49861] client disconnect
+[00:58:52.467][127.0.0.1:49861] server disconnect 34.149.159.73:443
+[00:58:55.225][127.0.0.1:49770] server disconnect 18.205.118.184:443
+[00:58:59.798][127.0.0.1:49872] client connect
+[00:58:59.838][127.0.0.1:49872] server connect 99.86.74.5:443
+127.0.0.1:49872: GET https://99.86.74.5/p2?c1=19&c2=14306206&ns_ap_an=TuneIn%20Radio&ns_ap_pn=android&ns_ap_pv=10&c1…
+              << 200 OK 43b
+[00:58:59.997][127.0.0.1:49859] client disconnect
+[00:58:59.999][127.0.0.1:49859] server disconnect 34.149.159.73:443
+127.0.0.1:49826: GET https://104.17.106.184/Account.ashx?c=acceptDeviceGrant&generateAuth=true&deviceCode=C5A6590FF5… HTTP/2.0
+     << HTTP/2.0 200 OK 161b
+[00:59:01.296][127.0.0.1:49875] client connect
+[00:59:01.380][127.0.0.1:49875] server connect 64.233.185.100:443
+127.0.0.1:49875: GET https://64.233.185.100/config/app/1%3A963286039532%3Aandroid%3A66216d6e01f5a3ab?app_instance_id…
+              << 200 OK 921b
+[00:59:01.486][127.0.0.1:49857] client disconnect
+[00:59:01.489][127.0.0.1:49857] server disconnect 34.149.159.73:443
+127.0.0.1:49875: GET https://64.233.185.100/config/app/1%3A963286039532%3Aandroid%3A66216d6e01f5a3ab?app_instance_id…
+              << 200 OK 921b
+127.0.0.1:49875: POST https://64.233.185.100/a
+              << 204 No Content 0b
+127.0.0.1:49826: GET https://104.17.106.184/Account.ashx?c=acceptDeviceGrant&generateAuth=true&deviceCode=C5A6590FF5… HTTP/2.0
+     << HTTP/2.0 200 OK 161b
+[00:59:14.173][127.0.0.1:49774] server disconnect 63.140.38.117:443
+127.0.0.1:49826: GET https://104.17.106.184/Account.ashx?c=acceptDeviceGrant&generateAuth=true&deviceCode=C5A6590FF5… HTTP/2.0
+     << HTTP/2.0 200 OK 161b
+127.0.0.1:49826: GET https://104.17.106.184/Account.ashx?c=acceptDeviceGrant&generateAuth=true&deviceCode=C5A6590FF5… HTTP/2.0
+     << HTTP/2.0 200 OK 161b
+127.0.0.1:49826: GET https://104.17.106.184/Account.ashx?c=acceptDeviceGrant&generateAuth=true&deviceCode=C5A6590FF5… HTTP/2.0
+     << HTTP/2.0 200 OK 161b

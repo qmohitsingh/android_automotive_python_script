@@ -1,0 +1,230 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[02:16:40.805] HTTP(S) proxy listening at *:8080.
+[02:19:33.752][127.0.0.1:55418] client connect
+[02:19:33.764][127.0.0.1:55420] client connect
+[02:19:33.816][127.0.0.1:55418] server connect 74.125.136.94:443
+[02:19:33.819][127.0.0.1:55420] server connect 142.250.9.95:443
+[02:19:35.118][127.0.0.1:55422] client connect
+[02:19:35.122][127.0.0.1:55423] client connect
+[02:19:35.125][127.0.0.1:55424] client connect
+127.0.0.1:55418: GET https://74.125.136.94/spi/v2/platforms/android/gmp/1:17785911422:android:ce826685243f3544/setti…
+              << 200 OK 357b
+127.0.0.1:55420: POST https://142.250.9.95/v1/projects/versatile-digit-95307/installations
+              << 200 OK 484b
+[02:19:35.352][127.0.0.1:55422] server connect 134.25.4.143:443
+[02:19:35.362][127.0.0.1:55423] server connect 134.25.4.143:443
+[02:19:35.387][127.0.0.1:55424] server connect 134.25.4.143:443
+127.0.0.1:55422: GET https://134.25.4.143/v2/channels?format=json&pagination=false&liveaudiotemplateid=10
+              << 200 OK 5.4k
+127.0.0.1:55423: GET https://134.25.4.143/v2/channels?format=json&pagination=false&liveaudiotemplateid=10
+              << 200 OK 5.4k
+127.0.0.1:55424: GET https://134.25.4.143/v2/channels?format=json&pagination=false&liveaudiotemplateid=10
+              << 200 OK 5.4k
+[02:19:41.020][127.0.0.1:55422] server disconnect 134.25.4.143:443
+[02:19:41.055][127.0.0.1:55423] server disconnect 134.25.4.143:443
+[02:19:41.072][127.0.0.1:55424] server disconnect 134.25.4.143:443
+[02:19:44.655][127.0.0.1:55430] client connect
+[02:19:44.703][127.0.0.1:55430] server connect 172.217.164.46:443
+127.0.0.1:55430: GET https://172.217.164.46/config/app/1%3A17785911422%3Aandroid%3Ace826685243f3544?app_instance_id=…
+              << 200 OK 1.2k
+127.0.0.1:55430: POST https://172.217.164.46/a
+              << 204 No Content 0b
+[02:19:58.354][127.0.0.1:55435] client connect
+[02:19:58.506][127.0.0.1:55435] server connect 134.25.4.143:443
+[02:19:58.661][127.0.0.1:55437] client connect
+[02:19:58.825][127.0.0.1:55437] server connect 134.25.4.140:443
+127.0.0.1:55435: GET https://134.25.4.143/v2/scheduledepisodes/rightnow?format=json&pagination=false&channelid=132
+              << 200 OK 721b
+127.0.0.1:55437: GET https://134.25.4.140/topsy/direkt/srapi/132.hls
+              << 302 Found 145b
+[02:19:59.716][127.0.0.1:55439] client connect
+[02:19:59.738][127.0.0.1:55439] server connect 152.195.33.20:443
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1.m3u8
+              << 200 OK 227b
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000.m3u8
+              << 200 OK 4.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000-260945628.ts
+              << 200 OK 41.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000-260945629.ts
+              << 200 OK 41.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000-260945630.ts
+              << 200 OK 41.5k
+127.0.0.1:55430: POST https://172.217.164.46/a
+              << 204 No Content 0b
+[02:20:03.990][127.0.0.1:55435] server disconnect 134.25.4.143:443
+[02:20:04.521][127.0.0.1:55437] server disconnect 134.25.4.140:443
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000.m3u8
+              << 200 OK 4.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000-260945631.ts
+              << 200 OK 41.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000.m3u8
+              << 200 OK 4.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000-260945632.ts
+              << 200 OK 41.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000.m3u8
+              << 200 OK 4.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool2/p1/p1.isml/p1-audio=48000-260945633.ts
+              << 200 OK 41.5k
+[02:20:24.871][127.0.0.1:55437] server connect 134.25.4.140:443
+[02:20:25.240][127.0.0.1:55450] client connect
+[02:20:25.337][127.0.0.1:55435] server connect 134.25.4.143:443
+127.0.0.1:55437: GET https://134.25.4.140/topsy/direkt/srapi/205.hls
+              << 302 Found 151b
+[02:20:25.388][127.0.0.1:55450] server connect 134.25.4.143:443
+127.0.0.1:55435: GET https://134.25.4.143/v2/scheduledepisodes?pagination=false&format=json&channelid=132&date=2022-…
+              << 200 OK 5.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland.m3u8
+              << 200 OK 231b
+127.0.0.1:55450: GET https://134.25.4.143/v2/scheduledepisodes/rightnow?format=json&pagination=false&channelid=205
+              << 200 OK 776b
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000.m3u8
+              << 200 OK 4.6k
+127.0.0.1:55435: GET https://134.25.4.143/v2/episodes/get?format=json&ondemandaudiotemplateid=9&id=2077101
+              << 200 OK 1.4k
+127.0.0.1:55435: GET https://134.25.4.143/v2/episodes/get?format=json&ondemandaudiotemplateid=9&id=2061874
+              << 200 OK 1.9k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000-260945632.ts
+              << 200 OK 41.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000-260945633.ts
+              << 200 OK 41.5k
+127.0.0.1:55430: POST https://172.217.164.46/a
+              << 204 No Content 0b
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000-260945634.ts
+              << 200 OK 41.5k
+[02:20:30.391][127.0.0.1:55437] server disconnect 134.25.4.140:443
+[02:20:30.946][127.0.0.1:55450] server disconnect 134.25.4.143:443
+[02:20:32.303][127.0.0.1:55435] server disconnect 134.25.4.143:443
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000.m3u8
+              << 200 OK 4.6k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000-260945635.ts
+              << 200 OK 41.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000.m3u8
+              << 200 OK 4.6k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000-260945636.ts
+              << 200 OK 41.5k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000.m3u8
+              << 200 OK 4.6k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000-260945637.ts
+              << 200 OK 41.5k
+[02:20:50.473][127.0.0.1:55472] client connect
+[02:20:50.638][127.0.0.1:55472] server connect 134.25.4.143:443
+127.0.0.1:55472: GET https://134.25.4.143/v2/episodes/prioritized?format=json&size=25&page=1
+              << 200 OK 3.7k
+[02:20:51.561][127.0.0.1:55474] client connect
+[02:20:51.567][127.0.0.1:55475] client connect
+[02:20:51.588][127.0.0.1:55474] server connect 152.195.33.20:443
+[02:20:51.598][127.0.0.1:55475] server connect 152.195.33.20:443
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000.m3u8
+              << 200 OK 4.6k
+127.0.0.1:55475: GET https://152.195.33.20/images/4772/4c775e30-e258-4ec6-a2c5-079390311d6f.jpg?preset=api-fullwidth…
+              << 200 OK 43.8k
+127.0.0.1:55475: GET https://152.195.33.20/images/5413/27b2ec87-b87d-4a5b-9e95-bd0bf9ba63bb.png?preset=api-fullwidth…
+              << 200 OK 54.5k
+127.0.0.1:55475: GET https://152.195.33.20/images/2519/c3d07001-ee9c-4ee1-938e-68ec9545826f.jpg?preset=api-fullwidth…
+              << 200 OK 91.3k
+127.0.0.1:55475: GET https://152.195.33.20/images/4923/e693b39b-5ebf-4e53-a4dd-5a8942fe9b31.jpg?preset=api-fullwidth…
+              << 200 OK 40.5k
+127.0.0.1:55474: GET https://152.195.33.20/images/4916/8f80f694-6cf8-4ab9-a625-844dadd81946.jpg?preset=api-fullwidth…
+              << 200 OK 85.2k
+127.0.0.1:55475: GET https://152.195.33.20/images/909/9084bbb1-8bc4-44a1-ab44-75b43cdfb408.png?preset=api-fullwidth-…
+              << 200 OK 43.7k
+127.0.0.1:55439: GET https://152.195.33.20/pool3/p4gotland/p4gotland.isml/p4gotland-audio=48000-260945638.ts
+              << 200 OK 41.5k
+127.0.0.1:55474: GET https://152.195.33.20/images/5319/3592d8da-9e95-4f0a-a2be-20856da9daf9.jpg?preset=api-fullwidth…
+              << 200 OK 61.9k
+[02:20:52.461][127.0.0.1:55418] client disconnect
+[02:20:52.463][127.0.0.1:55418] server disconnect 74.125.136.94:443
+127.0.0.1:55475: GET https://152.195.33.20/images/1316/642c6974-4286-4311-a780-51e4dc40637c.jpg?preset=api-fullwidth…
+              << 200 OK 44.0k
+127.0.0.1:55474: GET https://152.195.33.20/images/5419/c3cd489f-d567-480e-b0e4-92034ceb7a92.jpg?preset=api-fullwidth…
+              << 200 OK 64.1k
+127.0.0.1:55475: GET https://152.195.33.20/images/5343/f07c62cb-c355-4549-84a5-f441d162b048.png?preset=api-fullwidth…
+              << 200 OK 49.4k
+[02:20:53.259][127.0.0.1:55437] server connect 134.25.4.140:443
+[02:20:53.381][127.0.0.1:55435] server connect 134.25.4.143:443
+127.0.0.1:55475: GET https://152.195.33.20/images/4947/74ce2a19-980f-4f90-a849-9f37d2b67701.png?preset=api-fullwidth…
+              << 200 OK 46.8k
+127.0.0.1:55474: GET https://152.195.33.20/images/5417/19d27a1f-ca80-440b-a701-7618ac045af2.jpg?preset=api-fullwidth…
+              << 200 OK 52.5k
+[02:20:53.693][127.0.0.1:55450] server connect 134.25.4.143:443
+127.0.0.1:55437: GET https://134.25.4.140/topsy/ljudfil/srapi/8602723.mp3?app=play&platform=android&source=srapi&cat…
+              << 302 Found 243b
+127.0.0.1:55435: GET https://134.25.4.143/v2/scheduledepisodes?pagination=false&format=json&channelid=205&date=2022-…
+              << 200 OK 3.2k
+127.0.0.1:55450: GET https://134.25.4.143/v2/episodes/get?format=json&ondemandaudiotemplateid=9&id=2077340
+              << 200 OK 712b
+[02:20:56.301][127.0.0.1:55472] server disconnect 134.25.4.143:443
+[02:20:59.028][127.0.0.1:55437] server disconnect 134.25.4.140:443
+[02:20:59.067][127.0.0.1:55435] server disconnect 134.25.4.143:443
+[02:20:59.424][127.0.0.1:55450] server disconnect 134.25.4.143:443
+127.0.0.1:55475: GET https://152.195.33.20/laddahem/podradio/2022/12/radio_sweden_pa_latt_svenska_fredag_2_december_…
+              << 200 OK 6.1m
+127.0.0.1:55430: POST https://172.217.164.46/a
+              << 204 No Content 0b
+[02:21:07.477][127.0.0.1:55475] client disconnect
+[02:21:07.480][127.0.0.1:55475] server disconnect 152.195.33.20:443
+[02:21:07.534][127.0.0.1:55437] server connect 134.25.4.140:443
+[02:21:07.817][127.0.0.1:55435] server connect 134.25.4.143:443
+127.0.0.1:55437: GET https://134.25.4.140/topsy/ljudfil/srapi/8602319.mp3?app=play&platform=android&source=srapi&cat…
+              << 302 Found 238b
+127.0.0.1:55435: GET https://134.25.4.143/v2/episodes/get?format=json&ondemandaudiotemplateid=9&id=2077420
+              << 200 OK 1.1k
+[02:21:13.235][127.0.0.1:55437] server disconnect 134.25.4.140:443
+[02:21:13.365][127.0.0.1:55435] server disconnect 134.25.4.143:443
+127.0.0.1:55474: GET https://152.195.33.20/laddahem/podradio/2022/12/sondagsintervjun_jan_leijonhielm__en_svensk_ge_…
+              << 200 OK (content missing)
+ << Client disconnected.
+[02:21:16.002][127.0.0.1:55474] server disconnect 152.195.33.20:443
+[02:21:16.003][127.0.0.1:55474] client disconnect
+[02:21:16.230][127.0.0.1:55437] server connect 134.25.4.140:443
+127.0.0.1:55437: GET https://134.25.4.140/topsy/ljudfil/srapi/8602319.mp3?app=play&platform=android&source=srapi&cat…
+              << 302 Found 238b
+[02:21:16.975][127.0.0.1:55489] client connect
+[02:21:17.010][127.0.0.1:55489] server connect 152.195.33.20:443
+[02:21:21.871][127.0.0.1:55437] server disconnect 134.25.4.140:443
+127.0.0.1:55489: GET https://152.195.33.20/laddahem/podradio/2022/12/sondagsintervjun_jan_leijonhielm__en_svensk_ge_…
+              << 200 OK (content missing)
+ << Client disconnected.
+[02:21:25.095][127.0.0.1:55489] server disconnect 152.195.33.20:443
+[02:21:25.097][127.0.0.1:55489] client disconnect
+[02:21:26.239][127.0.0.1:55437] server connect 134.25.4.140:443
+127.0.0.1:55437: GET https://134.25.4.140/topsy/ljudfil/srapi/8602319.mp3?app=play&platform=android&source=srapi&cat…
+              << 302 Found 238b
+[02:21:26.756][127.0.0.1:55494] client connect
+[02:21:26.778][127.0.0.1:55494] server connect 152.195.33.20:443
+[02:21:31.861][127.0.0.1:55437] server disconnect 134.25.4.140:443
+[02:21:33.292][127.0.0.1:55435] server connect 134.25.4.143:443
+[02:21:33.299][127.0.0.1:55437] server connect 134.25.4.140:443
+127.0.0.1:55435: GET https://134.25.4.143/v2/episodes/get?format=json&ondemandaudiotemplateid=9&id=2072705
+              << 200 OK 1003b
+127.0.0.1:55437: GET https://134.25.4.140/topsy/ljudfil/srapi/8595515.mp3?app=play&platform=android&source=srapi&cat…
+              << 302 Found 238b
+[02:21:34.247][127.0.0.1:55500] client connect
+[02:21:34.388][127.0.0.1:55500] server connect 152.195.33.20:443
+127.0.0.1:55494: GET https://152.195.33.20/laddahem/podradio/2022/12/sondagsintervjun_jan_leijonhielm__en_svensk_ge_…
+              << 200 OK (content missing)
+ << Client disconnected.
+[02:21:34.867][127.0.0.1:55494] server disconnect 152.195.33.20:443
+[02:21:34.868][127.0.0.1:55494] client disconnect
+[02:21:39.448][127.0.0.1:55435] server disconnect 134.25.4.143:443
+[02:21:39.494][127.0.0.1:55437] server disconnect 134.25.4.140:443
+127.0.0.1:55500: GET https://152.195.33.20/laddahem/podradio/2022/11/fraga_agnes_wold_agnes_wold_vi_far_rakna_med_a_…
+              << 200 OK (content missing)
+ << Client disconnected.
+[02:21:42.860][127.0.0.1:55500] server disconnect 152.195.33.20:443
+[02:21:42.862][127.0.0.1:55500] client disconnect
+[02:21:43.195][127.0.0.1:55437] server connect 134.25.4.140:443
+127.0.0.1:55437: GET https://134.25.4.140/topsy/ljudfil/srapi/8595515.mp3?app=play&platform=android&source=srapi&cat…
+              << 302 Found 238b
+[02:21:43.657][127.0.0.1:55505] client connect
+[02:21:43.697][127.0.0.1:55505] server connect 152.195.33.20:443
+[02:21:49.123][127.0.0.1:55437] server disconnect 134.25.4.140:443
+127.0.0.1:55505: GET https://152.195.33.20/laddahem/podradio/2022/11/fraga_agnes_wold_agnes_wold_vi_far_rakna_med_a_…
+              << 200 OK (content missing)
+ << Client disconnected.
+[02:21:51.806][127.0.0.1:55505] server disconnect 152.195.33.20:443
+[02:21:51.808][127.0.0.1:55505] client disconnect
+[02:21:52.961][127.0.0.1:55437] server connect 134.25.4.140:443
