@@ -1,0 +1,520 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[14:55:25.665] HTTP(S) proxy listening at *:8080.
+[14:55:25.797][127.0.0.1:58585] client connect
+[14:55:25.939][127.0.0.1:58585] server connect 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+[14:55:33.274][127.0.0.1:58593] client connect
+[14:55:33.414][127.0.0.1:58593] server connect 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+[14:55:44.257][127.0.0.1:58597] client connect
+[14:55:44.426][127.0.0.1:58597] server connect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58597: POST http://www.slacker.com/wsv1/player/simplesettings
+              << 200 OK 1.7k
+[14:55:44.968][127.0.0.1:58601] client connect
+[14:55:45.166][127.0.0.1:58601] server connect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58601: GET http://api.slacker.com/mixer/?platform=com.slacker.radio.android&timeZone=America%2FNew_York&si…
+              << 200 OK 827b
+[14:55:45.536][127.0.0.1:58606] client connect
+[14:55:45.618][127.0.0.1:58606] server connect 204.239.14.233:443
+[14:55:46.579][127.0.0.1:58608] client connect
+127.0.0.1:58606: GET https://204.239.14.233/slacker-account-service/
+              << 200 OK 243b
+[14:55:46.675][127.0.0.1:58610] client connect
+[14:55:46.698][127.0.0.1:58608] server connect 5.9.17.123:443
+127.0.0.1:58606: POST https://204.239.14.233/slacker-account-service/accounts
+              << 201 Created 146b
+[14:55:46.794][127.0.0.1:58610] server connect 5.9.17.94:443
+127.0.0.1:58606: POST https://204.239.14.233/auth/oauth/token
+              << 200  1.7k
+[14:55:46.962][127.0.0.1:58612] client connect
+[14:55:47.049][127.0.0.1:58612] server connect 204.239.14.20:443
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58608: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/session/ping?time=2022-12-05%2014…
+              << 200  2b
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58610: GET https://5.9.17.94/3.0/prod-asky01_rjzcw2ocvrd7raa36lr5mfjntu/session/ping?time=2022-12-05%2014%…
+              << 200  2b
+127.0.0.1:58612: POST https://204.239.14.20/wsv1/auth/wstokenbridge?ki=1203&si=1&ts=1670270145&sh=e4f41ee5113d801c41e…
+              << 200 OK 220b
+[14:55:47.861][127.0.0.1:58614] client connect
+[14:55:47.866][127.0.0.1:58615] client connect
+[14:55:47.947][127.0.0.1:58614] server connect 204.239.14.20:443
+[14:55:47.950][127.0.0.1:58615] server connect api.slacker.com:80 (204.239.14.38:80)
+[14:55:47.963][127.0.0.1:58620] client connect
+[14:55:47.973][127.0.0.1:58623] client connect
+[14:55:47.990][127.0.0.1:58627] client connect
+[14:55:47.998][127.0.0.1:58630] client connect
+[14:55:48.005][127.0.0.1:58634] client connect
+127.0.0.1:58601: GET http://api.slacker.com/mixer/?platform=com.slacker.radio.android&accountId=643363218&timeZone=A…
+              << 200 OK 850b
+[14:55:48.048][127.0.0.1:58638] client connect
+[14:55:48.059][127.0.0.1:58623] server connect www.slacker.com:80 (204.239.14.20:80)
+[14:55:48.075][127.0.0.1:58627] server connect www.slacker.com:80 (204.239.14.20:80)
+[14:55:48.080][127.0.0.1:58643] client connect
+127.0.0.1:58597: POST http://www.slacker.com/wsv1/player/simplesettings
+              << 200 OK 1.7k
+[14:55:48.089][127.0.0.1:58646] client connect
+127.0.0.1:58615: GET http://api.slacker.com/mixer/?platform=com.slacker.radio.android&timeZone=America%2FNew_York&si…
+              << 200 OK 827b
+[14:55:48.099][127.0.0.1:58620] server connect www.slacker.com:80 (204.239.14.20:80)
+[14:55:48.132][127.0.0.1:58634] server connect www.slacker.com:80 (204.239.14.20:80)
+[14:55:48.133][127.0.0.1:58630] server connect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1900?_rc=ae%3D1%26an%3…
+              << 200 OK 361b
+127.0.0.1:58627: GET http://www.slacker.com/wsv1/favorites/643363218
+              << 200 OK 77b
+[14:55:48.185][127.0.0.1:58643] server connect api.slacker.com:80 (204.239.14.38:80)
+[14:55:48.189][127.0.0.1:58638] server connect www.slacker.com:80 (204.239.14.20:80)
+[14:55:48.191][127.0.0.1:58646] server connect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58623: GET http://www.slacker.com/wsv1/stations/643363218?customonly=1&desc=1&img=1
+              << 200 OK 100b
+127.0.0.1:58630: GET http://www.slacker.com/wsv1/playlists/643363218?desc=true
+              << 200 OK 103b
+[14:55:48.238][127.0.0.1:58606] client disconnect
+[14:55:48.241][127.0.0.1:58606] server disconnect 204.239.14.233:443
+127.0.0.1:58646: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1901?_rc=ae%3D1%26an%3…
+              << 200 OK 370b
+127.0.0.1:58638: GET http://www.slacker.com/xslte/activityDayPartTree?domain=www.slacker.com&day=1&time=1455
+              << 200 OK 2.0k
+[14:55:48.296][127.0.0.1:58612] client disconnect
+[14:55:48.298][127.0.0.1:58612] server disconnect 204.239.14.20:443
+[14:55:48.301][127.0.0.1:58615] client disconnect
+[14:55:48.304][127.0.0.1:58615] server disconnect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58620: GET http://www.slacker.com/wsv1/stationbuilder?favs=true
+              << 200 OK 704b
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1900/categories?_rc=ae…
+              << 200 OK 1.3k
+[14:55:48.320][127.0.0.1:58627] client disconnect
+[14:55:48.322][127.0.0.1:58627] server disconnect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/stationordering/643363218
+              << 200 OK 126b
+[14:55:48.336][127.0.0.1:58623] client disconnect
+[14:55:48.339][127.0.0.1:58623] server disconnect www.slacker.com:80 (204.239.14.20:80)
+[14:55:48.346][127.0.0.1:58630] client disconnect
+[14:55:48.349][127.0.0.1:58630] server disconnect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58643: GET http://api.slacker.com/mixer/home/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av…
+              << 200 OK 2.8k
+127.0.0.1:58634: GET http://www.slacker.com/meta/hosts.json?client=androidautomotive&site=slacker
+              << 200 OK 29.0k
+[14:55:48.368][127.0.0.1:58646] client disconnect
+[14:55:48.370][127.0.0.1:58646] server disconnect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58614: GET https://204.239.14.20/wsv1/userpolicy
+              << 200 OK 21.3k
+[14:55:48.464][127.0.0.1:58638] client disconnect
+[14:55:48.466][127.0.0.1:58638] server disconnect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/recentlyplayed/643363218?items=20
+              << 200 OK 73b
+[14:55:48.529][127.0.0.1:58620] client disconnect
+[14:55:48.531][127.0.0.1:58620] server disconnect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1901/categories?_rc=ae…
+              << 200 OK 3.3k
+127.0.0.1:58597: GET http://www.slacker.com/xslte/stationFull?sid=stations%2F643363218%2F42&domain=www.slacker.com&s…
+              << 200 OK 13.5k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/?platform=com.slacker.radio.android&territory=US&timeZone=America%…
+              << 200 OK 827b
+127.0.0.1:58634: GET http://www.slacker.com/wsv1/stations/643363218?customonly=1&desc=1&img=1
+              << 200 OK 488b
+127.0.0.1:58643: GET http://api.slacker.com/mixer/?platform=com.slacker.radio.android&accountId=643363218&territory=…
+              << 200 OK 850b
+[14:55:49.181][127.0.0.1:58652] client connect
+[14:55:49.184][127.0.0.1:58655] client connect
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1911/stations?_rc=ae%3…
+              << 200 OK 607b
+127.0.0.1:58643: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1901?_rc=ae%3D1%26an%3…
+              << 200 OK 370b
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/stationordering/643363218
+              << 200 OK 126b
+[14:55:49.269][127.0.0.1:58652] server connect api.slacker.com:80 (204.239.14.38:80)
+[14:55:49.272][127.0.0.1:58655] server connect api.slacker.com:80 (204.239.14.38:80)
+[14:55:49.323][127.0.0.1:58660] client connect
+127.0.0.1:58652: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1900?_rc=ae%3D1%26an%3…
+              << 200 OK 361b
+[14:55:49.352][127.0.0.1:58660] server connect 23.79.36.223:443
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1907/stations?_rc=ae%3…
+              << 200 OK 631b
+127.0.0.1:58655: GET http://api.slacker.com/mixer/home/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av…
+              << 200 OK 2.8k
+127.0.0.1:58614: GET https://204.239.14.20/wsv1/account/643363218
+              << 200 OK 211b
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/session/peek?sid=stations%2F643363218%2F42&ul=0&aid=643363218&clien…
+              << 200 OK 394b
+127.0.0.1:58643: GET http://api.slacker.com/mixer/?platform=com.android.car.media&accountId=643363218&territory=US&t…
+              << 200 OK 865b
+[14:55:49.480][127.0.0.1:58634] client disconnect
+[14:55:49.482][127.0.0.1:58634] server disconnect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/2180/stations?_rc=ae%3…
+              << 200 OK 618b
+[14:55:49.523][127.0.0.1:58652] client disconnect
+[14:55:49.527][127.0.0.1:58652] server disconnect api.slacker.com:80 (204.239.14.38:80)
+[14:55:49.629][127.0.0.1:58662] client connect
+127.0.0.1:58601: GET http://api.slacker.com/mixer/nav/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av%…
+              << 200 OK 364b
+127.0.0.1:58643: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/2181/stations?_rc=ae%3…
+              << 200 OK 616b
+[14:55:49.666][127.0.0.1:58662] server connect 23.79.36.223:443
+127.0.0.1:58601: GET http://api.slacker.com/mixer/nav/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av%…
+              << 200 OK 364b
+127.0.0.1:58655: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1940/stations?_rc=ae%3…
+              << 200 OK 615b
+[14:55:49.828][127.0.0.1:58664] client connect
+127.0.0.1:58643: GET http://api.slacker.com/mixer/nav/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av%…
+              << 200 OK 364b
+127.0.0.1:58662: GET https://23.79.36.223/isv1/album/v865d290bd0abe0e3/17995868/android/2/fill/5,0/375.jpg
+              << 200 OK 29.1k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v0000184a0ff8478/42/android/2/fill/5,0/375.jpg
+              << 200 OK 56.2k
+[14:55:49.930][127.0.0.1:58664] server connect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1909/stations?_rc=ae%3…
+              << 200 OK 616b
+127.0.0.1:58664: GET http://api.slacker.com/mixer/nav/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av%…
+              << 200 OK 364b
+127.0.0.1:58643: GET http://api.slacker.com/mixer/home/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av…
+              << 200 OK 5.4k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/album/v865d290bd0abe0e3/17995868/android/2/fill/5,0/640.jpg
+              << 200 OK 127k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1980/stations?_rc=ae%3…
+              << 200 OK 616b
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1912/stations?_rc=ae%3…
+              << 200 OK 605b
+[14:55:50.285][127.0.0.1:58614] client disconnect
+[14:55:50.287][127.0.0.1:58614] server disconnect 204.239.14.20:443
+127.0.0.1:58660: GET https://23.79.36.223/isv1/icon/v0000180673ea380/1360/android/2/fit/center/1,0/100.png
+              << 200 OK 820b
+127.0.0.1:58662: GET https://23.79.36.223/isv1/icon/v0000180673ea380/1381/android/2/fit/center/1,0/100.png
+              << 200 OK 1.3k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1906/stations?_rc=ae%3…
+              << 200 OK 1.1k
+127.0.0.1:58643: GET http://api.slacker.com/mixer/home/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av…
+              << 200 OK 5.4k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/icon/v0000180673ea380/1363/android/2/fit/center/1,0/100.png
+              << 200 OK 2.3k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/icon/v0000180673ea380/1380/android/2/fit/center/1,0/100.png
+              << 200 OK 1.6k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v0000184e14ca358/20989/android/2/fill/5,0/640.jpg
+              << 200 OK 196k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/station/v0000182f0205cc8/873/android/2/fill/5,0/640.jpg
+              << 200 OK 251k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1936/stations?_rc=ae%3…
+              << 200 OK 25.9k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v0000184d7002dc0/18121/android/2/fill/5,0/640.jpg
+              << 200 OK 293k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/station/v000017e7a13e800/1334/android/2/fill/5,0/640.jpg
+              << 200 OK 236k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v0000184e371f458/13636/android/2/fill/5,0/640.jpg
+              << 200 OK 280k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v000017e7a13e800/1335/android/2/fill/5,0/640.jpg
+              << 200 OK 249k
+[14:55:52.089][127.0.0.1:58608] server disconnect 5.9.17.123:443
+[14:55:52.173][127.0.0.1:58610] server disconnect 5.9.17.94:443
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1903/stations?_rc=ae%3…
+              << 200 OK 26.6k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v0000184e14ca358/20989/android/2/fill/5,0/375.jpg
+              << 200 OK 51.5k
+127.0.0.1:58597: GET http://www.slacker.com/xslte/stationFull?sid=stations%2F643363218%2F20989&domain=www.slacker.co…
+              << 200 OK 7.0k
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/session/stop?sid=stations%2F643363218%2F20989&aid=643363218&ul=0&cl…
+              << 200 OK 105b
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/session/next2?sid=stations%2F643363218%2F20989&ul=0&aid=643363218&c…
+              << 200 OK 1006b
+127.0.0.1:58660: GET https://23.79.36.223/isv1/album/vf0a294623182a903/18065123/android/2/fill/5,0/375.jpg
+              << 200 OK 51.5k
+[14:55:55.032][127.0.0.1:58669] client connect
+127.0.0.1:58662: GET https://23.79.36.223/isv1/album/vf0a294623182a903/18065123/android/2/fill/5,0/640.jpg
+              << 200 OK 196k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1905/stations?_rc=ae%3…
+              << 200 OK 1.1k
+[14:55:55.089][127.0.0.1:58669] server connect 23.79.36.223:443
+127.0.0.1:58669: GET https://23.79.36.223/transcodings/bbi/djmusic/spot/51/52/m4a1_64/77785251.m4a?e=1670271354&rnd=…
+              << 200 OK 538k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1640/stations?_rc=ae%3…
+              << 200 OK 12.8k
+[14:55:56.889][127.0.0.1:58672] client connect
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/2301/stations?_rc=ae%3…
+              << 200 OK 4.9k
+127.0.0.1:58597: GET http://www.slacker.com/beacon/firstTrackStarted?status=install
+              << 200 OK 3b
+[14:55:56.986][127.0.0.1:58672] server connect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58672: POST http://www.slacker.com/bbu/post
+              << 200 OK 22b
+[14:55:57.154][127.0.0.1:58655] client disconnect
+[14:55:57.157][127.0.0.1:58655] server disconnect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/2100/stations?_rc=ae%3…
+              << 200 OK 2.1k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1935/stations?_rc=ae%3…
+              << 200 OK 9.1k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/2020/stations?_rc=ae%3…
+              << 200 OK 1.5k
+127.0.0.1:58601: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1904/stations?_rc=ae%3…
+              << 200 OK 9.1k
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/event/pause?aid=643363218&sid=stations%2F643363218%2F20989
+              << 200 OK 105b
+127.0.0.1:58660: GET https://23.79.36.223/isv1/album/vd7b66081c421b951/17725908/android/2/fill/5,0/375.jpg
+              << 200 OK 48.2k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/album/vd7b66081c421b951/17725908/android/2/fill/5,0/640.jpg
+              << 200 OK 200k
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/session/next2?sid=stations%2F643363218%2F20989&ul=0&aid=643363218&c…
+              << 200 OK 1.0k
+127.0.0.1:58669: GET https://23.79.36.223/transcodings/v18097f3322e/sny/2022/04/28/batch_20220428_30/A10301A00047002…
+              << 200 OK 1.4m
+[14:55:59.638][127.0.0.1:58676] client connect
+[14:55:59.669][127.0.0.1:58679] client connect
+127.0.0.1:58597: GET http://www.slacker.com/xslte/activityDayPartTree?domain=www.slacker.com&day=1&time=1455
+              << 200 OK 2.0k
+[14:55:59.723][127.0.0.1:58682] client connect
+127.0.0.1:58672: GET http://www.slacker.com/wsv1/stations/643363218?customonly=1&desc=1&img=1
+              << 200 OK 488b
+[14:55:59.862][127.0.0.1:58676] server connect www.slacker.com:80 (204.239.14.20:80)
+[14:55:59.946][127.0.0.1:58679] server connect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58676: GET http://www.slacker.com/wsv1/stationbuilder?favs=true
+              << 200 OK 135b
+[14:55:59.992][127.0.0.1:58682] server connect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/stationordering/643363218
+              << 200 OK 126b
+[14:56:00.037][127.0.0.1:58664] client disconnect
+[14:56:00.039][127.0.0.1:58664] server disconnect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58679: GET http://www.slacker.com/wsv1/favorites/643363218
+              << 200 OK 77b
+[14:56:00.054][127.0.0.1:58643] client disconnect
+[14:56:00.057][127.0.0.1:58643] server disconnect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58682: GET http://www.slacker.com/wsv1/playlists/643363218?desc=true
+              << 200 OK 103b
+[14:56:00.096][127.0.0.1:58601] client disconnect
+[14:56:00.099][127.0.0.1:58601] server disconnect api.slacker.com:80 (204.239.14.38:80)
+[14:56:10.534][127.0.0.1:58691] client connect
+[14:56:10.628][127.0.0.1:58691] server connect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58691: GET http://api.slacker.com/mixer/nav/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%26av%…
+              << 200 OK 364b
+[14:56:10.729][127.0.0.1:58672] client disconnect
+[14:56:10.732][127.0.0.1:58672] server disconnect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58691: GET http://api.slacker.com/mixer/search-browse/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomo…
+              << 200 OK 1.5k
+127.0.0.1:58691: GET http://api.slacker.com/mixer/search-browse/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomo…
+              << 200 OK 1.5k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01b2d0/1902/android/2/fill/5,0/640.jpg
+              << 200 OK 157k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d019390/1901/android/2/fill/5,0/640.jpg
+              << 200 OK 191k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/stationCategory/v000017d9bcc0578/2220/android/2/fill/5,0/640.jpg
+              << 200 OK 146k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01b2d0/1938/android/2/fill/5,0/640.jpg
+              << 200 OK 92.3k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01b2d0/1930/android/2/fill/5,0/640.jpg
+              << 200 OK 298k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01b2d0/1202/android/2/fill/5,0/640.jpg
+              << 200 OK 168k
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58691: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218?_rc=ae%3D1%26an%3Dandr…
+              << 200 OK 350b
+127.0.0.1:58691: GET http://api.slacker.com/mixer/podcasts/slacker/US/643363218?_rc=ae%3D1%26an%3Dandroidautomotive%…
+              << 200 OK 57.4k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/podcastFeed/v3ebca055041b141f/namaste-bitches/android/2/fill/5,0/640.…
+              << 200 OK 199k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/podcastFeed/v4b6f37544afe7689/its-not-only-football-friday-night-ligh…
+              << 200 OK 233k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/podcastFeed/vff62fd61e1c24410/adam_carolla/android/2/fill/5,0/640.jpg
+              << 200 OK 82.8k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/podcastFeed/vb7a0820034eed9d/true-crime-all-the-time-unsolved/android…
+              << 200 OK 201k
+127.0.0.1:58662: GET https://23.79.36.223/isv1/podcastFeed/vf467f747d68efbcc/morning-after-with-kelly-stafford/andro…
+              << 200 OK 224k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/podcastFeed/v29ea1c1e311e5f7f/victory-the-podcast/android/2/fill/5,0/…
+              << 200 OK 152k
+127.0.0.1:58691: GET http://api.slacker.com/mixer/lookup/slacker/US/643363218?type=podcast&id=its-not-only-football-…
+              << 302 Found 0b
+[14:56:19.886][127.0.0.1:58691] client disconnect
+[14:56:19.888][127.0.0.1:58691] server disconnect api.slacker.com:80 (204.239.14.38:80)
+[14:56:19.913][127.0.0.1:58696] client connect
+[14:56:20.002][127.0.0.1:58696] server connect api.slacker.com:80 (204.239.14.38:80)
+127.0.0.1:58696: GET http://api.slacker.com/mixer/catalog/SLACKER/US/643363218/podcasts/its-not-only-football-friday…
+              << 200 OK 926b
+127.0.0.1:58696: GET http://api.slacker.com/mixer/catalog/SLACKER/US/643363218/podcasts/its-not-only-football-friday…
+              << 200 OK 2.8k
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/event/pause?aid=643363218&sid=stations%2F643363218%2F20989
+              << 200 OK 105b
+127.0.0.1:58669: GET https://23.79.36.223/transcodings/v17ec2d37a89/umg/2022/01/30/global_20220130_26/00888072412569…
+              << 200 OK 1.6m
+[14:56:23.384][127.0.0.1:58701] client connect
+[14:56:23.470][127.0.0.1:58701] server connect 52.41.23.227:443
+127.0.0.1:58701: GET https://52.41.23.227/video/podcasts/episodes/fb6e29fa-bdd8-4c61-a99c-1b3efd712a70/content
+              << 200  1.4k
+[14:56:24.158][127.0.0.1:58676] client disconnect
+[14:56:24.163][127.0.0.1:58676] server disconnect www.slacker.com:80 (204.239.14.20:80)
+127.0.0.1:58701: GET https://52.41.23.227/video/podcasts/episodes/fb6e29fa-bdd8-4c61-a99c-1b3efd712a70/content
+              << 200  1.4k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/podcastFeed/v4b6f37544afe7689/its-not-only-football-friday-night-ligh…
+              << 200 OK 233k
+[14:56:24.556][127.0.0.1:58703] client connect
+[14:56:24.639][127.0.0.1:58703] server connect 54.70.93.169:443
+127.0.0.1:58703: GET https://54.70.93.169/redirect.mp3/pdst.fm/e/chrt.fm/track/E2G895/verifi.podscribe.com/rss/p/pod…
+              << 302 Found 326b
+[14:56:24.997][127.0.0.1:58705] client connect
+[14:56:25.011][127.0.0.1:58705] server connect 216.239.36.21:443
+127.0.0.1:58705: GET https://216.239.36.21/e/chrt.fm/track/E2G895/verifi.podscribe.com/rss/p/podone.noxsolutions.com…
+              << 302 Found 203b
+[14:56:25.186][127.0.0.1:58707] client connect
+[14:56:25.216][127.0.0.1:58707] server connect 13.224.214.102:443
+127.0.0.1:58707: GET https://13.224.214.102/track/E2G895/verifi.podscribe.com/rss/p/podone.noxsolutions.com/media/23…
+              << 302 FOUND 0b
+[14:56:25.360][127.0.0.1:58662] client disconnect
+[14:56:25.363][127.0.0.1:58662] server disconnect 23.79.36.223:443
+[14:56:25.459][127.0.0.1:58709] client connect
+[14:56:25.484][127.0.0.1:58709] server connect 54.90.160.21:443
+127.0.0.1:58709: GET https://54.90.160.21/rss/p/podone.noxsolutions.com/media/2327/episodes/FNL_Ep4-EWO_y8ce.mp3?par…
+              << 302 Moved Temporarily 0b
+[14:56:25.623][127.0.0.1:58669] client disconnect
+[14:56:25.626][127.0.0.1:58669] server disconnect 23.79.36.223:443
+[14:56:25.813][127.0.0.1:58712] client connect
+[14:56:25.837][127.0.0.1:58712] server connect 152.195.33.155:443
+127.0.0.1:58712: GET https://152.195.33.155/media/2327/episodes/FNL_Ep4-EWO_y8ce.mp3?client=androidautomotive&partne…
+              << 200 OK 23.8m
+127.0.0.1:58701: POST https://52.41.23.227/pingback/events
+              << 202  0b
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58701: POST https://52.41.23.227/pingback/foregroundPingbacks
+              << 202  0b
+127.0.0.1:58701: POST https://52.41.23.227/pingback/foregroundPingbacks
+              << 202  0b
+127.0.0.1:58593 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9bcc0578/1924/android/2/fill/5,0/640.jpg
+              << 200 OK 288k
+[14:57:10.364][127.0.0.1:58724] client connect
+[14:57:10.393][127.0.0.1:58724] server connect 23.79.36.223:443
+127.0.0.1:58593 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d019390/1925/android/2/fill/5,0/640.jpg
+              << 200 OK 191k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01c270/1931/android/2/fill/5,0/640.jpg
+              << 200 OK 172k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01c270/1203/android/2/fill/5,0/640.jpg
+              << 200 OK 84.5k
+[14:57:10.728][127.0.0.1:58703] client disconnect
+[14:57:10.730][127.0.0.1:58703] server disconnect 54.70.93.169:443
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d019390/1921/android/2/fill/5,0/640.jpg
+              << 200 OK 75.6k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/stationCategory/v000017d9bcc0578/1680/android/2/fill/5,0/640.jpg
+              << 200 OK 136k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01c270/1939/android/2/fill/5,0/640.jpg
+              << 200 OK 130k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/stationCategory/v000017d9d019390/1929/android/2/fill/5,0/640.jpg
+              << 200 OK 154k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9bcc0578/1204/android/2/fill/5,0/640.jpg
+              << 200 OK 133k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01c270/1927/android/2/fill/5,0/640.jpg
+              << 200 OK 118k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9bcc0578/1208/android/2/fill/5,0/640.jpg
+              << 200 OK 189k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/stationCategory/v000017d9bcc0578/1932/android/2/fill/5,0/640.jpg
+              << 200 OK 164k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01c270/1207/android/2/fill/5,0/640.jpg
+              << 200 OK 107k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/stationCategory/v000017d9bcc0578/2080/android/2/fill/5,0/640.jpg
+              << 200 OK 170k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9bcc0578/1928/android/2/fill/5,0/640.jpg
+              << 200 OK 86.0k
+127.0.0.1:58701: POST https://52.41.23.227/pingback/foregroundPingbacks
+              << 202  0b
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01c270/1923/android/2/fill/5,0/640.jpg
+              << 200 OK 101k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01b2d0/1926/android/2/fill/5,0/640.jpg
+              << 200 OK 92.3k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/stationCategory/v000017d9d01b2d0/1922/android/2/fill/5,0/640.jpg
+              << 200 OK 101k
+127.0.0.1:58696: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218?_rc=ae%3D1%26an%3Dandr…
+              << 200 OK 353b
+127.0.0.1:58696: GET http://api.slacker.com/mixer/stationtree/slacker/US/categories/643363218/1928/stations?_rc=ae%3…
+              << 200 OK 1.1k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/station/v0000184a62fbbe8/692/android/2/fill/5,0/640.jpg
+              << 200 OK 132k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v00001849b54d960/8936/android/2/fill/5,0/640.jpg
+              << 200 OK 162k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v0000184d5642548/12096/android/2/fill/5,0/640.jpg
+              << 200 OK 228k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/station/v000017d920584d8/18240/android/2/fill/5,0/640.jpg
+              << 200 OK 230k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/station/v00001849b572b20/735/android/2/fill/5,0/640.jpg
+              << 200 OK 147k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v000017d9391e198/19229/android/2/fill/5,0/640.jpg
+              << 200 OK 194k
+127.0.0.1:58701: POST https://52.41.23.227/pingback/events
+              << 202  0b
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/session/stop?sid=stations%2F643363218%2F20989&aid=643363218&ul=0&cl…
+              << 200 OK 105b
+127.0.0.1:58660: GET https://23.79.36.223/isv1/station/v0000184a62fbbe8/692/android/2/fill/5,0/375.jpg
+              << 200 OK 27.3k
+127.0.0.1:58679: GET http://www.slacker.com/xslte/stationFull?sid=stations%2F643363218%2F692&domain=www.slacker.com&…
+              << 200 OK 11.3k
+127.0.0.1:58701: POST https://52.41.23.227/pingback/events
+              << 202  0b
+[14:57:22.680][127.0.0.1:58712] client disconnect
+[14:57:22.686][127.0.0.1:58712] server disconnect 152.195.33.155:443
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/session/next2?sid=stations%2F643363218%2F692&ul=0&aid=643363218&cli…
+              << 200 OK 1.0k
+[14:57:23.176][127.0.0.1:58730] client connect
+[14:57:23.207][127.0.0.1:58730] server connect 23.79.36.223:443
+127.0.0.1:58660: GET https://23.79.36.223/isv1/album/va3d3a340e742cb1/16837975/android/2/fill/5,0/375.jpg
+              << 200 OK 54.9k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/album/va3d3a340e742cb1/16837975/android/2/fill/5,0/640.jpg
+              << 200 OK 273k
+127.0.0.1:58730: GET https://23.79.36.223/transcodings/v17c18f6f8dd/umg/2021/09/23/global_20210923_111/0060243886384…
+              << 200 OK 1.2m
+[14:57:24.184][127.0.0.1:58705] client disconnect
+[14:57:24.187][127.0.0.1:58705] server disconnect 216.239.36.21:443
+[14:57:25.642][127.0.0.1:58709] server disconnect 54.90.160.21:443
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/event/pause?aid=643363218&sid=stations%2F643363218%2F692
+              << 200 OK 105b
+127.0.0.1:58730: GET https://23.79.36.223/transcodings/v1502973b4e8/xxa/radiodj/2015/10/20151002/14604601/m4a1_64/01…
+              << 200 OK 1.7m
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/session/next2?sid=stations%2F643363218%2F692&ul=0&aid=643363218&cli…
+              << 200 OK 1.0k
+127.0.0.1:58724: GET https://23.79.36.223/isv1/album/v430715c235e27daa/10578901/android/2/fill/5,0/640.jpg
+              << 200 OK 83.7k
+127.0.0.1:58660: GET https://23.79.36.223/isv1/album/v430715c235e27daa/10578901/android/2/fill/5,0/375.jpg
+              << 200 OK 21.4k
+127.0.0.1:58597: GET http://www.slacker.com/wsv1/event/pause?aid=643363218&sid=stations%2F643363218%2F692
+              << 200 OK 105b
+127.0.0.1:58730: GET https://23.79.36.223/transcodings/v174fd669718/sny/2020/10/06/batch_20201006_13/A10301A00009143…
+              << 200 OK 2.3m
+127.0.0.1:58585 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58585 <- tcp <- 5.9.17.94:5222

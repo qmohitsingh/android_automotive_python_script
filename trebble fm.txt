@@ -1,0 +1,136 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[15:08:10.513] HTTP(S) proxy listening at *:8080.
+[15:08:10.969][127.0.0.1:60970] client connect
+[15:08:11.160][127.0.0.1:60970] server connect 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+[15:08:15.026][127.0.0.1:60996] client connect
+[15:08:15.043][127.0.0.1:60996] server connect 23.208.129.36:443
+[15:08:15.736][127.0.0.1:60998] client connect
+[15:08:15.738][127.0.0.1:61002] client connect
+[15:08:15.741][127.0.0.1:61003] client connect
+[15:08:15.767][127.0.0.1:61003] server connect 107.178.240.159:443
+[15:08:15.770][127.0.0.1:61002] server connect 151.101.130.133:443
+[15:08:15.872][127.0.0.1:61002] Client TLS handshake failed. The client does not trust the proxy's certificate for config2.mparticle.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))
+[15:08:15.876][127.0.0.1:60998] server connect 5.9.17.94:5222
+[15:08:15.878][127.0.0.1:61002] client disconnect
+[15:08:15.885][127.0.0.1:61002] server disconnect 151.101.130.133:443
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:61003: GET https://107.178.240.159/decide?version=1&lib=android&token=6d00748f1fa9935eb56b7b2ed66f4b53&dis…
+              << 200 OK 87b
+127.0.0.1:60996: GET https://23.208.129.36/datafiles/QNGjJNukvm7thWRvFePfY.json
+              << 200 OK 18.2k
+[15:08:15.979][127.0.0.1:61007] client connect
+[15:08:15.982][127.0.0.1:61008] client connect
+[15:08:15.998][127.0.0.1:61008] server connect 130.211.34.183:443
+[15:08:16.010][127.0.0.1:61007] server connect 146.75.30.133:443
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+[15:08:16.091][127.0.0.1:61007] Client TLS handshake failed. The client does not trust the proxy's certificate for identity.mparticle.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))
+[15:08:16.093][127.0.0.1:61007] client disconnect
+[15:08:16.099][127.0.0.1:61007] server disconnect 146.75.30.133:443
+[15:08:16.100][127.0.0.1:61011] client connect
+[15:08:16.105][127.0.0.1:61011] error establishing server connection: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+127.0.0.1:61011: CONNECT 2a04:4e42:77::645:443
+              << 502 Bad Gateway 298b
+[15:08:16.113][127.0.0.1:61011] client disconnect
+[15:08:16.123][127.0.0.1:61013] client connect
+[15:08:16.158][127.0.0.1:61013] server connect 146.75.30.133:443
+127.0.0.1:61008: POST https://130.211.34.183/track?ip=1
+              << 200 OK 1b
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+[15:08:16.231][127.0.0.1:61013] Client TLS handshake failed. The client does not trust the proxy's certificate for identity.mparticle.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))
+[15:08:16.234][127.0.0.1:61013] client disconnect
+[15:08:16.236][127.0.0.1:61013] server disconnect 146.75.30.133:443
+[15:08:16.238][127.0.0.1:61018] client connect
+[15:08:16.273][127.0.0.1:61018] server connect 146.75.30.133:443
+127.0.0.1:61008: POST https://130.211.34.183/track?ip=1
+              << 200 OK 1b
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+[15:08:16.378][127.0.0.1:61018] Client TLS handshake failed. The client does not trust the proxy's certificate for identity.mparticle.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))
+[15:08:16.379][127.0.0.1:61018] client disconnect
+[15:08:16.385][127.0.0.1:61018] server disconnect 146.75.30.133:443
+127.0.0.1:61003: GET https://107.178.240.159/decide?version=1&lib=android&token=6d00748f1fa9935eb56b7b2ed66f4b53&dis…
+              << 200 OK 87b
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:61003: GET https://107.178.240.159/decide?version=1&lib=android&token=6d00748f1fa9935eb56b7b2ed66f4b53&dis…
+              << 200 OK 87b
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+[15:08:31.535][127.0.0.1:61078] client connect
+[15:08:31.549][127.0.0.1:61078] server connect 64.233.185.94:443
+127.0.0.1:61078: POST https://64.233.185.94/v1/firelog/legacy/batchlog
+              << 200 OK 140b
+[15:08:33.473][127.0.0.1:61078] client disconnect
+[15:08:33.478][127.0.0.1:61078] server disconnect 64.233.185.94:443
+[15:08:53.735][127.0.0.1:61166] client connect
+[15:08:53.765][127.0.0.1:61166] server connect 54.83.6.65:443
+127.0.0.1:61166: POST https://54.83.6.65/generatePlaylistCapsuleFeedForUserId
+              << 401 Unauthorized 58b
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:61008: POST https://130.211.34.183/track?ip=1
+              << 200 OK 1b
+127.0.0.1:61003: GET https://107.178.240.159/decide?version=1&lib=android&token=6d00748f1fa9935eb56b7b2ed66f4b53&dis…
+              << 200 OK 87b
+[15:09:54.481][127.0.0.1:61166] server disconnect 54.83.6.65:443
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+[15:10:16.607][127.0.0.1:61482] client connect
+[15:10:16.732][127.0.0.1:61482] server connect 5.9.17.94:443
+[15:10:16.805][127.0.0.1:61484] client connect
+[15:10:16.920][127.0.0.1:61484] server connect 5.9.17.123:443
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222
+127.0.0.1:61482: GET https://5.9.17.94/3.0/prod-asky01_rjzcw2ocvrd7raa36lr5mfjntu/session/ping?time=2022-12-05%2015%…
+              << 200  2b
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:61484: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/session/ping?time=2022-12-05%2015…
+              << 200  2b
+[15:10:22.240][127.0.0.1:61482] server disconnect 5.9.17.94:443
+[15:10:22.328][127.0.0.1:61484] server disconnect 5.9.17.123:443
+127.0.0.1:60970 -> tcp -> 5.9.17.123:5222
+127.0.0.1:60970 <- tcp <- 5.9.17.123:5222
+127.0.0.1:60998 -> tcp -> 5.9.17.94:5222
+127.0.0.1:60998 <- tcp <- 5.9.17.94:5222

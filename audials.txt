@@ -1,0 +1,586 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[14:33:54.285] HTTP(S) proxy listening at *:8080.
+[14:35:04.760][127.0.0.1:57719] client connect
+[14:35:04.762][127.0.0.1:57719] client disconnect
+[14:37:20.243][127.0.0.1:57797] client connect
+[14:37:21.767][127.0.0.1:57800] client connect
+[14:37:21.774][127.0.0.1:57801] client connect
+[14:37:21.786][127.0.0.1:57800] server connect 172.217.10.100:443
+[14:37:21.813][127.0.0.1:57801] server connect connectivitycheck.gstatic.com:80 (142.251.15.94:80)
+127.0.0.1:57801: GET http://connectivitycheck.gstatic.com/generate_204
+              << 204 No Content 0b
+[14:37:21.827][127.0.0.1:57801] server disconnect connectivitycheck.gstatic.com:80 (142.251.15.94:80)
+[14:37:21.828][127.0.0.1:57801] client disconnect
+[14:37:22.760][127.0.0.1:57797] error establishing server connection: [WinError 1225] The remote computer refused the network connection
+127.0.0.1:57797: CONNECT 130.127.255.250:853
+              << 502 Bad Gateway 241b
+[14:37:22.808][127.0.0.1:57807] client connect
+[14:37:22.830][127.0.0.1:57797] client disconnect
+[14:37:22.839][127.0.0.1:57807] server connect 172.217.10.110:443
+127.0.0.1:57800: GET https://172.217.10.100/generate_204
+              << 204 No Content 0b
+[14:37:22.965][127.0.0.1:57800] server disconnect 172.217.10.100:443
+[14:37:22.967][127.0.0.1:57800] client disconnect
+[14:37:23.037][127.0.0.1:57809] client connect
+[14:37:23.050][127.0.0.1:57809] server connect 64.233.177.95:443
+[14:37:23.085][127.0.0.1:57811] client connect
+127.0.0.1:57807: POST https://172.217.10.110/a
+              << 204 No Content 0b
+127.0.0.1:57809: POST https://64.233.177.95/v1/projects/963286039532/namespaces/fireperf:fetch
+              << 200 OK 510b
+[14:37:25.152][127.0.0.1:57811] error establishing server connection: [WinError 1225] The remote computer refused the network connection
+127.0.0.1:57811: CONNECT 130.127.255.250:853
+              << 502 Bad Gateway 241b
+[14:37:25.160][127.0.0.1:57811] client disconnect
+[14:37:25.998][127.0.0.1:57815] client connect
+[14:37:26.017][127.0.0.1:57815] server connect 142.250.189.99:443
+[14:37:27.522][127.0.0.1:57809] client disconnect
+[14:37:27.524][127.0.0.1:57809] server disconnect 64.233.177.95:443
+127.0.0.1:57815: POST https://142.250.189.99/v1/firelog/legacy/batchlog
+              << 200 OK 140b
+[14:37:33.900][127.0.0.1:57823] client connect
+[14:37:33.915][127.0.0.1:57823] server connect 172.217.10.99:443
+127.0.0.1:57823: GET https://172.217.10.99/spi/v2/platforms/android/gmp/1:115590657931:android:64ef2486d2c8bc97/sett…
+              << 200 OK 376b
+[14:37:38.977][127.0.0.1:57829] client connect
+[14:37:38.993][127.0.0.1:57829] server connect 172.217.10.110:443
+[14:37:39.840][127.0.0.1:57831] client connect
+[14:37:39.851][127.0.0.1:57831] server connect 31.13.88.1:443
+[14:37:39.864][127.0.0.1:57833] client connect
+[14:37:39.865][127.0.0.1:57834] client connect
+[14:37:39.885][127.0.0.1:57833] server connect 31.13.88.1:443
+[14:37:39.887][127.0.0.1:57834] server connect 31.13.88.1:443
+127.0.0.1:57829: GET https://172.217.10.110/config/app/1%3A17785911422%3Aandroid%3Ace826685243f3544?app_instance_id=…
+              << 200 OK 1.2k
+127.0.0.1:57831: GET https://31.13.88.1/v12.0/157627720928660?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_conte…
+              << 200 OK 614b
+127.0.0.1:57834: GET https://31.13.88.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+127.0.0.1:57833: GET https://31.13.88.1/v12.0/157627720928660?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_conte…
+              << 200 OK 614b
+127.0.0.1:57829: POST https://172.217.10.110/a
+              << 204 No Content 0b
+127.0.0.1:57833: GET https://31.13.88.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+[14:37:42.733][127.0.0.1:57838] client connect
+[14:37:42.748][127.0.0.1:57838] server connect 172.217.10.99:443
+127.0.0.1:57838: GET https://172.217.10.99/spi/v2/platforms/android/gmp/1:963286039532:android:66216d6e01f5a3ab/sett…
+              << 200 OK 366b
+127.0.0.1:57833: GET https://31.13.88.1/v12.0/157627720928660/model_asset?fields=use_case%2Cversion_id%2Casset_uri%2…
+              << 200 OK 569b
+[14:37:44.400][127.0.0.1:57840] client connect
+[14:37:44.409][127.0.0.1:57842] client connect
+[14:37:44.414][127.0.0.1:57840] server connect 31.13.88.1:443
+[14:37:44.421][127.0.0.1:57842] server connect 31.13.88.1:443
+[14:37:44.426][127.0.0.1:57844] client connect
+[14:37:44.439][127.0.0.1:57844] server connect 31.13.88.1:443
+[14:37:44.504][127.0.0.1:57846] client connect
+[14:37:44.523][127.0.0.1:57846] server connect 23.63.249.224:443
+127.0.0.1:57842: GET https://31.13.88.1/v12.0/157627720928660?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_conte…
+              << 200 OK 614b
+127.0.0.1:57844: GET https://31.13.88.1/v12.0/157627720928660?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_conte…
+              << 200 OK 614b
+127.0.0.1:57840: GET https://31.13.88.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+127.0.0.1:57846: GET https://23.63.249.224/mapi/v1/brandsAndStations HTTP/2.0
+     << HTTP/2.0 200 OK 8.7k
+[14:37:46.059][127.0.0.1:57849] client connect
+[14:37:46.077][127.0.0.1:57849] server connect 64.233.177.95:443
+127.0.0.1:57849: POST https://64.233.177.95/v1/projects/963286039532/namespaces/fireperf:fetch
+              << 200 OK 510b
+127.0.0.1:57840: GET https://31.13.88.1/v12.0/157627720928660/mobile_sdk_gk?fields=gatekeepers&format=json&sdk_versi…
+              << 200 OK 527b
+[14:37:46.596][127.0.0.1:57851] client connect
+[14:37:46.612][127.0.0.1:57851] server connect 172.217.10.99:443
+127.0.0.1:57851: GET https://172.217.10.99/spi/v2/platforms/android/gmp/1:963286039532:android:66216d6e01f5a3ab/sett…
+              << 200 OK 366b
+127.0.0.1:57840: GET https://31.13.88.1/v12.0/157627720928660/model_asset?fields=use_case%2Cversion_id%2Casset_uri%2…
+              << 200 OK 569b
+[14:38:59.536][127.0.0.1:57869] client connect
+[14:38:59.554][127.0.0.1:57869] server connect 172.217.10.106:443
+127.0.0.1:57869: POST https://172.217.10.106/v1/projects/a-better-routeplanner/installations
+              << 200 OK 499b
+[14:38:59.853][127.0.0.1:57869] client disconnect
+[14:38:59.855][127.0.0.1:57869] server disconnect 172.217.10.106:443
+[14:39:34.070][127.0.0.1:57846] client disconnect
+[14:39:34.073][127.0.0.1:57823] client disconnect
+[14:39:34.075][127.0.0.1:57846] server disconnect 23.63.249.224:443
+[14:39:34.077][127.0.0.1:57823] server disconnect 172.217.10.99:443
+[14:41:14.233][127.0.0.1:57900] client connect
+[14:41:14.247][127.0.0.1:57900] server connect 74.125.136.94:443
+[14:41:14.422][127.0.0.1:57902] client connect
+[14:41:14.437][127.0.0.1:57902] server connect 172.217.10.106:443
+[14:41:14.598][127.0.0.1:57904] client connect
+[14:41:14.613][127.0.0.1:57904] server connect 74.125.136.94:443
+127.0.0.1:57900: GET https://74.125.136.94/spi/v2/platforms/android/gmp/1:541424037090:android:2ac720f77c1be1bc/sett…
+              << 200 OK 365b
+127.0.0.1:57902: POST https://172.217.10.106/v1/projects/audials-4e831/installations
+              << 200 OK 494b
+[14:41:14.896][127.0.0.1:57906] client connect
+127.0.0.1:57904: GET https://74.125.136.94/spi/v2/platforms/android/gmp/1:541424037090:android:2ac720f77c1be1bc/sett…
+              << 200 OK 365b
+[14:41:14.969][127.0.0.1:57910] client connect
+[14:41:15.050][127.0.0.1:57906] server connect us.discovery.audials.com:80 (136.243.76.95:80)
+[14:41:15.087][127.0.0.1:57910] server connect us.discovery.audials.com:80 (136.243.76.95:80)
+127.0.0.1:57910: POST http://us.discovery.audials.com/3.0/discovery
+              << 200  142b
+127.0.0.1:57906: POST http://us.discovery.audials.com/3.0/discovery
+              << 200  142b
+[14:41:15.814][127.0.0.1:57914] client connect
+[14:41:15.829][127.0.0.1:57916] client connect
+[14:41:15.932][127.0.0.1:57914] server connect 5.9.17.94:443
+[14:41:15.944][127.0.0.1:57916] server connect 5.9.17.123:443
+127.0.0.1:57914: POST https://5.9.17.94/3.0/session/new
+              << 200  648b
+127.0.0.1:57916: POST https://5.9.17.123/3.0/session/new
+              << 200  648b
+[14:41:16.524][127.0.0.1:57918] client connect
+[14:41:16.539][127.0.0.1:57920] client connect
+[14:41:16.552][127.0.0.1:57922] client connect
+[14:41:16.557][127.0.0.1:57923] client connect
+127.0.0.1:57914: POST https://5.9.17.94/3.0/prod-asky01_rjzcw2ocvrd7raa36lr5mfjntu/log/log2es
+              << 204  0b
+[14:41:16.566][127.0.0.1:57926] client connect
+127.0.0.1:57916: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+[14:41:16.640][127.0.0.1:57918] server connect 5.9.17.94:443
+[14:41:16.656][127.0.0.1:57920] server connect 5.9.17.123:443
+[14:41:16.669][127.0.0.1:57922] server connect 5.9.17.123:443
+[14:41:16.673][127.0.0.1:57923] server connect 5.9.17.123:443
+[14:41:16.685][127.0.0.1:57926] server connect 5.9.17.94:443
+[14:41:16.763][127.0.0.1:57928] client connect
+[14:41:16.805][127.0.0.1:57930] client connect
+[14:41:16.879][127.0.0.1:57928] server connect 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+[14:41:16.927][127.0.0.1:57930] server connect 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57920: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/favorites/favlists?resource=favli…
+              << 200  247b
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/usermedia/collections?resource=me…
+              << 200  170b
+127.0.0.1:57918: GET https://5.9.17.94/3.0/prod-asky01_rjzcw2ocvrd7raa36lr5mfjntu/usermedia/collections?resource=med…
+              << 200  170b
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57926: GET https://5.9.17.94/3.0/prod-asky01_rjzcw2ocvrd7raa36lr5mfjntu/favorites/favlists?resource=favlis…
+              << 200  247b
+[14:41:17.094][127.0.0.1:57900] client disconnect
+[14:41:17.099][127.0.0.1:57900] server disconnect 74.125.136.94:443
+127.0.0.1:57923: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/dashboard/start/?resource=android…
+              << 200  3.1k
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57914: GET https://5.9.17.94/3.0/prod-asky01_rjzcw2ocvrd7raa36lr5mfjntu/favorites/favlist_129825001/favori…
+              << 200  146b
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57916: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/favorites/favlist_129251278/favor…
+              << 200  146b
+[14:41:17.280][127.0.0.1:57904] client disconnect
+[14:41:17.282][127.0.0.1:57904] server disconnect 74.125.136.94:443
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+[14:41:18.034][127.0.0.1:57933] client connect
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+[14:41:18.044][127.0.0.1:57933] server connect 142.251.45.234:443
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57933: POST https://142.251.45.234/v1/projects/541424037090/namespaces/firebase:fetch
+              << 200 OK 68b
+[14:41:18.266][127.0.0.1:57910] client disconnect
+[14:41:18.268][127.0.0.1:57910] server disconnect us.discovery.audials.com:80 (136.243.76.95:80)
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+[14:41:18.331][127.0.0.1:57935] client connect
+[14:41:18.348][127.0.0.1:57935] server connect 142.251.45.234:443
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57935: POST https://142.251.45.234/v1/projects/541424037090/namespaces/firebase:fetch
+              << 200 OK 122b
+[14:41:18.619][127.0.0.1:57902] client disconnect
+[14:41:18.622][127.0.0.1:57902] server disconnect 172.217.10.106:443
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+[14:41:20.569][127.0.0.1:57906] server disconnect us.discovery.audials.com:80 (136.243.76.95:80)
+[14:41:22.076][127.0.0.1:57920] server disconnect 5.9.17.123:443
+[14:41:22.077][127.0.0.1:57922] server disconnect 5.9.17.123:443
+[14:41:22.078][127.0.0.1:57918] server disconnect 5.9.17.94:443
+[14:41:22.085][127.0.0.1:57926] server disconnect 5.9.17.94:443
+[14:41:22.144][127.0.0.1:57923] server disconnect 5.9.17.123:443
+[14:41:22.247][127.0.0.1:57914] server disconnect 5.9.17.94:443
+[14:41:22.255][127.0.0.1:57916] server disconnect 5.9.17.123:443
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+[14:41:23.815][127.0.0.1:57807] server disconnect 172.217.10.110:443
+[14:41:25.338][127.0.0.1:57939] client connect
+[14:41:25.350][127.0.0.1:57939] server connect 64.233.177.100:443
+127.0.0.1:57939: GET https://64.233.177.100/config/app/1%3A541424037090%3Aandroid%3A2ac720f77c1be1bc?platform=androi…
+              << 200 OK 22.1k
+[14:41:25.471][127.0.0.1:57906] client disconnect
+127.0.0.1:57939: POST https://64.233.177.100/a
+              << 204 No Content 0b
+[14:41:26.967][127.0.0.1:57916] server connect 5.9.17.123:443
+[14:41:27.009][127.0.0.1:57923] server connect 5.9.17.123:443
+[14:41:27.011][127.0.0.1:57922] server connect 5.9.17.123:443
+[14:41:27.194][127.0.0.1:57945] client connect
+[14:41:27.209][127.0.0.1:57945] server connect 64.233.177.100:443
+127.0.0.1:57945: GET https://64.233.177.100/config/app/1%3A541424037090%3Aandroid%3A2ac720f77c1be1bc?platform=androi…
+              << 304 Not Modified 0b
+127.0.0.1:57916: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/streams/radio_str…
+              << 200  722b
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/browse/HomeView/r…
+              << 200  1.1k
+127.0.0.1:57923: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_1950…
+              << 200  523b
+[14:41:27.406][127.0.0.1:57920] client disconnect
+127.0.0.1:57916: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:57923: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_1950…
+              << 200  2b
+127.0.0.1:57945: POST https://64.233.177.100/a
+              << 204 No Content 0b
+[14:41:28.042][127.0.0.1:57815] server disconnect 142.250.189.99:443
+[14:41:28.735][127.0.0.1:57947] client connect
+[14:41:29.899][127.0.0.1:57947] server connect cdn.nrjaudio.fm:80 (185.52.127.180:80)
+127.0.0.1:57947: GET http://cdn.nrjaudio.fm/adwz1/fr/30043/mp3_128.mp3?origine=audials&aw_0_1st.station=NRJ-Hits
+              << 302 Déplacé Temporairement 0b
+[14:41:30.314][127.0.0.1:57947] client disconnect
+[14:41:30.319][127.0.0.1:57947] server disconnect cdn.nrjaudio.fm:80 (185.52.127.180:80)
+[14:41:30.322][127.0.0.1:57933] client disconnect
+[14:41:30.325][127.0.0.1:57933] server disconnect 142.251.45.234:443
+[14:41:30.326][127.0.0.1:57951] client connect
+[14:41:30.446][127.0.0.1:57951] server connect 185.52.127.162:80
+[14:41:32.379][127.0.0.1:57922] server disconnect 5.9.17.123:443
+[14:41:32.567][127.0.0.1:57916] server disconnect 5.9.17.123:443
+[14:41:32.595][127.0.0.1:57923] server disconnect 5.9.17.123:443
+[14:41:42.661][127.0.0.1:57829] server disconnect 172.217.10.110:443
+[14:41:42.968][127.0.0.1:57838] server disconnect 172.217.10.99:443
+[14:41:44.894][127.0.0.1:57916] server connect 5.9.17.123:443
+127.0.0.1:57916: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/browse/HomeView/?…
+              << 200  5.9k
+[14:41:45.696][127.0.0.1:57923] server connect 5.9.17.123:443
+127.0.0.1:57916: GET https://5.9.17.123/gen2021/dark/radio_icon/main_favorites_active.png
+              << 200  39.6k
+[14:41:46.195][127.0.0.1:57849] server disconnect 64.233.177.95:443
+127.0.0.1:57923: GET https://5.9.17.123/gen2021/dark/radio_icon/main_LRU.png
+              << 200  62.4k
+[14:41:46.855][127.0.0.1:57851] server disconnect 172.217.10.99:443
+[14:41:49.711][127.0.0.1:57961] client connect
+[14:41:49.758][127.0.0.1:57964] client connect
+[14:41:49.786][127.0.0.1:57968] client connect
+[14:41:49.790][127.0.0.1:57969] client connect
+127.0.0.1:57916: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+[14:41:49.810][127.0.0.1:57971] client connect
+[14:41:49.815][127.0.0.1:57973] client connect
+[14:41:49.828][127.0.0.1:57961] server connect 5.9.17.123:443
+127.0.0.1:57923: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_1950…
+              << 200  2b
+[14:41:49.864][127.0.0.1:57964] server connect cdn.nrjaudio.fm:80 (185.52.127.180:80)
+[14:41:49.871][127.0.0.1:57922] server connect 5.9.17.123:443
+[14:41:49.905][127.0.0.1:57968] server connect 5.9.17.123:443
+[14:41:49.920][127.0.0.1:57969] server connect 5.9.17.123:443
+[14:41:49.932][127.0.0.1:57971] server connect 5.9.17.123:443
+[14:41:49.940][127.0.0.1:57973] server connect 5.9.17.123:443
+127.0.0.1:57964: GET http://cdn.nrjaudio.fm/adwz1/fr/30043/mp3_128.mp3?origine=audials&aw_0_1st.station=NRJ-Hits
+              << 302 Déplacé Temporairement 0b
+[14:41:49.971][127.0.0.1:57964] client disconnect
+[14:41:49.975][127.0.0.1:57964] server disconnect cdn.nrjaudio.fm:80 (185.52.127.180:80)
+[14:41:49.985][127.0.0.1:57976] client connect
+[14:41:50.114][127.0.0.1:57976] server connect 185.52.127.170:80
+127.0.0.1:57961: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_1950…
+              << 200  2b
+127.0.0.1:57922: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_1950…
+              << 200  2b
+[14:41:50.257][127.0.0.1:57945] client disconnect
+[14:41:50.261][127.0.0.1:57945] server disconnect 64.233.177.100:443
+127.0.0.1:57968: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+127.0.0.1:57971: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:57969: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_1950…
+              << 200  2b
+[14:41:50.328][127.0.0.1:57916] client disconnect
+[14:41:50.332][127.0.0.1:57916] server disconnect 5.9.17.123:443
+[14:41:50.334][127.0.0.1:57923] client disconnect
+[14:41:50.339][127.0.0.1:57923] server disconnect 5.9.17.123:443
+127.0.0.1:57973: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/browse/HomeView/r…
+              << 200  1.1k
+[14:41:50.353][127.0.0.1:57961] client disconnect
+[14:41:50.355][127.0.0.1:57961] server disconnect 5.9.17.123:443
+[14:41:55.243][127.0.0.1:57922] server disconnect 5.9.17.123:443
+[14:41:55.310][127.0.0.1:57968] server disconnect 5.9.17.123:443
+[14:41:55.314][127.0.0.1:57971] server disconnect 5.9.17.123:443
+[14:41:55.318][127.0.0.1:57969] server disconnect 5.9.17.123:443
+[14:41:55.334][127.0.0.1:57973] server disconnect 5.9.17.123:443
+[14:42:04.210][127.0.0.1:57922] server connect 5.9.17.123:443
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/podcast/browse/HomeView…
+              << 200  10.5k
+[14:42:05.255][127.0.0.1:57984] client connect
+[14:42:05.260][127.0.0.1:57985] client connect
+[14:42:05.271][127.0.0.1:57984] server connect 18.164.77.57:443
+[14:42:05.276][127.0.0.1:57985] server connect 18.164.77.57:443
+127.0.0.1:57985: GET https://18.164.77.57/podcast_logo/public_2022_300x300/3C/3C75833FE193063825277661384FDC63.jpg
+              << 200 OK 33.1k
+127.0.0.1:57984: GET https://18.164.77.57/podcast_logo/public_2022_300x300/E0/E0564E08B13F10EEC5C4D38A634285FE.jpg
+              << 200 OK 10.5k
+[14:42:05.685][127.0.0.1:57968] client disconnect
+[14:42:05.700][127.0.0.1:57971] client disconnect
+127.0.0.1:57985: GET https://18.164.77.57/podcast_logo/public_2022_300x300/91/91B42F910D75FBCAF74E4EE0885DBBDD.jpg
+              << 200 OK 18.5k
+[14:42:05.999][127.0.0.1:57973] server connect 5.9.17.123:443
+127.0.0.1:57922: GET https://5.9.17.123/gen2021/dark/radio_icon/main_suggestions.png
+              << 200  71.8k
+127.0.0.1:57973: GET https://5.9.17.123/gen2021/dark/podcast_icon/category_art.png
+              << 200  91.8k
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/podcast/PodcastEpisodeL…
+              << 200  3.9k
+[14:42:11.431][127.0.0.1:57991] client connect
+[14:42:11.436][127.0.0.1:57992] client connect
+[14:42:11.441][127.0.0.1:57993] client connect
+[14:42:11.532][127.0.0.1:57969] server connect 5.9.17.123:443
+127.0.0.1:57973: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+[14:42:11.560][127.0.0.1:57991] server connect 5.9.17.123:443
+[14:42:11.562][127.0.0.1:57993] server connect 5.9.17.123:443
+[14:42:11.565][127.0.0.1:57992] server connect 5.9.17.123:443
+127.0.0.1:57922: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_1950…
+              << 200  2b
+127.0.0.1:57969: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_1950…
+              << 200  2b
+127.0.0.1:57991: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+[14:42:11.945][127.0.0.1:57984] client disconnect
+[14:42:11.948][127.0.0.1:57984] server disconnect 18.164.77.57:443
+127.0.0.1:57993: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcastepisode/podcast_episode_…
+              << 200  974b
+127.0.0.1:57992: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/podcast/browse/HomeView…
+              << 200  2.0k
+[14:42:11.966][127.0.0.1:57985] client disconnect
+[14:42:11.974][127.0.0.1:57985] server disconnect 18.164.77.57:443
+[14:42:11.976][127.0.0.1:57973] client disconnect
+[14:42:11.981][127.0.0.1:57973] server disconnect 5.9.17.123:443
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/common/update_state/pod…
+              << 200  4b
+[14:42:12.113][127.0.0.1:57997] client connect
+[14:42:12.126][127.0.0.1:57997] server connect 18.160.60.123:443
+127.0.0.1:57997: GET https://18.160.60.123/track/6D589D/dts.podtrac.com/redirect.mp3/nbcnews.simplecastaudio.com/509…
+              << 302 FOUND 0b
+[14:42:12.284][127.0.0.1:57969] client disconnect
+[14:42:12.286][127.0.0.1:57969] server disconnect 5.9.17.123:443
+[14:42:12.373][127.0.0.1:57999] client connect
+[14:42:12.455][127.0.0.1:57999] server connect 44.239.212.184:443
+127.0.0.1:57999: GET https://44.239.212.184/redirect.mp3/nbcnews.simplecastaudio.com/509c262d-e2c5-45e1-a4a8-4b1ebaa…
+              << 302 Found 412b
+[14:42:12.785][127.0.0.1:57999] client disconnect
+[14:42:12.789][127.0.0.1:57999] server disconnect 44.239.212.184:443
+[14:42:12.918][127.0.0.1:58002] client connect
+[14:42:13.031][127.0.0.1:58002] server connect 54.70.130.249:443
+127.0.0.1:58002: GET https://54.70.130.249/509c262d-e2c5-45e1-a4a8-4b1ebaa6b265/episodes/33022667-9c27-40c9-9c3a-0f3…
+              << 302 Found 0b
+[14:42:14.233][127.0.0.1:57991] client disconnect
+[14:42:14.237][127.0.0.1:57991] server disconnect 5.9.17.123:443
+[14:42:14.346][127.0.0.1:58004] client connect
+[14:42:14.358][127.0.0.1:58004] server connect 18.64.236.72:443
+[14:42:16.482][127.0.0.1:58006] client connect
+[14:42:16.709][127.0.0.1:58006] server connect 134.25.4.143:443
+[14:42:17.043][127.0.0.1:57993] server disconnect 5.9.17.123:443
+[14:42:17.044][127.0.0.1:57992] server disconnect 5.9.17.123:443
+[14:42:17.196][127.0.0.1:57922] server disconnect 5.9.17.123:443
+127.0.0.1:58006: GET https://134.25.4.143/v2/channels?format=json&pagination=false&liveaudiotemplateid=10
+              << 200 OK 5.4k
+[14:42:18.324][127.0.0.1:58009] client connect
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+[14:42:18.630][127.0.0.1:58009] server connect 134.25.4.143:443
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58006: GET https://134.25.4.143/v2/programs/index?format=json&pagination=false
+              << 200 OK 152k
+127.0.0.1:58009: GET https://134.25.4.143/v2/channels?format=json&pagination=false&liveaudiotemplateid=10
+              << 200 OK 5.4k
+127.0.0.1:58009: GET https://134.25.4.143/v2/programs/index?format=json&pagination=false
+              << 200 OK 152k
+127.0.0.1:58004: GET https://18.64.236.72/509c262d-e2c5-45e1-a4a8-4b1ebaa6b265/episodes/33022667-9c27-40c9-9c3a-0f37…
+              << 200 OK 34.3m
+[14:42:22.987][127.0.0.1:58006] server disconnect 134.25.4.143:443
+[14:42:23.443][127.0.0.1:57922] server connect 5.9.17.123:443
+127.0.0.1:57922: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+127.0.0.1:57922: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+[14:42:24.254][127.0.0.1:57807] client disconnect
+[14:42:24.954][127.0.0.1:58009] server disconnect 134.25.4.143:443
+[14:42:28.112][127.0.0.1:57815] client disconnect
+[14:42:29.190][127.0.0.1:57922] server disconnect 5.9.17.123:443
+[14:42:31.800][127.0.0.1:57922] server connect 5.9.17.123:443
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/common/next?resource=cu…
+              << 200  1.9k
+[14:42:32.576][127.0.0.1:58004] client disconnect
+[14:42:32.584][127.0.0.1:57992] server connect 5.9.17.123:443
+[14:42:32.586][127.0.0.1:58004] server disconnect 18.64.236.72:443
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcastepisode/podcast_episode_…
+              << 200  936b
+127.0.0.1:57997: GET https://18.160.60.123/track/6D589D/dts.podtrac.com/redirect.mp3/nbcnews.simplecastaudio.com/509…
+              << 302 FOUND 0b
+[14:42:32.707][127.0.0.1:58017] client connect
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/common/update_state/pod…
+              << 200  4b
+[14:42:32.798][127.0.0.1:58017] server connect 44.239.212.184:443
+127.0.0.1:57992: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+127.0.0.1:58017: GET https://44.239.212.184/redirect.mp3/nbcnews.simplecastaudio.com/509c262d-e2c5-45e1-a4a8-4b1ebaa…
+              << 302 Found 412b
+[14:42:33.118][127.0.0.1:58017] client disconnect
+[14:42:33.122][127.0.0.1:58017] server disconnect 44.239.212.184:443
+127.0.0.1:58002: GET https://54.70.130.249/509c262d-e2c5-45e1-a4a8-4b1ebaa6b265/episodes/a8731d95-8d97-4185-b9af-9b7…
+              << 302 Found 0b
+[14:42:34.208][127.0.0.1:58020] client connect
+[14:42:34.219][127.0.0.1:58020] server connect 18.64.236.72:443
+[14:42:37.736][127.0.0.1:57922] server disconnect 5.9.17.123:443
+[14:42:37.941][127.0.0.1:57992] server disconnect 5.9.17.123:443
+[14:42:42.091][127.0.0.1:57834] client disconnect
+[14:42:42.142][127.0.0.1:57834] server disconnect 31.13.88.1:443
+[14:42:42.169][127.0.0.1:57831] client disconnect
+[14:42:42.204][127.0.0.1:57831] server disconnect 31.13.88.1:443
+127.0.0.1:58020: GET https://18.64.236.72/509c262d-e2c5-45e1-a4a8-4b1ebaa6b265/episodes/a8731d95-8d97-4185-b9af-9b7d…
+              << 200 OK (content missing)
+ << Client disconnected.
+[14:42:42.337][127.0.0.1:58020] server disconnect 18.64.236.72:443
+[14:42:42.339][127.0.0.1:58020] client disconnect
+127.0.0.1:57997: GET https://18.160.60.123/track/6D589D/dts.podtrac.com/redirect.mp3/nbcnews.simplecastaudio.com/509…
+              << 302 FOUND 0b
+[14:42:42.394][127.0.0.1:58023] client connect
+[14:42:42.489][127.0.0.1:58023] server connect 44.239.212.184:443
+[14:42:42.652][127.0.0.1:57829] client disconnect
+127.0.0.1:58023: GET https://44.239.212.184/redirect.mp3/nbcnews.simplecastaudio.com/509c262d-e2c5-45e1-a4a8-4b1ebaa…
+              << 302 Found 412b
+[14:42:42.791][127.0.0.1:58023] client disconnect
+[14:42:42.800][127.0.0.1:58023] server disconnect 44.239.212.184:443
+127.0.0.1:58002: GET https://54.70.130.249/509c262d-e2c5-45e1-a4a8-4b1ebaa6b265/episodes/a8731d95-8d97-4185-b9af-9b7…
+              << 302 Found 0b
+[14:42:42.966][127.0.0.1:58025] client connect
+[14:42:42.981][127.0.0.1:58025] server connect 18.64.236.72:443
+[14:42:43.015][127.0.0.1:57838] client disconnect
+[14:42:43.089][127.0.0.1:57833] client disconnect
+[14:42:43.093][127.0.0.1:57833] server disconnect 31.13.88.1:443
+[14:42:44.817][127.0.0.1:57842] client disconnect
+[14:42:44.818][127.0.0.1:57844] client disconnect
+[14:42:44.831][127.0.0.1:57842] server disconnect 31.13.88.1:443
+[14:42:44.835][127.0.0.1:57844] server disconnect 31.13.88.1:443
+[14:42:46.432][127.0.0.1:57849] client disconnect
+[14:42:46.895][127.0.0.1:57840] client disconnect
+[14:42:46.898][127.0.0.1:57851] client disconnect
+[14:42:46.958][127.0.0.1:57840] server disconnect 31.13.88.1:443
+[14:42:47.510][127.0.0.1:57922] server connect 5.9.17.123:443
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/podcast/browse/HomeView…
+              << 200  7.7k
+127.0.0.1:57922: GET https://5.9.17.123/gen2021/dark/podcast_icon/category_business.png
+              << 200  30.7k
+[14:42:49.378][127.0.0.1:57992] server connect 5.9.17.123:443
+127.0.0.1:58025: GET https://18.64.236.72/509c262d-e2c5-45e1-a4a8-4b1ebaa6b265/episodes/a8731d95-8d97-4185-b9af-9b7d…
+              << 200 OK 34.9m
+127.0.0.1:57992: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/browse/HomeView/?…
+              << 200  5.9k
+127.0.0.1:57922: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+127.0.0.1:57922: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/streams/radio_str…
+              << 200  699b
+[14:42:53.233][127.0.0.1:58025] client disconnect
+[14:42:53.236][127.0.0.1:58025] server disconnect 18.64.236.72:443
+127.0.0.1:57992: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  886b
+[14:42:53.356][127.0.0.1:57993] server connect 5.9.17.123:443
+127.0.0.1:57922: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/browse/HomeView/r…
+              << 200  1.5k
+[14:42:53.423][127.0.0.1:58033] client connect
+[14:42:53.433][127.0.0.1:58035] client connect
+[14:42:53.479][127.0.0.1:58035] server connect 71.127.174.26:8000
+127.0.0.1:57992: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:42:53.542][127.0.0.1:58033] server connect 5.9.17.123:443
+127.0.0.1:57922: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:57993: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+127.0.0.1:58033: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:42:53.933][127.0.0.1:57997] client disconnect
+[14:42:53.935][127.0.0.1:57997] server disconnect 18.160.60.123:443
+[14:42:58.483][127.0.0.1:57992] server disconnect 5.9.17.123:443
+[14:42:58.562][127.0.0.1:57922] server disconnect 5.9.17.123:443
+[14:42:58.704][127.0.0.1:57993] server disconnect 5.9.17.123:443
+[14:42:58.919][127.0.0.1:58033] server disconnect 5.9.17.123:443
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57928 <- tcp <- 5.9.17.123:5222
+127.0.0.1:57928 -> tcp -> 5.9.17.123:5222
+127.0.0.1:57930 <- tcp <- 5.9.17.94:5222
+127.0.0.1:57930 -> tcp -> 5.9.17.94:5222
+[14:43:28.630][127.0.0.1:58048] client connect
+[14:43:28.673][127.0.0.1:58052] client connect
+[14:43:28.679][127.0.0.1:57922] server connect 5.9.17.123:443
+[14:43:28.725][127.0.0.1:57993] server connect 5.9.17.123:443
+[14:43:28.748][127.0.0.1:58048] server connect 5.9.17.123:443
+[14:43:28.753][127.0.0.1:57992] server connect 5.9.17.123:443
+[14:43:28.781][127.0.0.1:58033] server connect 5.9.17.123:443
+[14:43:28.790][127.0.0.1:58052] server connect 5.9.17.123:443
+127.0.0.1:57922: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+127.0.0.1:57993: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:57992: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58048: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58033: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:43:29.140][127.0.0.1:58002] client disconnect
+[14:43:29.142][127.0.0.1:58002] server disconnect 54.70.130.249:443
+127.0.0.1:58052: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:43:29.184][127.0.0.1:57922] client disconnect
+[14:43:29.189][127.0.0.1:57922] server disconnect 5.9.17.123:443
+127.0.0.1:57992: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+[14:43:34.095][127.0.0.1:57993] server disconnect 5.9.17.123:443
+[14:43:34.121][127.0.0.1:58048] server disconnect 5.9.17.123:443
+[14:43:34.135][127.0.0.1:58033] server disconnect 5.9.17.123:443
+[14:43:34.176][127.0.0.1:58052] server disconnect 5.9.17.123:443
+[14:43:35.188][127.0.0.1:57992] server disconnect 5.9.17.123:443

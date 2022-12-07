@@ -1,0 +1,366 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[14:52:15.144] HTTP(S) proxy listening at *:8080.
+[14:52:15.616][127.0.0.1:58511] client connect
+[14:52:15.621][127.0.0.1:58511] error establishing server connection: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+127.0.0.1:58511: CONNECT 2600:1402:800::170b:e692:443
+              << 502 Bad Gateway 305b
+[14:52:15.626][127.0.0.1:58511] client disconnect
+[14:52:15.629][127.0.0.1:58517] client connect
+[14:52:15.634][127.0.0.1:58512] client connect
+[14:52:15.634][127.0.0.1:58517] error establishing server connection: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[14:52:15.636][127.0.0.1:58513] client connect
+127.0.0.1:58517: CONNECT 2600:1402:800::170b:e6b0:443
+              << 502 Bad Gateway 305b
+[14:52:15.645][127.0.0.1:58512] error establishing server connection: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[14:52:15.646][127.0.0.1:58517] client disconnect
+127.0.0.1:58512: CONNECT 2600:1402:800::170b:e692:443
+              << 502 Bad Gateway 305b
+[14:52:15.649][127.0.0.1:58513] error establishing server connection: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+127.0.0.1:58513: CONNECT 2600:1402:800::170b:e692:443
+              << 502 Bad Gateway 305b
+[14:52:15.655][127.0.0.1:58512] client disconnect
+[14:52:15.656][127.0.0.1:58521] client connect
+[14:52:15.657][127.0.0.1:58513] client disconnect
+[14:52:15.661][127.0.0.1:58522] client connect
+[14:52:15.667][127.0.0.1:58521] error establishing server connection: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+127.0.0.1:58521: CONNECT 2600:1402:800::170b:e6b0:443
+              << 502 Bad Gateway 305b
+[14:52:15.674][127.0.0.1:58522] error establishing server connection: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[14:52:15.675][127.0.0.1:58524] client connect
+127.0.0.1:58522: CONNECT 2600:1402:800::170b:e6b0:443
+              << 502 Bad Gateway 305b
+[14:52:15.682][127.0.0.1:58521] client disconnect
+[14:52:15.687][127.0.0.1:58522] client disconnect
+[14:52:15.697][127.0.0.1:58524] server connect 206.74.87.9:443
+[14:52:16.360][127.0.0.1:58524] client disconnect
+[14:52:16.363][127.0.0.1:58524] server disconnect 206.74.87.9:443
+[14:52:20.443][127.0.0.1:58529] client connect
+[14:52:20.450][127.0.0.1:58530] client connect
+[14:52:20.457][127.0.0.1:58533] client connect
+[14:52:20.463][127.0.0.1:58529] server connect 206.74.87.9:443
+[14:52:20.466][127.0.0.1:58530] server connect 206.74.87.9:443
+[14:52:20.480][127.0.0.1:58533] server connect 206.74.87.9:443
+[14:52:20.572][127.0.0.1:58533] client disconnect
+[14:52:20.574][127.0.0.1:58533] server disconnect 206.74.87.9:443
+[14:52:20.582][127.0.0.1:58530] client disconnect
+[14:52:20.587][127.0.0.1:58530] server disconnect 206.74.87.9:443
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vRBXPraMKnv/9vRBXPraMKnv013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vRBXPraMKnv/9vRBXPraMKnv012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vRBXPraMKnv/9vRBXPraMKnv011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vRBXPraMKnv/9vRBXPraMKnv014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vRBXPraMKnv/9vRBXPraMKnv015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vRBXPraMKnv/9vRBXPraMKnv016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 106k
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 591b
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 591b
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+[14:52:23.039][127.0.0.1:58535] client connect
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+[14:52:23.154][127.0.0.1:58535] server connect 5.9.17.123:5222
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 89.2k
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58529: GET https://206.74.87.9/stream/leYg9jX8wnGn/leYg9jX8wnGn009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oK07x2BVYkqG/oK07x2BVYkqG011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 111k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 191k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 83.5k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le0J8kzjlJGn/le0J8kzjlJGn010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 779b
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 779b
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 5.9k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vNL5pV63LzO/9vNL5pV63LzO013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 742b
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 742b
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9v2VAv1GlP7O/9v2VAv1GlP7O014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 96.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58529: GET https://206.74.87.9/stream/le9jnKxZ85rJ/le9jnKxZ85rJ011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 138k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 184k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 192k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 182k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 188k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 190k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 185k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 132k
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58529: GET https://206.74.87.9/stream/9vV6lyvoMned/9vV6lyvoMned010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 187k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 666b
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 666b
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 207k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 207k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 209k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 105k
+127.0.0.1:58529: GET https://206.74.87.9/stream/oKVdGlpYVAXv/oKVdGlpYVAXv011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58529: GET https://206.74.87.9/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+[14:52:56.157][127.0.0.1:58544] client connect
+[14:52:56.336][127.0.0.1:58544] server connect 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58535 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58544 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58544 <- tcp <- 5.9.17.94:5222

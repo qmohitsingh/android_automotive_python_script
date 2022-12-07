@@ -1,0 +1,2684 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[14:46:27.871] HTTP(S) proxy listening at *:8080.
+[14:46:27.979][127.0.0.1:58274] client connect
+[14:46:27.995][127.0.0.1:58276] client connect
+[14:46:28.098][127.0.0.1:58274] server connect 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+[14:46:28.112][127.0.0.1:58276] server connect 5.9.17.123:443
+[14:46:28.833][127.0.0.1:58275] client connect
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+[14:46:28.885][127.0.0.1:58275] server connect 71.127.174.26:8000
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+[14:46:30.155][127.0.0.1:58283] client connect
+[14:46:30.160][127.0.0.1:58284] client connect
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58274 -> tcp -> 5.9.17.123:5222
+[14:46:30.172][127.0.0.1:58287] client connect
+[14:46:30.181][127.0.0.1:58288] client connect
+[14:46:30.186][127.0.0.1:58289] client connect
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+[14:46:30.274][127.0.0.1:58283] server connect 5.9.17.123:443
+127.0.0.1:58274 <- tcp <- 5.9.17.123:5222
+[14:46:30.282][127.0.0.1:58274] client disconnect
+[14:46:30.283][127.0.0.1:58274] server disconnect 5.9.17.123:5222
+[14:46:30.290][127.0.0.1:58284] server connect 5.9.17.123:443
+[14:46:30.302][127.0.0.1:58287] server connect 5.9.17.123:443
+[14:46:30.303][127.0.0.1:58288] server connect 5.9.17.123:443
+[14:46:30.309][127.0.0.1:58289] server connect 5.9.17.123:443
+[14:46:30.329][127.0.0.1:58293] client connect
+[14:46:30.452][127.0.0.1:58293] server connect 5.9.17.123:443
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+[14:46:30.525][127.0.0.1:58295] client connect
+[14:46:30.641][127.0.0.1:58295] server connect 5.9.17.123:5222
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58288: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58287: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58293: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+[14:46:30.881][127.0.0.1:58288] client disconnect
+[14:46:30.883][127.0.0.1:58288] server disconnect 5.9.17.123:443
+127.0.0.1:58289: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58287: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58293: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58289: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58287: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58289: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58287: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:46:31.856][127.0.0.1:58293] client disconnect
+[14:46:31.858][127.0.0.1:58293] server disconnect 5.9.17.123:443
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58295 -> tcp -> 5.9.17.123:5222
+[14:46:32.372][127.0.0.1:58297] client connect
+[14:46:32.380][127.0.0.1:58299] client connect
+[14:46:32.383][127.0.0.1:58300] client connect
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58295 <- tcp <- 5.9.17.123:5222
+[14:46:32.477][127.0.0.1:58295] client disconnect
+[14:46:32.479][127.0.0.1:58295] server disconnect 5.9.17.123:5222
+[14:46:32.489][127.0.0.1:58297] server connect 5.9.17.123:443
+[14:46:32.496][127.0.0.1:58299] server connect 5.9.17.123:443
+[14:46:32.501][127.0.0.1:58300] server connect 5.9.17.123:443
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:46:32.511][127.0.0.1:58303] client connect
+[14:46:32.513][127.0.0.1:58304] client connect
+127.0.0.1:58287: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58289: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58276: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58284: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:46:32.632][127.0.0.1:58303] server connect 5.9.17.123:443
+[14:46:32.647][127.0.0.1:58304] server connect 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58297: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:46:32.877][127.0.0.1:58287] client disconnect
+[14:46:32.878][127.0.0.1:58287] server disconnect 5.9.17.123:443
+127.0.0.1:58299: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:46:32.894][127.0.0.1:58289] client disconnect
+[14:46:32.896][127.0.0.1:58289] server disconnect 5.9.17.123:443
+127.0.0.1:58300: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+[14:46:32.906][127.0.0.1:58276] client disconnect
+[14:46:32.908][127.0.0.1:58276] server disconnect 5.9.17.123:443
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58303: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:46:33.016][127.0.0.1:58284] client disconnect
+[14:46:33.018][127.0.0.1:58284] server disconnect 5.9.17.123:443
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58304 <- tcp <- 5.9.17.123:5222
+[14:46:34.484][127.0.0.1:58304] client disconnect
+[14:46:34.486][127.0.0.1:58304] server disconnect 5.9.17.123:5222
+[14:46:34.499][127.0.0.1:58307] client connect
+[14:46:34.613][127.0.0.1:58307] server connect 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+[14:46:37.736][127.0.0.1:58283] server disconnect 5.9.17.123:443
+[14:46:37.867][127.0.0.1:58297] server disconnect 5.9.17.123:443
+[14:46:37.879][127.0.0.1:58299] server disconnect 5.9.17.123:443
+[14:46:37.896][127.0.0.1:58300] server disconnect 5.9.17.123:443
+[14:46:38.002][127.0.0.1:58303] server disconnect 5.9.17.123:443
+[14:46:39.995][127.0.0.1:58283] server connect 5.9.17.123:443
+[14:46:40.000][127.0.0.1:58297] server connect 5.9.17.123:443
+[14:46:40.002][127.0.0.1:58299] server connect 5.9.17.123:443
+[14:46:40.143][127.0.0.1:58300] server connect 5.9.17.123:443
+127.0.0.1:58283: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcast/radio/update_recording
+              << 200  2b
+127.0.0.1:58297: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/log/log2es
+              << 204  0b
+127.0.0.1:58299: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+127.0.0.1:58300: POST https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/broadcaststream/radio_stream_2498…
+              << 200  2b
+[14:46:41.142][127.0.0.1:58315] client connect
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+[14:46:41.155][127.0.0.1:58315] server connect 64.233.176.95:443
+[14:46:41.187][127.0.0.1:58317] client connect
+[14:46:41.201][127.0.0.1:58317] server connect 64.233.176.95:443
+127.0.0.1:58315: POST https://64.233.176.95/v1/projects/audioburst-android-automotive/installations
+              << 200 OK 503b
+127.0.0.1:58317: POST https://64.233.176.95/v1/projects/audioburst-android-automotive/installations
+              << 200 OK 500b
+[14:46:42.211][127.0.0.1:58319] client connect
+[14:46:42.218][127.0.0.1:58320] client connect
+[14:46:42.222][127.0.0.1:58321] client connect
+[14:46:42.232][127.0.0.1:58319] server connect 172.217.164.67:443
+[14:46:42.239][127.0.0.1:58320] server connect 35.186.241.51:443
+[14:46:42.241][127.0.0.1:58321] server connect 172.217.164.67:443
+[14:46:42.265][127.0.0.1:58325] client connect
+[14:46:42.272][127.0.0.1:58326] client connect
+[14:46:42.293][127.0.0.1:58325] server connect 20.49.104.0:443
+[14:46:42.310][127.0.0.1:58326] server connect 20.49.104.0:443
+[14:46:42.516][127.0.0.1:58329] client connect
+[14:46:42.551][127.0.0.1:58329] server connect 35.186.241.51:443
+127.0.0.1:58325: POST https://20.49.104.0/v2/users/register?externalUserId=53f00ad5-0707-4fe3-b8e6-eb5e0dcc595d&setPr…
+              << 200 OK 303b
+[14:46:42.661][127.0.0.1:58331] client connect
+[14:46:42.687][127.0.0.1:58331] server connect 52.239.246.4:443
+127.0.0.1:58319: GET https://172.217.164.67/spi/v2/platforms/android/gmp/1:518694542977:android:490fa80d91927db03437… HTTP/2.0
+     << HTTP/2.0 200 OK 371b
+127.0.0.1:58326: POST https://20.49.104.0/v2/users/register?externalUserId=6fecd095-5497-4b1c-96cd-8da0a2fad6d7&setPr…
+              << 200 OK 301b
+127.0.0.1:58325: GET https://20.49.104.0/v2/user/preferences?userId=default_Automotive_Settings
+              << 200 OK 4.9k
+127.0.0.1:58321: GET https://172.217.164.67/spi/v2/platforms/android/gmp/1:518694542977:android:490fa80d91927db03437… HTTP/2.0
+     << HTTP/2.0 200 OK 371b
+127.0.0.1:58331: GET https://52.239.246.4/api/mobileHomeSettingsAutomotive_V01.json
+              << 200 OK 112k
+127.0.0.1:58325: GET https://20.49.104.0/v2/user/preferences?userId=14be2e4a-7916-4760-8b33-622ed17e649a
+              << 200 OK 4.2k
+127.0.0.1:58326: GET https://20.49.104.0/v2/user/preferences?userId=default_Automotive_Settings
+              << 200 OK 4.9k
+127.0.0.1:58320: GET https://35.186.241.51/decide?version=1&lib=android&token=3af5c975c878acbbde09031e2957824a&disti…
+              << 200 OK 62b
+127.0.0.1:58329: GET https://35.186.241.51/decide?version=1&lib=android&token=3af5c975c878acbbde09031e2957824a&disti…
+              << 200 OK 62b
+127.0.0.1:58326: GET https://20.49.104.0/v2/user/preferences?userId=e84789ed-3be1-444c-880e-4d4726d5de68
+              << 200 OK 4.2k
+[14:46:43.134][127.0.0.1:58333] client connect
+[14:46:43.159][127.0.0.1:58333] server connect 52.239.246.4:443
+127.0.0.1:58325: POST https://20.49.104.0/v2/user/preferences?userId=14be2e4a-7916-4760-8b33-622ed17e649a
+              << 200 OK 4.0k
+127.0.0.1:58333: GET https://52.239.246.4/api/mobileHome_FromOurPodcasts.json
+              << 200 OK 3.5k
+127.0.0.1:58326: POST https://20.49.104.0/v2/user/preferences?userId=e84789ed-3be1-444c-880e-4d4726d5de68
+              << 200 OK 4.0k
+127.0.0.1:58320: POST https://35.186.241.51/track/?ip=1
+              << 200 OK 1b
+127.0.0.1:58329: POST https://35.186.241.51/track/?ip=1
+              << 200 OK 1b
+[14:46:43.481][127.0.0.1:58335] client connect
+[14:46:43.497][127.0.0.1:58335] server connect 23.209.36.58:443
+[14:46:43.509][127.0.0.1:58337] client connect
+[14:46:43.530][127.0.0.1:58337] server connect 23.209.36.58:443
+[14:46:43.796][127.0.0.1:58339] client connect
+[14:46:44.022][127.0.0.1:58339] server connect 5.9.17.94:5222
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIconsN/automotiveForYou_v5_2.jpg
+              << 200 OK 24.8k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIconsN/automotiveForYou_v5_3.jpg
+              << 200 OK 21.4k
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIconsN/automotiveForYou_v5_1.jpg
+              << 200 OK 16.3k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/top_stories_01_home.jpg
+              << 200 OK 14.2k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/entertainment_01_home.jpg
+              << 200 OK 16.4k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/us_news_01_home.jpg
+              << 200 OK 13.6k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/world_01_home.jpg
+              << 200 OK 13.9k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/business_01_home.jpg
+              << 200 OK 13.9k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/tech_01_home.jpg
+              << 200 OK 11.9k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/sports_01_home.jpg
+              << 200 OK 13.8k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/health_science_01_home.jpg
+              << 200 OK 10.6k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/road_trips_01_home.jpg
+              << 200 OK 11.8k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/your_next_workout_01_home.jpg
+              << 200 OK 13.1k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/be_kind_01_home.jpg
+              << 200 OK 11.9k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/all_things_tech_01_home.jpg
+              << 200 OK 15.8k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/housework_hell_01_home.jpg
+              << 200 OK 10.5k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/comedy_01_home.jpg
+              << 200 OK 8.6k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/celebs_01_home.jpg
+              << 200 OK 16.1k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/music_01_home.jpg
+              << 200 OK 10.6k
+[14:46:45.080][127.0.0.1:58341] client connect
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/tv_and_movies_01_home.jpg
+              << 200 OK 15.8k
+[14:46:45.093][127.0.0.1:58341] server connect 216.58.195.138:443
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/nfl_01_home.jpg
+              << 200 OK 17.3k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/mlb_01_home.jpg
+              << 200 OK 9.2k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+[14:46:45.286][127.0.0.1:58344] client connect
+127.0.0.1:58341: POST https://216.58.195.138/v1/projects/518694542977/namespaces/fireperf:fetch
+              << 200 OK 487b
+[14:46:45.296][127.0.0.1:58344] server connect 216.58.195.138:443
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/nba_01_home.jpg
+              << 200 OK 14.7k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/ncaa_01_home.jpg
+              << 200 OK 14.2k
+[14:46:45.347][127.0.0.1:58283] server disconnect 5.9.17.123:443
+[14:46:45.365][127.0.0.1:58297] server disconnect 5.9.17.123:443
+[14:46:45.366][127.0.0.1:58299] server disconnect 5.9.17.123:443
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/wrestling_and_mma_01_home.jpg
+              << 200 OK 11.6k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/nhl_01_home.jpg
+              << 200 OK 11.4k
+127.0.0.1:58344: POST https://216.58.195.138/v1/projects/518694542977/namespaces/fireperf:fetch
+              << 200 OK 487b
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/nascar_01_home.jpg
+              << 200 OK 13.6k
+[14:46:45.518][127.0.0.1:58300] server disconnect 5.9.17.123:443
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/boxing_01_home.jpg
+              << 200 OK 11.9k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/wnba_01_home.jpg
+              << 200 OK 15.7k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/tennis_01_home.jpg
+              << 200 OK 9.4k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/fifa_01_home.jpg
+              << 200 OK 12.6k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/business_development_01_home.jpg
+              << 200 OK 12.3k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/love_and_relationships_01_home.jpg
+              << 200 OK 14.9k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/documentary_01_home.jpg
+              << 200 OK 12.3k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/paranormal_01_home.jpg
+              << 200 OK 16.5k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/crime_01_home.jpg
+              << 200 OK 16.1k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/entrepreneurs_01_home.jpg
+              << 200 OK 14.8k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/careers_01_home.jpg
+              << 200 OK 9.7k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/media_news_01_home.jpg
+              << 200 OK 14.6k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/advertising_01_home.jpg
+              << 200 OK 20.6k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/leadership_01_home.jpg
+              << 200 OK 19.4k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/cryptocurrency_01_home.jpg
+              << 200 OK 22.7k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/small_business_01_home.jpg
+              << 200 OK 13.2k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/marketing_01_home.jpg
+              << 200 OK 12.2k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/financial_advice_01_home.jpg
+              << 200 OK 22.9k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/esports_01_home.jpg
+              << 200 OK 14.5k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/cyber_01_home.jpg
+              << 200 OK 9.2k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/coding_01_home.jpg
+              << 200 OK 15.4k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/artificial_Intelligence_01_home.jpg
+              << 200 OK 15.9k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/biotechnology_01_home.jpg
+              << 200 OK 11.3k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/gaming_01_home.jpg
+              << 200 OK 14.1k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/voice_01_home.jpg
+              << 200 OK 10.0k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/future_tech_01_home.jpg
+              << 200 OK 11.6k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/gadgets_01_home.jpg
+              << 200 OK 13.8k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/podcasting_01_home.jpg
+              << 200 OK 9.2k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/kids_01_home.jpg
+              << 200 OK 11.1k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/trivia_01_home.jpg
+              << 200 OK 9.3k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/gardening_01_home.jpg
+              << 200 OK 21.4k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/travel_01_home.jpg
+              << 200 OK 13.5k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/photography_01_home.jpg
+              << 200 OK 10.5k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/cars_01_home.jpg
+              << 200 OK 12.1k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/books_01_home.jpg
+              << 200 OK 8.0k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/aviation_01_home.jpg
+              << 200 OK 15.1k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/diy_01_home.jpg
+              << 200 OK 14.6k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/history_01_home.jpg
+              << 200 OK 11.4k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/sustainability_01_home.jpg
+              << 200 OK 11.0k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/education_01_home.jpg
+              << 200 OK 8.3k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/wellness_01_home.jpg
+              << 200 OK 10.4k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/self_improvement_01_home.jpg
+              << 200 OK 10.4k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/activism_01_home.jpg
+              << 200 OK 12.6k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/beauty_01_home.jpg
+              << 200 OK 14.3k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/parenting_01_home.jpg
+              << 200 OK 8.9k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/fitness_01_home.jpg
+              << 200 OK 18.1k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/alternative_medicine_01_home.jpg
+              << 200 OK 9.7k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/mental-health_01_home.jpg
+              << 200 OK 11.4k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/health_care_01_home.jpg
+              << 200 OK 11.6k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/addiction_and_sobriety_01_home.jpg
+              << 200 OK 13.2k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/nutrition_01_home.jpg
+              << 200 OK 12.0k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/fashion_01_home.jpg
+              << 200 OK 12.9k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/arts_01_home.jpg
+              << 200 OK 10.9k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/mindfulness_01_home.jpg
+              << 200 OK 13.6k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/food_and_dining_01_home.jpg
+              << 200 OK 14.1k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/feminism_01_home.jpg
+              << 200 OK 11.9k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/native_american_01_home.jpg
+              << 200 OK 1.9k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/lgbtq_01_home.jpg
+              << 200 OK 10.3k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/social_identity_01_home.jpg
+              << 200 OK 19.0k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/african_american_01_home.jpg
+              << 200 OK 2.0k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/latinx_01_home.jpg
+              << 200 OK 1.5k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/asian_american_01_home.jpg
+              << 200 OK 2.9k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/atheism_01_home.jpg
+              << 200 OK 16.8k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/christianity_01_home.jpg
+              << 200 OK 9.5k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/buddhism_01_home.jpg
+              << 200 OK 10.7k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/islam_01_home.jpg
+              << 200 OK 18.3k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/judaism_01_home.jpg
+              << 200 OK 12.5k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/meditation_01_home.jpg
+              << 200 OK 10.3k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/PODCASTS/18109.jpg
+              << 200 OK 14.2k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/PODCASTS/19911.jpg
+              << 200 OK 16.7k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/PODCASTS/16792.jpg
+              << 200 OK 16.7k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/PODCASTS/21704.jpg
+              << 200 OK 24.2k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/PODCASTS/20429.jpg
+              << 200 OK 47.7k
+[14:46:51.982][127.0.0.1:58347] client connect
+[14:46:51.998][127.0.0.1:58347] server connect 172.217.10.110:443
+127.0.0.1:58347: GET https://172.217.10.110/config/app/1%3A518694542977%3Aandroid%3A490fa80d91927db0343780?app_insta…
+              << 200 OK 503b
+127.0.0.1:58347: GET https://172.217.10.110/config/app/1%3A518694542977%3Aandroid%3A490fa80d91927db0343780?app_insta…
+              << 200 OK 503b
+[14:46:52.534][127.0.0.1:58349] client connect
+[14:46:52.556][127.0.0.1:58349] server connect 172.217.10.110:443
+127.0.0.1:58347: POST https://172.217.10.110/a
+              << 204 No Content 0b
+127.0.0.1:58349: GET https://172.217.10.110/config/app/1%3A518694542977%3Aandroid%3A490fa80d91927db0343780?app_insta…
+              << 200 OK 503b
+[14:46:52.712][127.0.0.1:58315] client disconnect
+[14:46:52.714][127.0.0.1:58315] server disconnect 64.233.176.95:443
+127.0.0.1:58349: GET https://172.217.10.110/config/app/1%3A518694542977%3Aandroid%3A490fa80d91927db0343780?app_insta…
+              << 200 OK 503b
+127.0.0.1:58329: POST https://35.186.241.51/track/?ip=1
+              << 200 OK 1b
+127.0.0.1:58329: POST https://35.186.241.51/engage/?ip=1
+              << 200 OK 1b
+127.0.0.1:58329: GET https://35.186.241.51/decide?version=1&lib=android&token=3af5c975c878acbbde09031e2957824a&disti…
+              << 200 OK 62b
+127.0.0.1:58349: POST https://172.217.10.110/a
+              << 204 No Content 0b
+127.0.0.1:58349: POST https://172.217.10.110/a
+              << 204 No Content 0b
+127.0.0.1:58329: POST https://35.186.241.51/track/?ip=1
+              << 200 OK 1b
+127.0.0.1:58329: POST https://35.186.241.51/engage/?ip=1
+              << 200 OK 1b
+127.0.0.1:58329: GET https://35.186.241.51/decide?version=1&lib=android&token=3af5c975c878acbbde09031e2957824a&disti…
+              << 200 OK 62b
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58325: GET https://20.49.104.0/v2/personal?userId=default_Automotive_Settings&device=automotive&location=3…
+              << 200 OK 6.6k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/abstract_03_400X400.jpg
+              << 200 OK 44.1k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/abstract_06_400X400.jpg
+              << 200 OK 22.3k
+[14:47:23.784][127.0.0.1:58358] client connect
+[14:47:23.808][127.0.0.1:58358] server connect 40.71.11.136:443
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/abstract_04_400X400.jpg
+              << 200 OK 86.6k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=contentLoad
+              << 200 OK 125b
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/abstract_07_400X400.jpg
+              << 200 OK 37.4k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/abstract_02_400X400.jpg
+              << 200 OK 56.2k
+[14:47:24.080][127.0.0.1:58360] client connect
+[14:47:24.101][127.0.0.1:58360] server connect 23.209.36.58:443
+[14:47:24.278][127.0.0.1:58362] client connect
+[14:47:24.306][127.0.0.1:58362] server connect 20.49.104.0:443
+127.0.0.1:58360: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+[14:47:24.515][127.0.0.1:58364] client connect
+[14:47:24.534][127.0.0.1:58364] server connect 23.209.36.58:443
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/183080461/R9V8Zxa7KlyB.mp3?userId=14be2e4a-7916-…
+              << 200 OK 160b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58360: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/R9V8Zxa7KlyB000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/R9V8Zxa7KlyB002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Play
+              << 200 OK 125b
+[14:47:25.178][127.0.0.1:58366] client connect
+[14:47:25.215][127.0.0.1:58366] server connect 40.71.11.136:443
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/R9V8Zxa7KlyB001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/R9V8Zxa7KlyB003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58366: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/R9V8Zxa7KlyB004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/R9V8Zxa7KlyB005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 22.0k
+127.0.0.1:58360: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/R9V8Zxa7KlyB001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 206 Partial Content 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 20.0k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=2secPlaying
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 5.7k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 191k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 175k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 174k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 182k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 109k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/183080461/Z3rV1ZO3oBdA.mp3?userId=14be2e4a-7916-…
+              << 200 OK 159b
+127.0.0.1:58366: POST https://40.71.11.136/event?logLevel=event&name=Skip
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 22.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJYnaOWJ7eYx/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJYnaOWJ7eYx/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJYnaOWJ7eYx/AJYnaOWJ7eYx002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJYnaOWJ7eYx/AJYnaOWJ7eYx000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJYnaOWJ7eYx/AJYnaOWJ7eYx001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJYnaOWJ7eYx/AJYnaOWJ7eYx003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 168k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=2secPlaying
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 186k
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/183080461/9JyrlVpXD6Jd.mp3?userId=14be2e4a-7916-…
+              << 200 OK 160b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Skip
+              << 200 OK 125b
+127.0.0.1:58366: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L027.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 55.4k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZYaYWq9x1L/6YZYaYWq9x1L026.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1005b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1005b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 186k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZ22Mjnj1w1/6YZ22Mjnj1w1021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 76.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.9k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.9k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 207k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58320: POST https://35.186.241.51/track/?ip=1
+              << 200 OK 1b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58329: POST https://35.186.241.51/track/?ip=1
+              << 200 OK 1b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58320: GET https://35.186.241.51/decide?version=1&lib=android&token=3af5c975c878acbbde09031e2957824a&disti…
+              << 200 OK 62b
+127.0.0.1:58329: POST https://35.186.241.51/engage/?ip=1
+              << 200 OK 1b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 209k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58329: GET https://35.186.241.51/decide?version=1&lib=android&token=3af5c975c878acbbde09031e2957824a&disti…
+              << 200 OK 62b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 207k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Playing
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 208k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7026.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7027.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7028.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7029.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7030.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7031.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7032.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7033.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7035.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7034.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 208k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7036.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7037.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 208k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7038.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7040.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 209k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7039.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7041.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7042.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7043.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7044.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pzO3MKL4KAY7/pzO3MKL4KAY7045.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 112k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9V8Zxa7KlyB/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 20.0k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rV1ZO3oBdA/Z3rV1ZO3oBdA003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 5.7k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyrlVpXD6Jd/9JyrlVpXD6Jd005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 191k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58325: GET https://20.49.104.0/v2/topstories/category?category=1&userId=14be2e4a-7916-4760-8b33-622ed17e64…
+              << 200 OK 16.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 175k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 174k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=contentLoad
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 182k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/abstract_08_400X400.jpg
+              << 200 OK 75.1k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Z3rGA4r3O4Zy/Z3rGA4r3O4Zy008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 109k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/traffic_01_400X400.jpg
+              << 200 OK 91.9k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/news_01_400X400.jpg
+              << 200 OK 35.7k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/traffic_02_400X400.jpg
+              << 200 OK 74.9k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/abstract_05_400X400.jpg
+              << 200 OK 80.0k
+127.0.0.1:58337: GET https://23.209.36.58/site/images/CategoryIcons/abstract_01_400X400.jpg
+              << 200 OK 71.0k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/sports_02_400X400.jpg
+              << 200 OK 34.5k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDLR7K2y4J3J/lDLR7K2y4J3J006.ts?downloadType=1 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58360: GET https://23.209.36.58/stream/Rk9A0XpGlpGX/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 252b
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/0/Rk9A0XpGlpGX.mp3?userId=14be2e4a-7916-4760-8b3…
+              << 200 OK 160b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Pause
+              << 200 OK 125b
+127.0.0.1:58366: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Rk9A0XpGlpGX/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 252b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58360: GET https://23.209.36.58/stream/Rk9A0XpGlpGX/Rk9A0XpGlpGX000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 213k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Rk9A0XpGlpGX/Rk9A0XpGlpGX001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 177k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Rk9A0XpGlpGX/Rk9A0XpGlpGX000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 213k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 75.3k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/e0XXdY4K42o7000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/e0XXdY4K42o7002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/e0XXdY4K42o7001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/e0XXdY4K42o7003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 82.4k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 49.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/R9yVr958y1NY000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/R9yVr958y1NY002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/R9yVr958y1NY001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/R9yVr958y1NY003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 74.5k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/3J85ZyzO9PdO002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/3J85ZyzO9PdO000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/3J85ZyzO9PdO001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/3J85ZyzO9PdO003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 137k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 136k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 27.0k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 136k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/pLw9JyowWkp6000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/pLw9JyowWkp6002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/pLw9JyowWkp6001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/0/6JVPVvdKLN5r.mp3?userId=14be2e4a-7916-4760-8b3…
+              << 200 OK 160b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58366: POST https://40.71.11.136/event?logLevel=event&name=Pause
+              << 200 OK 125b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Skip
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/pLw9JyowWkp6003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/pLw9JyowWkp6004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/pLw9JyowWkp6005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLw9JyowWkp6/pLw9JyowWkp6006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 69.0k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJr29POOk6xL/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJr29POOk6xL/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJr29POOk6xL/AJr29POOk6xL001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJr29POOk6xL/AJr29POOk6xL000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJr29POOk6xL/AJr29POOk6xL003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 47.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJr29POOk6xL/AJr29POOk6xL002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JV6keky1Yey/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JV6keky1Yey/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JV6keky1Yey/6JV6keky1Yey001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JV6keky1Yey/6JV6keky1Yey002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JV6keky1Yey/6JV6keky1Yey000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JV6keky1Yey/6JV6keky1Yey003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JV6keky1Yey/6JV6keky1Yey004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 34.3k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwrzZ6G5lWy/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwrzZ6G5lWy/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwrzZ6G5lWy/pLwrzZ6G5lWy001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwrzZ6G5lWy/pLwrzZ6G5lWy002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwrzZ6G5lWy/pLwrzZ6G5lWy000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Play
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwrzZ6G5lWy/pLwrzZ6G5lWy003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 135k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oaL15000ojBN/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oaL15000ojBN/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oaL15000ojBN/oaL15000ojBN000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oaL15000ojBN/oaL15000ojBN001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oaL15000ojBN/oaL15000ojBN002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oaL15000ojBN/oaL15000ojBN003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oaL15000ojBN/oaL15000ojBN004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 138k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=2secPlaying
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lDL39oJWWvxR/lDL39oJWWvxR011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 186k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyjqXDPkWL2/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyjqXDPkWL2/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyjqXDPkWL2/9JyjqXDPkWL2000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyjqXDPkWL2/9JyjqXDPkWL2002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyjqXDPkWL2/9JyjqXDPkWL2001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyjqXDPkWL2/9JyjqXDPkWL2003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyjqXDPkWL2/9JyjqXDPkWL2004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9JyjqXDPkWL2/9JyjqXDPkWL2005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 104k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwOPk3VYkZZ/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwOPk3VYkZZ/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwOPk3VYkZZ/pLwOPk3VYkZZ000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwOPk3VYkZZ/pLwOPk3VYkZZ002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwOPk3VYkZZ/pLwOPk3VYkZZ001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pLwOPk3VYkZZ/pLwOPk3VYkZZ003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 62.4k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Rk9A0XpGlpGX/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 252b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Rk9A0XpGlpGX/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 252b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 403b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 75.3k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6JVPVvdKLN5r/6JVPVvdKLN5r004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/e0XXdY4K42o7001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/e0XXdY4K42o7002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/e0XXdY4K42o7000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/e0XXdY4K42o7/e0XXdY4K42o7003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 82.4k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Playing
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 49.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JJg0jeB9pJ3R/JJg0jeB9pJ3R005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/R9yVr958y1NY002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/R9yVr958y1NY001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/R9yVr958y1NY000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9yVr958y1NY/R9yVr958y1NY003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 74.5k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 327b
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/3J85ZyzO9PdO001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/3J85ZyzO9PdO002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/3J85ZyzO9PdO000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3J85ZyzO9PdO/3J85ZyzO9PdO003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 137k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9J7A2G4NvwDp/9J7A2G4NvwDp007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 136k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 365b
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 27.0k
+127.0.0.1:58364: GET https://23.209.36.58/stream/R9VNKvg8l89X/R9VNKvg8l89X003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58325: GET https://20.49.104.0/v2/topstories/category?category=48&userId=14be2e4a-7916-4760-8b33-622ed17e6…
+              << 200 OK 96.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=contentLoad
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AJrrP2aJ8dOR/AJrrP2aJ8dOR007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 136k
+127.0.0.1:58360: GET https://23.209.36.58/stream/6YZVpvMRDxk1/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/0/6YZVpvMRDxk1.mp3?userId=14be2e4a-7916-4760-8b3…
+              << 200 OK 161b
+127.0.0.1:58360: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1002.ts?downloadType=1 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1001.ts?downloadType=1 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58360: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58360: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58360: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 206 Partial Content 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=2secPlaying
+              << 200 OK 125b
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 102k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YZVpvMRDxk1/6YZVpvMRDxk1022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/0/AavNZAVo0JnP.mp3?userId=14be2e4a-7916-4760-8b3…
+              << 200 OK 159b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Skip
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP026.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/AavNZAVo0JnP/AavNZAVo0JnP027.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 178k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=2secPlaying
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL026.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL027.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL028.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL029.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL030.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL032.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL033.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL031.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL034.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL035.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL036.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL037.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL038.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL039.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL040.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL041.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58329: POST https://35.186.241.51/track/?ip=1
+              << 200 OK 1b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL042.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58329: POST https://35.186.241.51/engage/?ip=1
+              << 200 OK 1b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL044.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 82.2k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6Y8ypzDoK0rL/6Y8ypzDoK0rL043.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58329: GET https://35.186.241.51/decide?version=1&lib=android&token=3af5c975c878acbbde09031e2957824a&disti…
+              << 200 OK 62b
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Playing
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okMpkp1lyOGj/okMpkp1lyOGj025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 184k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 779b
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 779b
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 63.0k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYMdrAG9pqLg/eYMdrAG9pqLg014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 478b
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/JOR7rvD19ROl002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/JOR7rvD19ROl000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+[14:48:54.026][127.0.0.1:58326] server disconnect 20.49.104.0:443
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/JOR7rvD19ROl003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/JOR7rvD19ROl004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/JOR7rvD19ROl001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/JOR7rvD19ROl005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/JOR7rvD19ROl006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/JOR7rvD19ROl/JOR7rvD19ROl007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 109k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.9k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.9k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8026.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8028.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Playing
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8027.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8029.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8030.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8031.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8032.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8033.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8036.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8034.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8035.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8037.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8039.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8038.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8040.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8041.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8043.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8042.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8044.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/l59WWkKdnNg8/l59WWkKdnNg8045.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 94.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd026.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd027.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd028.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd029.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd030.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd031.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd032.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd033.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd034.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd035.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P6qp39lddgd/9P6qp39lddgd036.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 72.3k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 666b
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 666b
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Playing
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/RnBGnJX4K88P/RnBGnJX4K88P012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 192k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 779b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 779b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6YddZpDMPgvL/6YddZpDMPgvL015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 178k
+127.0.0.1:58325: GET https://20.49.104.0/v2/topstories/category?category=28&userId=14be2e4a-7916-4760-8b33-622ed17e6…
+              << 200 OK 44.5k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=contentLoad
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+127.0.0.1:58335: GET https://23.209.36.58/site/images/CategoryIcons/tech_03_400X400.jpg
+              << 200 OK 82.7k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26026.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58360: GET https://23.209.36.58/stream/9P0dn4qXNX37/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26027.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26028.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/0/9P0dn4qXNX37.mp3?userId=14be2e4a-7916-4760-8b3…
+              << 200 OK 160b
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26029.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK (content missing)
+ << stream reset by client (CANCEL)
+127.0.0.1:58364: GET https://23.209.36.58/stream/okYkWZwNJw26/okYkWZwNJw26030.ts?downloadType=1 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 516b
+127.0.0.1:58360: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58360: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58360: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Whoosh/output000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 38.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9P0dn4qXNX37/9P0dn4qXNX37008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 121k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 2.0k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 2.0k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=2secPlaying
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 192k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z019.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z020.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z021.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z022.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z023.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z024.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z025.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z026.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z027.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z028.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z029.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z030.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z031.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Skip
+              << 200 OK 125b
+127.0.0.1:58362: GET https://20.49.104.0/audio/repo/play/Automotive/0/9Pl8x0J7gW9z.mp3?userId=14be2e4a-7916-4760-8b3…
+              << 200 OK 159b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=StartOfPlay
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z032.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z033.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z034.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z035.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z036.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z037.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z038.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z039.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z040.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z041.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z042.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z043.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z044.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z045.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z046.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 191k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z047.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/9Pl8x0J7gW9z/9Pl8x0J7gW9z048.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 159k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 591b
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 591b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=2secPlaying
+              << 200 OK 125b
+127.0.0.1:58307 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58307 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/eYwZ2qddAdqg/eYwZ2qddAdqg010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 79.1k
+127.0.0.1:58339 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58339 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 704b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 704b
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/pZ66GNglnaLA/pZ66GNglnaLA013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 3.5k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 892b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 892b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL014.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL015.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL016.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL017.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jqo4WwyY34yL/Jqo4WwyY34yL018.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 159k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 704b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 704b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Playing
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oKejMlXZyAXv/oKejMlXZyAXv013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 144k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 591b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 591b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 206k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 202k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Ax2pOPJ3k36v/Ax2pOPJ3k36v010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 192k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 666b
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 666b
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyqpJl6OOq3d/ZyqpJl6OOq3d012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 137k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 704b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 704b
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 205k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 203k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 207k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 188k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 3.5k
+127.0.0.1:58364: GET https://23.209.36.58/stream/6zMjvK7gga5v/6zMjvK7gga5v012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/lear5NXoBV8w001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/lear5NXoBV8w002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/lear5NXoBV8w000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/lear5NXoBV8w003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/lear5NXoBV8w004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/lear5NXoBV8w005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/lear5NXoBV8w/lear5NXoBV8w006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 46.6k
+[14:49:46.776][127.0.0.1:58331] server disconnect 52.239.246.4:443
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 591b
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 591b
+127.0.0.1:58358: POST https://40.71.11.136/event?logLevel=event&name=Pause
+              << 200 OK 125b
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 201k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+[14:49:47.989][127.0.0.1:58333] server disconnect 52.239.246.4:443
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 204k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/3Gd4a02KozZ1/3Gd4a02KozZ1010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 76.4k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 629b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58329: POST https://35.186.241.51/track/?ip=1
+              << 200 OK 1b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58329: POST https://35.186.241.51/engage/?ip=1
+              << 200 OK 1b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58329: GET https://35.186.241.51/decide?version=1&lib=android&token=3af5c975c878acbbde09031e2957824a&disti…
+              << 200 OK 62b
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 198k
+127.0.0.1:58364: GET https://23.209.36.58/stream/oK750yZyxWy7/oK750yZyxWy7011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 112k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 704b
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 704b
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 188k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 200k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 190k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 185k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1006.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 194k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1007.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 191k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1008.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 199k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1009.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 192k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1010.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 193k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1012.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 192k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1011.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/ZyxNAnDrKNM1/ZyxNAnDrKNM1013.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 94.6k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jq9vyldL3oyk/outputlist.m3u8?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 553b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jq9vyldL3oyk/outputlist.m3u8?downloadType=1&downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 553b
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jq9vyldL3oyk/Jq9vyldL3oyk001.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jq9vyldL3oyk/Jq9vyldL3oyk000.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jq9vyldL3oyk/Jq9vyldL3oyk002.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jq9vyldL3oyk/Jq9vyldL3oyk003.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jq9vyldL3oyk/Jq9vyldL3oyk005.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 196k
+127.0.0.1:58364: GET https://23.209.36.58/stream/Jq9vyldL3oyk/Jq9vyldL3oyk004.ts?downloadType=1 HTTP/2.0
+     << HTTP/2.0 200 OK 195k

@@ -1,0 +1,503 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Program Files\mitmproxy\bin>.\mitmdump
+[14:59:33.202] HTTP(S) proxy listening at *:8080.
+[14:59:33.569][127.0.0.1:58885] client connect
+[14:59:33.663][127.0.0.1:58886] client connect
+[14:59:33.687][127.0.0.1:58885] server connect 5.9.17.94:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+[14:59:33.845][127.0.0.1:58886] server connect 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+[14:59:40.521][127.0.0.1:58922] client connect
+[14:59:40.552][127.0.0.1:58922] server connect 216.35.221.83:443
+127.0.0.1:58922: POST https://216.35.221.83/v2/token
+              << 200 OK 143b
+[14:59:41.715][127.0.0.1:58927] client connect
+[14:59:41.720][127.0.0.1:58928] client connect
+[14:59:41.744][127.0.0.1:58931] client connect
+[14:59:41.745][127.0.0.1:58927] server connect 44.206.186.120:443
+[14:59:41.752][127.0.0.1:58928] server connect 44.206.186.120:443
+[14:59:41.795][127.0.0.1:58931] server connect 216.35.221.83:443
+[14:59:41.884][127.0.0.1:58927] client disconnect
+[14:59:41.903][127.0.0.1:58927] server disconnect 44.206.186.120:443
+127.0.0.1:58928: GET https://44.206.186.120/v2/channels?exploreOnly=true HTTP/2.0
+     << HTTP/2.0 200 OK 3.2k
+127.0.0.1:58931: GET https://216.35.221.83/v2/user
+              << 200 OK 2.7k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations? HTTP/2.0
+     << HTTP/2.0 200 OK 19.3k
+[14:59:42.447][127.0.0.1:58937] client connect
+[14:59:42.462][127.0.0.1:58937] server connect 142.250.9.94:443
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=bigtopics HTTP/2.0
+     << HTTP/2.0 200 OK 7.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=followed HTTP/2.0
+     << HTTP/2.0 200 OK 146b
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=editorspicks HTTP/2.0
+     << HTTP/2.0 200 OK 27.3k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=dailynews HTTP/2.0
+     << HTTP/2.0 200 OK 66.9k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=localpods HTTP/2.0
+     << HTTP/2.0 200 OK 27.0k
+127.0.0.1:58937: GET https://142.250.9.94/spi/v2/platforms/android/gmp/1:644391282285:android:857f04f4a3f40020240164…
+              << 200 OK 368b
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=feature HTTP/2.0
+     << HTTP/2.0 200 OK 112k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=allnprpods HTTP/2.0
+     << HTTP/2.0 200 OK 160k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newandnoteworthy HTTP/2.0
+     << HTTP/2.0 200 OK 70.2k
+127.0.0.1:58928: GET https://44.206.186.120/v2/channels?exploreOnly=true HTTP/2.0
+     << HTTP/2.0 200 OK 3.2k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=podcastNetwork HTTP/2.0
+     << HTTP/2.0 200 OK 82.0k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+[14:59:43.289][127.0.0.1:58945] client connect
+[14:59:43.294][127.0.0.1:58946] client connect
+[14:59:43.311][127.0.0.1:58945] server connect 104.106.5.136:443
+[14:59:43.312][127.0.0.1:58946] server connect 104.106.5.136:443
+[14:59:43.383][127.0.0.1:58946] client disconnect
+[14:59:43.387][127.0.0.1:58946] server disconnect 104.106.5.136:443
+127.0.0.1:58945: GET https://104.106.5.136/images/stations/nprone_logos/wamu_fm.png HTTP/2.0
+     << HTTP/2.0 200 OK 7.8k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2018/08/06/nprnewsnow_podcasttile_sq-93f9130b805c2f382c05ee383… HTTP/2.0
+     << HTTP/2.0 200 OK 105k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2019/10/03/hereandnow_sq-6a11b2a432254745b1eb58b4c0e2f15656b42… HTTP/2.0
+     << HTTP/2.0 200 OK 15.3k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/23/morning-edition_tile_npr-network-01_sq-c3c3fa068809… HTTP/2.0
+     << HTTP/2.0 200 OK 80.8k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=bigtopics HTTP/2.0
+     << HTTP/2.0 200 OK 7.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=followed HTTP/2.0
+     << HTTP/2.0 200 OK 146b
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=dailynews HTTP/2.0
+     << HTTP/2.0 200 OK 66.9k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=editorspicks HTTP/2.0
+     << HTTP/2.0 200 OK 27.3k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=localpods HTTP/2.0
+     << HTTP/2.0 200 OK 27.0k
+[14:59:49.644][127.0.0.1:58971] client connect
+[14:59:49.655][127.0.0.1:58971] server connect 142.251.15.101:443
+127.0.0.1:58971: GET https://142.251.15.101/config/app/1%3A486040437745%3Aandroid%3Af26ce55562f9414e?app_instance_id…
+              << 200 OK 3.0k
+127.0.0.1:58971: POST https://142.251.15.101/a
+              << 204 No Content 0b
+127.0.0.1:58945: GET https://104.106.5.136/images/podcasts/primary/icon_1040422691-e40faa2135f8c700b649ddff003820c85… HTTP/2.0
+     << HTTP/2.0 200 OK 67.4k
+127.0.0.1:58945: GET https://104.106.5.136/images/podcasts/primary/icon_824769970-640c7d9d9ec871cf8a7453f5a550fdd0ee… HTTP/2.0
+     << HTTP/2.0 200 OK 340k
+127.0.0.1:58945: GET https://104.106.5.136/images/podcasts/primary/icon_648710646-15c3aad784554064476874877e6501db12… HTTP/2.0
+     << HTTP/2.0 200 OK 38.3k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/23/all-things-considered_tile_npr-network_sq-d0a3240a9… HTTP/2.0
+     << HTTP/2.0 200 OK 94.7k
+127.0.0.1:58945: GET https://104.106.5.136/images/podcasts/primary/icon_381443518-aafd7851da2003101a9a75c58a5b2ac5e7… HTTP/2.0
+     << HTTP/2.0 200 OK 61.9k
+127.0.0.1:58945: GET https://104.106.5.136/images/podcasts/primary/icon_381443514-2408229f18bcffea28fcccd926e71f705c… HTTP/2.0
+     << HTTP/2.0 200 OK 38.7k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/27/weekend-edition-sun_tile_npr-network-01_sq-af954829… HTTP/2.0
+     << HTTP/2.0 200 OK 138k
+[14:59:53.694][127.0.0.1:58989] client connect
+[14:59:53.709][127.0.0.1:58989] server connect 216.239.32.21:443
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58989: GET https://216.239.32.21/e/chrt.fm/track/657584/traffic.megaphone.fm/TPG7054969332.mp3?updated=166…
+              << 302 Found 201b
+[14:59:53.858][127.0.0.1:58989] client disconnect
+[14:59:53.862][127.0.0.1:58989] server disconnect 216.239.32.21:443
+[14:59:53.927][127.0.0.1:58991] client connect
+[14:59:53.971][127.0.0.1:58991] server connect 13.224.214.102:443
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58991: GET https://13.224.214.102/track/657584/traffic.megaphone.fm/TPG7054969332.mp3?updated=1669100780&N…
+              << 302 FOUND 0b
+[14:59:54.237][127.0.0.1:58996] client connect
+[14:59:54.274][127.0.0.1:58996] server connect 34.72.38.16:443
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+     << HTTP/2.0 200 OK 21.1k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58996: GET https://34.72.38.16/TPG7054969332.mp3?updated=1669100780&NPROne=true&nprClientId=2&sc=npronepod…
+              << 302 Found 102b
+[14:59:54.520][127.0.0.1:58996] client disconnect
+[14:59:54.523][127.0.0.1:58996] server disconnect 34.72.38.16:443
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+[14:59:54.614][127.0.0.1:58998] client connect
+[14:59:54.639][127.0.0.1:58998] server connect 205.185.216.10:443
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58998: GET https://205.185.216.10/TPG7054969332.mp3?key=4265c6956c39f71169ddd80f0033183e
+              << 200 OK (content missing)
+ << Client disconnected.
+[15:00:02.822][127.0.0.1:59030] client connect
+[15:00:02.824][127.0.0.1:58998] server disconnect 205.185.216.10:443
+[15:00:02.826][127.0.0.1:58998] client disconnect
+[15:00:02.839][127.0.0.1:59030] server connect 216.239.32.21:443
+127.0.0.1:59030: GET https://216.239.32.21/e/chrt.fm/track/657584/traffic.megaphone.fm/TPG7054969332.mp3?updated=166…
+              << 302 Found 201b
+[15:00:02.978][127.0.0.1:59030] client disconnect
+[15:00:02.988][127.0.0.1:59030] server disconnect 216.239.32.21:443
+127.0.0.1:58991: GET https://13.224.214.102/track/657584/traffic.megaphone.fm/TPG7054969332.mp3?updated=1669100780&N…
+              << 302 FOUND 0b
+[15:00:03.109][127.0.0.1:59038] client connect
+[15:00:03.143][127.0.0.1:59038] server connect 34.72.38.16:443
+127.0.0.1:59038: GET https://34.72.38.16/TPG7054969332.mp3?updated=1669100780&NPROne=true&nprClientId=2&sc=npronepod…
+              << 302 Found 102b
+[15:00:03.293][127.0.0.1:59038] client disconnect
+[15:00:03.296][127.0.0.1:59038] server disconnect 34.72.38.16:443
+[15:00:03.307][127.0.0.1:59040] client connect
+[15:00:03.333][127.0.0.1:59040] server connect 205.185.216.10:443
+127.0.0.1:59040: GET https://205.185.216.10/TPG7054969332.mp3?key=4265c6956c39f71169ddd80f0033183e
+              << 200 OK 37.2m
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+     << HTTP/2.0 200 OK 18.3k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+[15:00:13.335][127.0.0.1:59080] client connect
+[15:00:13.342][127.0.0.1:59081] client connect
+[15:00:13.424][127.0.0.1:59080] server connect 52.11.87.231:443
+[15:00:13.436][127.0.0.1:59081] server connect 52.11.87.231:443
+127.0.0.1:59080: GET https://52.11.87.231/npr-510320/ondemand.npr.org/npr-mp4/npr/newscasts/2022/12/05/20221205_news…
+              << 302 Found 288b
+[15:00:13.859][127.0.0.1:59080] server disconnect 52.11.87.231:443
+[15:00:13.860][127.0.0.1:59080] client disconnect
+127.0.0.1:59081: GET https://52.11.87.231/npr-510320/ondemand.npr.org/npr-mp4/npr/newscasts/2022/12/05/20221205_news…
+              << 302 Found 288b
+[15:00:13.872][127.0.0.1:59081] server disconnect 52.11.87.231:443
+[15:00:13.874][127.0.0.1:59081] client disconnect
+[15:00:13.965][127.0.0.1:59087] client connect
+[15:00:13.968][127.0.0.1:59088] client connect
+[15:00:13.983][127.0.0.1:59087] server connect 104.106.5.136:443
+[15:00:13.985][127.0.0.1:59088] server connect 104.106.5.136:443
+127.0.0.1:59088: GET https://104.106.5.136/npr-mp4/npr/newscasts/2022/12/05/20221205_newscasts_short_140734.mp4?p=51…
+              << 200 OK 1.4m
+[15:00:14.704][127.0.0.1:59088] server disconnect 104.106.5.136:443
+[15:00:14.707][127.0.0.1:59088] client disconnect
+127.0.0.1:59087: GET https://104.106.5.136/npr-mp4/npr/newscasts/2022/12/05/20221205_newscasts_short_140734.mp4?p=51…
+              << 200 OK 1.4m
+[15:00:14.730][127.0.0.1:59087] server disconnect 104.106.5.136:443
+[15:00:14.732][127.0.0.1:59087] client disconnect
+[15:00:18.593][127.0.0.1:59040] server disconnect 205.185.216.10:443
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/23/short-wave_tile_npr-network-01_sq-517382b4b8fd0ab48… HTTP/2.0
+     << HTTP/2.0 200 OK 171k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/23/the-indicator_tile_npr-network-01_sq-cdaf29c3fae482… HTTP/2.0
+     << HTTP/2.0 200 OK 91.7k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/23/up-first_tile_npr-network-01_sq-f25a8ec4d82a03b45a7… HTTP/2.0
+     << HTTP/2.0 200 OK 79.8k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/27/here_-_now_tile_npr-network-01_sq-cc7c9841b96ea36a4… HTTP/2.0
+     << HTTP/2.0 200 OK 93.6k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/22/1a_npr_network_2022_sq-7a149c5058314bb4551686b96961… HTTP/2.0
+     << HTTP/2.0 200 OK 242k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/23/fresh-air_tile_npr-network-01_sq-a6f7c547c8e78b8230… HTTP/2.0
+     << HTTP/2.0 200 OK 90.0k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/23/popculture-happyhour_tile_npr-network-01_sq-a6085eb… HTTP/2.0
+     << HTTP/2.0 200 OK 131k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/22/book-of-the-day_tile_npr-network-01_sq-624a7585e5bb… HTTP/2.0
+     << HTTP/2.0 200 OK 156k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/23/politics-podcast_tile_npr-network-01_sq-c0594aa52f3… HTTP/2.0
+     << HTTP/2.0 200 OK 108k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/22/consider-this_tile_npr-network-01_sq-96ca581b062bc4… HTTP/2.0
+     << HTTP/2.0 200 OK 330k
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/09/27/weekend-edition-sat_tile_npr-network-01_sq-b3b42a81… HTTP/2.0
+     << HTTP/2.0 200 OK 140k
+[15:00:27.589][127.0.0.1:59040] client disconnect
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+     << HTTP/2.0 200 OK 18.3k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+[15:00:28.389][127.0.0.1:59145] client connect
+[15:00:28.478][127.0.0.1:59145] server connect 52.11.87.231:443
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2022/12/02/gettyimages-1097796342_sq-607fdb3966047b3e67e52ad66… HTTP/2.0
+     << HTTP/2.0 200 OK 127k
+127.0.0.1:59145: GET https://52.11.87.231/npr-510351/edge1.pod.npr.org/anon.npr-mp3/npr/dailyscience/2022/12/2022120…
+              << 302 Found 460b
+[15:00:28.805][127.0.0.1:59145] client disconnect
+[15:00:28.807][127.0.0.1:59145] server disconnect 52.11.87.231:443
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+     << HTTP/2.0 200 OK 18.3k
+[15:00:28.974][127.0.0.1:59150] client connect
+[15:00:29.068][127.0.0.1:59150] server connect 35.166.110.177:443
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:59150: GET https://35.166.110.177/anon.npr-mp3/npr/dailyscience/2022/12/20221205_dailyscience_9de30b1c-be9…
+              << 302 Found 0b
+[15:00:29.838][127.0.0.1:59152] client connect
+[15:00:29.855][127.0.0.1:59152] server connect 18.64.236.123:443
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:59152: GET https://18.64.236.123/anon.npr-mp3/npr/dailyscience/2022/12/20221205_dailyscience_9de30b1c-be91…
+              << 200 OK 10.8m
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+     << HTTP/2.0 200 OK 18.3k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+[15:00:36.566][127.0.0.1:59179] client connect
+[15:00:36.682][127.0.0.1:59179] server connect 5.9.17.94:443
+[15:00:36.694][127.0.0.1:59181] client connect
+[15:00:36.824][127.0.0.1:59181] server connect 5.9.17.123:443
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:59179: GET https://5.9.17.94/3.0/prod-asky01_rjzcw2ocvrd7raa36lr5mfjntu/session/ping?time=2022-12-05%2015%…
+              << 200  2b
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:59181: GET https://5.9.17.123/3.0/prod-asky02_wwmp2nl5y5dahlllpslfmkviee/session/ping?time=2022-12-05%2015…
+              << 200  2b
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+     << HTTP/2.0 200 OK 19.6k
+[15:00:38.869][127.0.0.1:59152] client disconnect
+[15:00:38.874][127.0.0.1:59152] server disconnect 18.64.236.123:443
+[15:00:39.558][127.0.0.1:59196] client connect
+[15:00:39.597][127.0.0.1:59196] server connect 34.72.38.16:443
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:59196: GET https://34.72.38.16/BUR2727857526.mp3?NPROne=true&nprClientId=2&dl=1
+              << 302 Found 102b
+[15:00:39.902][127.0.0.1:59196] server disconnect 34.72.38.16:443
+[15:00:39.904][127.0.0.1:59196] client disconnect
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 17.2k
+[15:00:39.937][127.0.0.1:59201] client connect
+[15:00:39.962][127.0.0.1:59201] server connect 205.185.216.10:443
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 17.2k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:59201: GET https://205.185.216.10/BUR2727857526.mp3?key=420d9e9ae5f375493dd0f3d7ef909978
+              << 200 OK 5.3m
+[15:00:41.154][127.0.0.1:59201] server disconnect 205.185.216.10:443
+[15:00:41.156][127.0.0.1:59201] client disconnect
+[15:00:42.249][127.0.0.1:59179] server disconnect 5.9.17.94:443
+[15:00:42.273][127.0.0.1:59181] server disconnect 5.9.17.123:443
+[15:00:44.642][127.0.0.1:59219] client connect
+[15:00:44.667][127.0.0.1:59219] server connect 142.251.15.97:443
+127.0.0.1:59219: POST https://142.251.15.97/batch
+              << 200 OK 35b
+[15:00:56.539][127.0.0.1:59265] client connect
+[15:00:56.628][127.0.0.1:59265] server connect 52.11.87.231:443
+127.0.0.1:59265: GET https://52.11.87.231/npr-510320/ondemand.npr.org/npr-mp4/npr/newscasts/2022/12/05/20221205_news…
+              << 302 Found 288b
+[15:00:56.961][127.0.0.1:59265] server disconnect 52.11.87.231:443
+[15:00:56.962][127.0.0.1:59265] client disconnect
+[15:00:57.039][127.0.0.1:59270] client connect
+[15:00:57.059][127.0.0.1:59270] server connect 104.106.5.136:443
+127.0.0.1:59270: GET https://104.106.5.136/npr-mp4/npr/newscasts/2022/12/05/20221205_newscasts_short_140734.mp4?p=51…
+              << 206 Partial Content 175k
+[15:00:57.228][127.0.0.1:59270] server disconnect 104.106.5.136:443
+[15:00:57.229][127.0.0.1:59270] client disconnect
+127.0.0.1:58928: GET https://44.206.186.120/v2/organizations/488/recommendations HTTP/2.0
+     << HTTP/2.0 200 OK 21.7k
+127.0.0.1:58945: GET https://104.106.5.136/images/stations/nprone_logos/scpub.png HTTP/2.0
+     << HTTP/2.0 200 OK 8.9k
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 17.2k
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 17.2k
+[15:01:09.242][127.0.0.1:59320] client connect
+[15:01:09.304][127.0.0.1:59320] server connect 107.155.101.124:443
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+     << HTTP/2.0 200 OK 18.4k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:59320: GET https://107.155.101.124/WRJAFM_SC HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:59320: GET https://107.155.101.124/WRJAFM_SC HTTP/1.1
+     << HTTP/1.0 200 OK 812k
+ << Client disconnected.
+[15:01:17.534][127.0.0.1:59320] server disconnect 107.155.101.124:443
+[15:01:17.536][127.0.0.1:59320] client disconnect
+[15:01:17.538][127.0.0.1:59351] client connect
+[15:01:17.598][127.0.0.1:59351] server connect 107.155.101.124:443
+127.0.0.1:59351: GET https://107.155.101.124/WRJAFM_SC HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:59351: GET https://107.155.101.124/WRJAFM_SC HTTP/1.1
+     << HTTP/1.0 200 OK 812k
+ << Client disconnected.
+[15:01:25.758][127.0.0.1:59351] server disconnect 107.155.101.124:443
+[15:01:25.759][127.0.0.1:59351] client disconnect
+[15:01:26.772][127.0.0.1:59389] client connect
+[15:01:26.831][127.0.0.1:59389] server connect 107.155.101.124:443
+[15:01:30.785][127.0.0.1:59150] server disconnect 35.166.110.177:443
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+127.0.0.1:58885 -> tcp -> 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58885 <- tcp <- 5.9.17.94:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:59389: GET https://107.155.101.124/WRJAFM_SC HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:59389: GET https://107.155.101.124/WRJAFM_SC HTTP/1.1
+     << HTTP/1.0 200 OK 816k
+ << Client disconnected.
+[15:01:34.991][127.0.0.1:59389] server disconnect 107.155.101.124:443
+[15:01:34.996][127.0.0.1:59389] client disconnect
+127.0.0.1:58886 <- tcp <- 5.9.17.123:5222
+127.0.0.1:58886 -> tcp -> 5.9.17.123:5222
+[15:01:36.980][127.0.0.1:59429] client connect
+[15:01:37.047][127.0.0.1:59429] server connect 107.155.101.124:443
+127.0.0.1:59429: GET https://107.155.101.124/WRJAFM_SC HTTP/1.1
+     << HTTP/1.0 200 OK (content missing)
+ << Client disconnected.
+127.0.0.1:59429: GET https://107.155.101.124/WRJAFM_SC HTTP/1.1
+     << HTTP/1.0 200 OK 818k
+ << Client disconnected.
+[15:01:45.198][127.0.0.1:59429] server disconnect 107.155.101.124:443
+[15:01:45.199][127.0.0.1:59429] client disconnect
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:58945: GET https://104.106.5.136/assets/img/2021/07/15/npr50_microphone-icon-blue_tile-1-_sq.jpg HTTP/2.0
+     << HTTP/2.0 200 OK 312k
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?recommend=true&flow=1&channel=npr&prevStories=0 HTTP/2.0
+     << HTTP/2.0 200 OK 18.4k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+[15:01:49.824][127.0.0.1:59482] client connect
+[15:01:49.842][127.0.0.1:59482] server connect 104.106.5.136:443
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 17.2k
+127.0.0.1:59482: GET https://104.106.5.136/npr-mp4/npr/specials/2021/02/20210222_specials_021721_nprone_livecoverage…
+              << 200 OK 45.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 17.2k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+[15:01:50.784][127.0.0.1:59487] client connect
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+[15:01:50.819][127.0.0.1:59487] server connect 34.72.38.16:443
+[15:01:51.014][127.0.0.1:59492] client connect
+[15:01:51.050][127.0.0.1:59492] server connect 34.72.38.16:443
+127.0.0.1:59487: GET https://34.72.38.16/BUR2727857526.mp3?NPROne=true&nprClientId=2&dl=1
+              << 302 Found 102b
+[15:01:51.115][127.0.0.1:59487] server disconnect 34.72.38.16:443
+[15:01:51.117][127.0.0.1:59487] client disconnect
+[15:01:51.190][127.0.0.1:59494] client connect
+127.0.0.1:59492: GET https://34.72.38.16/BUR2727857526.mp3?NPROne=true&nprClientId=2&dl=1
+              << 302 Found 102b
+[15:01:51.210][127.0.0.1:59492] server disconnect 34.72.38.16:443
+[15:01:51.212][127.0.0.1:59492] client disconnect
+[15:01:51.219][127.0.0.1:59494] server connect 205.185.216.10:443
+[15:01:51.232][127.0.0.1:59496] client connect
+[15:01:51.258][127.0.0.1:59496] server connect 205.185.216.10:443
+127.0.0.1:59494: GET https://205.185.216.10/BUR2727857526.mp3?key=420d9e9ae5f375493dd0f3d7ef909978
+              << 200 OK 5.3m
+[15:01:53.273][127.0.0.1:59494] server disconnect 205.185.216.10:443
+[15:01:53.275][127.0.0.1:59494] client disconnect
+127.0.0.1:59496: GET https://205.185.216.10/BUR2727857526.mp3?key=420d9e9ae5f375493dd0f3d7ef909978
+              << 200 OK 5.3m
+[15:01:53.806][127.0.0.1:59496] server disconnect 205.185.216.10:443
+[15:01:53.807][127.0.0.1:59496] client disconnect
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 17.2k
+[15:01:56.458][127.0.0.1:59517] client connect
+[15:01:56.494][127.0.0.1:59517] server connect 34.72.38.16:443
+127.0.0.1:59517: GET https://34.72.38.16/BUR2727857526.mp3?NPROne=true&nprClientId=2&dl=1
+              << 302 Found 102b
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+[15:01:56.765][127.0.0.1:59517] client disconnect
+[15:01:56.768][127.0.0.1:59517] server disconnect 34.72.38.16:443
+[15:01:56.789][127.0.0.1:59519] client connect
+[15:01:56.814][127.0.0.1:59519] server connect 205.185.216.10:443
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 21.8k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
+127.0.0.1:59519: GET https://205.185.216.10/BUR2727857526.mp3?key=420d9e9ae5f375493dd0f3d7ef909978
+              << 200 OK 5.3m
+127.0.0.1:58928: POST https://44.206.186.120/v2/ratings?flow=1&channel=npr&prevStories=1 HTTP/2.0
+     << HTTP/2.0 200 OK 21.8k
+127.0.0.1:58928: GET https://44.206.186.120/v2/recommendations?channel=newscasts HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:58928: GET https://44.206.186.120/v2/history HTTP/2.0
+     << HTTP/2.0 200 OK 141b
